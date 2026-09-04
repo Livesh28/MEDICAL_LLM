@@ -13,7 +13,7 @@
   <img alt="Meta Quest" src="https://img.shields.io/badge/Meta%20Quest-VR-1C1C1C?style=for-the-badge&logo=meta&logoColor=white">
 </p>
 
-<p><strong>Educational / Research Prototype</strong> — designed for grounded medical education and immersive venipuncture training. It is not a substitute for professional medical advice, diagnosis, or clinical treatment.</p>
+<p><strong>Educational / Research Prototype</strong> — designed for grounded medical education and immersive venipuncture training. It is not a substitute for professional medical advice, diagnosis, or treatment.</p>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ## ✨ Overview
 
-**Medical LLM & RAG Workbench** is a local-first biomedical AI platform that combines a medical knowledge retrieval layer with specialized language models, safety/grounding checks, voice interaction, and a Unity/Meta Quest VR training client.
+**Medical LLM & RAG Workbench** is a local-first biomedical AI platform that combines a medical knowledge retrieval layer with specialized language models, safety/grounding checks, voice interaction, and immersive VR training capabilities.
 
 The system is designed around one core principle:
 
@@ -41,17 +41,21 @@ The platform supports a collaborative inference pipeline using:
 
 ## 🖥️ Workbench Preview
 
-### Local Medical AI Workbench
+### Local Medical AI Workbench — Main Interface
 
 <p align="center">
   <img src="./assets/workbench-ui-1.png" alt="Local Medical LLM Workbench UI" width="92%">
 </p>
+
+The main workbench interface showing the Doctor Osler.AI system status, model selection (OpenBioLLM-8B + Llama 3.2), quick medical prompts, and the unified collaborative pipeline.
 
 ### Clinical Chat & RAG Interface
 
 <p align="center">
   <img src="./assets/workbench-ui-2.png" alt="Clinical Chat and RAG interface" width="92%">
 </p>
+
+The clinical chat interface demonstrating grounded response generation, retrieved evidence inspection, knowledge base search, and the voice-enabled query submission flow.
 
 > The screenshots show the local clinical/RAG workbench, quick medical prompts, grounded response area, source inspection, voice controls, and the collaborative OpenBioLLM + Llama 3.2 setup.
 >
@@ -165,7 +169,7 @@ The pipeline constrains this stage to short, precise clinical findings before sy
 **Role:** local custom medical-language-model research / offline candidate  
 **Checkpoint family:** `best.pt`, `best_v2.pt`, `best_v3.pt`
 
-The project includes a custom MedicalTransformerLM that is trained and evaluated locally rather than through Ollama. The latest runtime reports the model as **110.04M parameters**, and the server loads the local checkpoint family from the `checkpoints/` directory.
+The project includes a custom MedicalTransformerLM that is trained and evaluated locally rather than through Ollama. The latest runtime reports the model as **110.04M parameters**, and the server load is optimized for local inference.
 
 Its training/evaluation stack includes:
 
@@ -189,7 +193,7 @@ checkpoints/best_v2.pt
 checkpoints/best_v3.pt
 ```
 
-> **Important:** These checkpoints are local model artifacts. Keep them intact for local inference/research and exclude them from normal Git commits unless a separate large-file distribution strategy is intentionally configured.
+> **Important:** These checkpoints are local model artifacts. Keep them intact for local inference/research and exclude them from normal Git commits unless a separate large-file distribution strategy is implemented.
 
 ### Model Comparison at a Glance
 
@@ -228,7 +232,7 @@ The knowledge base uses overlapping chunks so that important clinical instructio
 
 ### Grounded Generation
 
-The retrieved evidence is passed into a grounded prompt. The final output is then checked for evidence overlap. When a response is considered insufficiently grounded, the pipeline can fall back to evidence-derived content.
+The retrieved evidence is passed into a grounded prompt. The final output is then checked for evidence overlap. When a response is considered insufficiently grounded, the pipeline can fall back to evidence-only or safe refusal.
 
 ---
 
