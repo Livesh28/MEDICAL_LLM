@@ -722,7 +722,7 @@ textarea:focus, input[type=text]:focus, select:focus {
 
 <header>
   <div>
-    <h1><span class="brand-icon">&#10022;</span> Doctor Osler.AI <span style="font-size:12px;color:#73DB00;font-weight:700;">PRO</span></h1>
+    <h1><span class="brand-icon">&#10022;</span> Medical AI Studio <span style="font-size:12px;color:#73DB00;font-weight:700;">PRO</span></h1>
     <div class="sub">Clinical LLM &amp; Collaborative RAG Studio &mdash; Apple Silicon MPS</div>
   </div>
   <div style="display:flex;gap:10px;align-items:center;">
@@ -760,7 +760,7 @@ textarea:focus, input[type=text]:focus, select:focus {
           <div style="display:flex;align-items:center;gap:10px;">
             <div class="ai-avatar">&#10022;</div>
             <div>
-              <div style="font-weight:800;font-size:14px;color:#161D13;">Doctor Osler.AI</div>
+              <div style="font-weight:800;font-size:14px;color:#161D13;">Medical AI Assistant</div>
               <div style="font-size:11px;color:#677763;">Unified Collaborative Pipeline &bull; CLSI GP41 &amp; WHO Grounded</div>
             </div>
           </div>
@@ -771,7 +771,7 @@ textarea:focus, input[type=text]:focus, select:focus {
           </div>
         </div>
 
-        <div class="output" id="rag-output">Welcome to Doctor Osler.AI! Ask any clinical question below to receive verified medical guidance.</div>
+        <div class="output" id="rag-output">Welcome to Medical AI Studio! Ask any clinical question below to receive verified medical guidance.</div>
 
         <!-- Collapsible Verified Sources -->
         <details style="margin-top:16px;cursor:pointer;">
