@@ -1,0 +1,227 @@
+[
+  {
+    "id": "gold_001",
+    "question": "What is the correct angle of entry for needle insertion during venipuncture?",
+    "verified_answer": "The needle should be inserted bevel up at an angle of 15 to 30 degrees relative to the skin surface.",
+    "topic": "needle_insertion",
+    "step": 7,
+    "source": "CLSI GP41-Ed7 / WHO Guidelines on Drawing Blood",
+    "source_section": "Needle Insertion Techniques"
+  },
+  {
+    "id": "gold_002",
+    "question": "What is the maximum time a tourniquet should remain applied on a patient's arm?",
+    "verified_answer": "A tourniquet must not remain applied for more than 1 minute (60 seconds) to prevent hemoconcentration and altered lab results.",
+    "topic": "tourniquet",
+    "step": 4,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Tourniquet Application Limits"
+  },
+  {
+    "id": "gold_003",
+    "question": "What is the proper position for applying a tourniquet relative to the selected venipuncture site?",
+    "verified_answer": "Apply the tourniquet 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site.",
+    "topic": "tourniquet",
+    "step": 4,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Tourniquet Placement"
+  },
+  {
+    "id": "gold_004",
+    "question": "What is the recommended first-choice vein for routine venipuncture?",
+    "verified_answer": "The median cubital vein in the antecubital fossa is the first choice because it is large, well-anchored, and has the lowest risk of nerve damage.",
+    "topic": "site_selection",
+    "step": 5,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Vein Selection Criteria"
+  },
+  {
+    "id": "gold_005",
+    "question": "What is the second choice vein if the median cubital vein is unavailable?",
+    "verified_answer": "The cephalic vein located on the lateral (outer) aspect of the antecubital area is the second choice.",
+    "topic": "site_selection",
+    "step": 5,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Alternative Vein Selection"
+  },
+  {
+    "id": "gold_006",
+    "question": "Why is the basilic vein considered the last choice for venipuncture in the arm?",
+    "verified_answer": "The basilic vein is close to the brachial artery and median nerve, increasing the risk of arterial puncture or nerve injury.",
+    "topic": "site_selection",
+    "step": 5,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Basilic Vein Complications"
+  },
+  {
+    "id": "gold_007",
+    "question": "How should the venipuncture site be disinfected using 70% isopropyl alcohol?",
+    "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds and allow it to air dry completely for 30 seconds.",
+    "topic": "skin_preparation",
+    "step": 6,
+    "source": "WHO Guidelines on Drawing Blood",
+    "source_section": "Antiseptic Skin Preparation"
+  },
+  {
+    "id": "gold_008",
+    "question": "Why must disinfected skin be allowed to air dry completely before needle insertion?",
+    "verified_answer": "Air drying allows full antiseptic action to kill microbes, prevents specimen hemolysis, and eliminates stinging upon needle entry.",
+    "topic": "skin_preparation",
+    "step": 6,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Antiseptic Drying Time"
+  },
+  {
+    "id": "gold_009",
+    "question": "What is the correct CLSI order of draw for multiple blood collection tubes?",
+    "verified_answer": "Blood Cultures (Yellow/SPS) -> Light Blue (Citrate) -> Red/Gold/SST (Serum) -> Green (Heparin) -> Lavender/Purple (EDTA) -> Gray (Fluoride/Oxalate).",
+    "topic": "order_of_draw",
+    "step": 8,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Order of Draw Rules"
+  },
+  {
+    "id": "gold_010",
+    "question": "Why must a Light Blue sodium citrate tube be collected before a Red serum or Lavender EDTA tube?",
+    "verified_answer": "Sodium citrate is used for coagulation studies. Collecting it first prevents contamination by tissue thromboplastin or EDTA additives.",
+    "topic": "order_of_draw",
+    "step": 8,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Additive Cross-Contamination Prevention"
+  },
+  {
+    "id": "gold_011",
+    "question": "How should EDTA blood collection tubes (Lavender top) be handled immediately after collection?",
+    "verified_answer": "Invert the lavender tube gently 8 to 10 times immediately after filling to ensure complete mixing of the anticoagulant and blood.",
+    "topic": "tube_handling",
+    "step": 9,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Tube Inversion Standards"
+  },
+  {
+    "id": "gold_012",
+    "question": "How many gentle inversions are required for Light Blue sodium citrate tubes?",
+    "verified_answer": "Light Blue sodium citrate tubes require 3 to 4 gentle inversions immediately after collection.",
+    "topic": "tube_handling",
+    "step": 9,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Coagulation Tube Handling"
+  },
+  {
+    "id": "gold_013",
+    "question": "When must the tourniquet be released during blood draw?",
+    "verified_answer": "The tourniquet should be released as soon as blood begins flowing into the first tube, and always before withdrawing the needle.",
+    "topic": "tourniquet_release",
+    "step": 10,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Tourniquet Release Timing"
+  },
+  {
+    "id": "gold_014",
+    "question": "When should pressure be applied with cotton/gauze after withdrawing the needle?",
+    "verified_answer": "Apply clean gauze pressure immediately AFTER the needle is fully withdrawn from the arm. Never press on the gauze while the needle is still in the vein.",
+    "topic": "needle_withdrawal",
+    "step": 11,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Post-Withdrawal Pressure"
+  },
+  {
+    "id": "gold_015",
+    "question": "When and how should safety needle devices be activated?",
+    "verified_answer": "Activate the safety shield/cover using a single-handed technique immediately upon withdrawing the needle from the vein.",
+    "topic": "safety_disposal",
+    "step": 12,
+    "source": "OSHA Bloodborne Pathogens Standard",
+    "source_section": "Sharps Safety Device Activation"
+  },
+  {
+    "id": "gold_016",
+    "question": "Where should used needles and blood collection assemblies be disposed of?",
+    "verified_answer": "Dispose of the intact needle safety assembly immediately into a puncture-resistant biohazard sharps container.",
+    "topic": "safety_disposal",
+    "step": 13,
+    "source": "OSHA / CDC Guidelines",
+    "source_section": "Sharps Container Disposal"
+  },
+  {
+    "id": "gold_017",
+    "question": "When should specimen collection tubes be labeled?",
+    "verified_answer": "Tubes must be labeled immediately after collection at the patient's bedside in the presence of the patient.",
+    "topic": "specimen_labeling",
+    "step": 14,
+    "source": "CLSI GP41-Ed7 / Joint Commission",
+    "source_section": "Patient Identification & Tube Labeling"
+  },
+  {
+    "id": "gold_018",
+    "question": "What minimum patient identifiers are required before commencing venipuncture?",
+    "verified_answer": "Verify at least two patient identifiers (such as full name and date of birth) matching the wristband and lab requisition form.",
+    "topic": "patient_preparation",
+    "step": 2,
+    "source": "Joint Commission National Patient Safety Goals",
+    "source_section": "Patient Verification Protocol"
+  },
+  {
+    "id": "gold_019",
+    "question": "What is hemoconcentration and what causes it during blood collection?",
+    "verified_answer": "Hemoconcentration is an artificial increase in blood components caused by leaving the tourniquet applied for longer than 1 minute or excessive fist pumping.",
+    "topic": "common_mistakes",
+    "step": 4,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Hemoconcentration Artifacts"
+  },
+  {
+    "id": "gold_020",
+    "question": "What causes hemolysis during blood draw and how can it be avoided?",
+    "verified_answer": "Hemolysis is the breakdown of red blood cells caused by using too small a needle, pulling plunger too fast, vigorous tube shaking, or alcohol not drying.",
+    "topic": "common_mistakes",
+    "step": 7,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Hemolysis Prevention"
+  },
+  {
+    "id": "gold_021",
+    "question": "What causes a hematoma during venipuncture and how is it prevented?",
+    "verified_answer": "A hematoma occurs when blood leaks into surrounding tissue due to penetrating through the back wall of the vein, partial insertion, or failing to apply pressure.",
+    "topic": "common_mistakes",
+    "step": 7,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Hematoma Complications"
+  },
+  {
+    "id": "gold_022",
+    "question": "Why is probing or side-to-side needle manipulation prohibited if blood flow is missed?",
+    "verified_answer": "Probing causes severe pain, tissue damage, hematoma formation, and potential damage to adjacent nerves or arteries.",
+    "topic": "common_mistakes",
+    "step": 7,
+    "source": "CLSI GP41-Ed7",
+    "source_section": "Probing Prohibition"
+  },
+  {
+    "id": "gold_023",
+    "question": "In the VR trainer, why does touching the vein after alcohol cleaning trigger a procedural error?",
+    "verified_answer": "Touching the skin after alcohol cleaning recontaminates the venipuncture site with skin flora, breaking sterile technique.",
+    "topic": "vr_workflow",
+    "step": 6,
+    "source": "VR Venipuncture Step Manager Rules",
+    "source_section": "Sterile Field Rule"
+  },
+  {
+    "id": "gold_024",
+    "question": "In the VR venipuncture simulator, why is inserting a lavender tube before a green tube marked wrong?",
+    "verified_answer": "Lavender tubes contain EDTA which cross-contaminates heparin green tubes, causing false elevation of potassium levels in lab tests.",
+    "topic": "vr_workflow",
+    "step": 8,
+    "source": "VR Venipuncture Step Manager Rules",
+    "source_section": "Order of Draw Rule"
+  },
+  {
+    "id": "gold_025",
+    "question": "What is the full 16-step procedural sequence for clinical venipuncture in order?",
+    "verified_answer": "1. Sanitise hands & greet patient; 2. Identify patient (2 identifiers); 3. Assemble equipment; 4. Apply tourniquet (3-4 in above site); 5. Select & palpate vein; 6. Disinfect site (30s friction, 30s dry); 7. Anchor vein & insert needle (15-30° bevel up); 8. Collect tubes in CLSI order of draw; 9. Invert additive tubes; 10. Release tourniquet within 1 min; 11. Withdraw needle & apply immediate pressure; 12. Activate needle safety shield; 13. Dispose of sharps in biohazard container; 14. Label tubes at bedside; 15. Inspect site & apply bandage; 16. Dispose of waste & perform hand hygiene.",
+    "topic": "procedural_sequence",
+    "step": 16,
+    "source": "CLSI GP41-Ed7 / Standard VR Venipuncture 16-Step Curriculum",
+    "source_section": "Master Procedural Workflow"
+  }
+]

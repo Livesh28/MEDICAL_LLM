@@ -1,0 +1,358 @@
+{
+  "total_queries": 50,
+  "correct_predictions": 50,
+  "accuracy": 1.0,
+  "avg_latency_ms": 0.018,
+  "test_results": [
+    {
+      "text": "What should I do next?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "correct": true,
+      "latency_ms": 0.41
+    },
+    {
+      "text": "What do I do next?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "What is the next step?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "What now?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "Where to start?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "What's next?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "Tell me the next step",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "Repeat that",
+      "expected_intent": "REPEAT",
+      "predicted_intent": "REPEAT",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "Pardon",
+      "expected_intent": "REPEAT",
+      "predicted_intent": "REPEAT",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "Say again",
+      "expected_intent": "REPEAT",
+      "predicted_intent": "REPEAT",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "What did you say?",
+      "expected_intent": "REPEAT",
+      "predicted_intent": "REPEAT",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "Repeat the instruction",
+      "expected_intent": "REPEAT",
+      "predicted_intent": "REPEAT",
+      "correct": true,
+      "latency_ms": 0.008
+    },
+    {
+      "text": "Say step again",
+      "expected_intent": "REPEAT",
+      "predicted_intent": "REPEAT",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "Why was that wrong?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "Why did I get an error?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "correct": true,
+      "latency_ms": 0.01
+    },
+    {
+      "text": "What mistake did I make?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "Why failed?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "What went wrong?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "Why did that fail?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "Help me",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "I am stuck",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "correct": true,
+      "latency_ms": 0.009
+    },
+    {
+      "text": "I'm stuck",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "correct": true,
+      "latency_ms": 0.06
+    },
+    {
+      "text": "Where is the annotator guidance?",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "correct": true,
+      "latency_ms": 0.013
+    },
+    {
+      "text": "Show me where to go",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "Which object should I use?",
+      "expected_intent": "VR_CONTEXT",
+      "predicted_intent": "VR_CONTEXT",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "What object do I grab?",
+      "expected_intent": "VR_CONTEXT",
+      "predicted_intent": "VR_CONTEXT",
+      "correct": true,
+      "latency_ms": 0.01
+    },
+    {
+      "text": "Where should I put the tube?",
+      "expected_intent": "VR_CONTEXT",
+      "predicted_intent": "VR_CONTEXT",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "Where do I place the tourniquet?",
+      "expected_intent": "VR_CONTEXT",
+      "predicted_intent": "VR_CONTEXT",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "Where does this go?",
+      "expected_intent": "VR_CONTEXT",
+      "predicted_intent": "VR_CONTEXT",
+      "correct": true,
+      "latency_ms": 0.01
+    },
+    {
+      "text": "What is the patient's blood pressure?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.001
+    },
+    {
+      "text": "What medication does the patient take?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.001
+    },
+    {
+      "text": "What is the patient's medical history?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.002
+    },
+    {
+      "text": "How old is the patient?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.007
+    },
+    {
+      "text": "What are the lab results?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.002
+    },
+    {
+      "text": "Can we skip step 5?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.003
+    },
+    {
+      "text": "Do a capillary stick instead",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.004
+    },
+    {
+      "text": "What is the patient name?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "correct": true,
+      "latency_ms": 0.006
+    },
+    {
+      "text": "Tell me about venipuncture",
+      "expected_intent": "OPEN_QUESTION",
+      "predicted_intent": "OPEN_QUESTION",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "Explain phlebotomy safety",
+      "expected_intent": "OPEN_QUESTION",
+      "predicted_intent": "OPEN_QUESTION",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "Overview of CLSI standards",
+      "expected_intent": "OPEN_QUESTION",
+      "predicted_intent": "OPEN_QUESTION",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "Describe the order of draw",
+      "expected_intent": "OPEN_QUESTION",
+      "predicted_intent": "OPEN_QUESTION",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "Tell me about tourniquet application",
+      "expected_intent": "OPEN_QUESTION",
+      "predicted_intent": "OPEN_QUESTION",
+      "correct": true,
+      "latency_ms": 0.012
+    },
+    {
+      "text": "Why do we clean the site with alcohol?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.012
+    },
+    {
+      "text": "What is the maximum time a tourniquet can remain on?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.012
+    },
+    {
+      "text": "What angle should the needle be inserted?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.012
+    },
+    {
+      "text": "Why must alcohol dry for 30 seconds?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.011
+    },
+    {
+      "text": "What tube is drawn first for blood culture?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.012
+    },
+    {
+      "text": "What causes hemolysis during blood draw?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.012
+    },
+    {
+      "text": "What is the function of sodium citrate in blue tubes?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.012
+    },
+    {
+      "text": "Why must tubes be inverted gently?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "correct": true,
+      "latency_ms": 0.011
+    }
+  ]
+}

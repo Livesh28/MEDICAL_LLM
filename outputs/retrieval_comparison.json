@@ -1,0 +1,32 @@
+{
+  "tfidf_current": {
+    "Recall@1": 72.0,
+    "Recall@3": 72.0,
+    "Recall@5": 72.0,
+    "MRR": 0.72
+  },
+  "tfidf_preprocessed": {
+    "Recall@1": 72.0,
+    "Recall@3": 72.0,
+    "Recall@5": 72.0,
+    "MRR": 0.72
+  },
+  "tfidf_expanded": {
+    "Recall@1": 64.0,
+    "Recall@3": 68.0,
+    "Recall@5": 68.0,
+    "MRR": 0.653
+  },
+  "bm25": {
+    "Recall@1": 80.0,
+    "Recall@3": 84.0,
+    "Recall@5": 84.0,
+    "MRR": 0.82
+  },
+  "hybrid_lexical_synonym": {
+    "Recall@1": 64.0,
+    "Recall@3": 68.0,
+    "Recall@5": 68.0,
+    "MRR": 0.653
+  }
+}

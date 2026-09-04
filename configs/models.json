@@ -1,0 +1,18 @@
+{
+  "openbiollm": {
+    "provider": "ollama",
+    "model": "richardyoung/openbiollm:latest",
+    "role": "production_candidate"
+  },
+  "llama32": {
+    "provider": "ollama",
+    "model": "llama3.2:3b",
+    "role": "benchmark_fallback"
+  },
+  "medical_transformer_110m": {
+    "provider": "pytorch",
+    "checkpoint": "checkpoints/best_v3.pt",
+    "role": "research_offline",
+    "parameters": 110040000
+  }
+}

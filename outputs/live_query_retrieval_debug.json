@@ -1,0 +1,406 @@
+{
+  "total_queries": 7,
+  "queries": [
+    {
+      "query": "What is hypertension?",
+      "normalized_query": "what is hypertension?",
+      "query_tokens": [
+        "hypertension"
+      ],
+      "intent": "CLINICAL_QA",
+      "top_retrieved_score": 7.3297,
+      "top_5_retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc_153_chunk_0",
+          "score": 7.3297,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Instruction: Answer this question truthfully\nContext/Input: Can you provide an explanation or summary of portal hypertension?\nMedical Details: Based on the etiology, portal hyperte...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_12_chunk_0",
+          "score": 6.5334,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Hypertension, commonly referred to as high blood pressure, is a chronic medical condition in which systemic arterial blood pressure is persistently elevated above 130/80 mmHg. Prol...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_0_chunk_1",
+          "score": 5.9861,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "art defects, and hypertension. Cardiologists utilize diagnostic tests such as electrocardiography (ECG/EKG), echocardiography, cardiac stress testing, and cardiac catheterization....",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_153_chunk_1",
+          "score": 5.9861,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "al, sinusoidal, and post- sinusoidal disorders. Based on the function impairment in the liver, portal hypertension may be classified as cirrhotic and non- cirrhotic....",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "doc_337_chunk_0",
+          "score": 5.1371,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Instruction: Answer this question truthfully\nContext/Input: What does atrial septal defect mean?\nMedical Details: Atrial septal defect is associated with complications such as migr...",
+          "is_conceptually_relevant": true
+        }
+      ]
+    },
+    {
+      "query": "What is diabetes?",
+      "normalized_query": "what is diabetes?",
+      "query_tokens": [
+        "diabetes"
+      ],
+      "intent": "CLINICAL_QA",
+      "top_retrieved_score": 9.319,
+      "top_5_retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc_135_chunk_0",
+          "score": 9.319,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Instruction: Answer this question truthfully\nContext/Input: What are the possible diagnoses that could be considered for type 1 diabetes mellitus?\nMedical Details: Diabetes mellitu...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_406_chunk_0",
+          "score": 8.3442,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Instruction: Answer this question truthfully\nContext/Input: What is the historical background of Diabetes Insipidus?\nMedical Details: Thomas Willis was first noted the difference d...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_13_chunk_0",
+          "score": 8.1042,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Diabetes mellitus is a chronic metabolic disorder characterized by persistent hyperglycemia resulting from impaired insulin secretion, insulin resistance, or both. Type 1 diabetes ...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_406_chunk_2",
+          "score": 7.9344,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "t observed that some patients with diabetes insipidus did not respond to posterior pituitary extracts. In 1945, Forssman and Waring established that the kidney played a critical ro...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "doc_406_chunk_1",
+          "score": 7.7189,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "c patients excreting nonsaccharine urine in 1794. In 1913, a historical milestone was achieved when Farini successfully used posterior pituitary extracts to treat diabetes insipidu...",
+          "is_conceptually_relevant": true
+        }
+      ]
+    },
+    {
+      "query": "What is venipuncture?",
+      "normalized_query": "what is venipuncture?",
+      "query_tokens": [
+        "venipuncture"
+      ],
+      "intent": "CLINICAL_QA",
+      "top_retrieved_score": 4.4394,
+      "top_5_retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc_0_chunk_1",
+          "score": 4.4394,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "t 2:** Medical VR \u2013 Venipuncture Training Simulation (Project & Technical Documentation)\n- **Part 3:** Trauma First Aid Fundamentals\n- **Part 4:** Basic Clinical Skills & Knowledge...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_0_chunk_1",
+          "score": 4.4394,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "t 2:** Medical VR \u2013 Venipuncture Training Simulation (Project & Technical Documentation)\n- **Part 3:** Trauma First Aid Fundamentals\n- **Part 4:** Basic Clinical Skills & Knowledge...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_0_chunk_1",
+          "score": 4.4394,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "t 2:** Medical VR \u2013 Venipuncture Training Simulation (Project & Technical Documentation)\n- **Part 3:** Trauma First Aid Fundamentals\n- **Part 4:** Basic Clinical Skills & Knowledge...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_0_chunk_0",
+          "score": 4.4109,
+          "topic": "General",
+          "source": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "text_snippet": "# Medical VR Training Knowledge Base \u2014 Full Q&A Set\n## Comprehensive question-answer pairs for RAG ingestion / retrieval testing\n\nEach entry is a self-contained Q&A chunk (question...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "doc_0_chunk_0",
+          "score": 4.4109,
+          "topic": "General",
+          "source": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "text_snippet": "# Medical VR Training Knowledge Base \u2014 Full Q&A Set\n## Comprehensive question-answer pairs for RAG ingestion / retrieval testing\n\nEach entry is a self-contained Q&A chunk (question...",
+          "is_conceptually_relevant": true
+        }
+      ]
+    },
+    {
+      "query": "Why is the venipuncture site cleaned?",
+      "normalized_query": "why is the venipuncture site cleaned?",
+      "query_tokens": [
+        "venipuncture",
+        "site",
+        "cleaned"
+      ],
+      "intent": "CLINICAL_QA",
+      "top_retrieved_score": 9.8026,
+      "top_5_retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "clin_CLIN_000006",
+          "score": 9.8026,
+          "topic": "Site Selection",
+          "source": "SRC_WHO_01",
+          "text_snippet": "Topic: Site Selection (Step 5)\nQuestion: Which vein is the first preference for routine venipuncture?\nClinical Answer: The median cubital vein in the center of the antecubital foss...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_9_chunk_0",
+          "score": 9.1888,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile needle into a vein to draw venous blood samples for laborato...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_0_chunk_8",
+          "score": 8.1907,
+          "topic": "General",
+          "source": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "text_snippet": "(bruising from blood leaking into surrounding tissue), infection at the puncture site, nerve injury (rare, more common with basilic vein use), arterial puncture (rare), vasovagal r...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_0_chunk_8",
+          "score": 8.1907,
+          "topic": "General",
+          "source": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "text_snippet": "(bruising from blood leaking into surrounding tissue), infection at the puncture site, nerve injury (rare, more common with basilic vein use), arterial puncture (rare), vasovagal r...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "clin_CLIN_000004",
+          "score": 7.4856,
+          "topic": "Tourniquet Application",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Topic: Tourniquet Application (Step 2)\nQuestion: Where should the tourniquet be placed on the arm?\nClinical Answer: Apply the tourniquet 3 to 4 inches (7.5 to 10 cm) above the inte...",
+          "is_conceptually_relevant": true
+        }
+      ]
+    },
+    {
+      "query": "What is a tourniquet?",
+      "normalized_query": "what is a tourniquet application upper arm antecubital fossa?",
+      "query_tokens": [
+        "tourniquet",
+        "application",
+        "upper",
+        "arm",
+        "antecubital",
+        "fossa"
+      ],
+      "intent": "CLINICAL_QA",
+      "top_retrieved_score": 29.7894,
+      "top_5_retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "vr_2",
+          "score": 29.7894,
+          "topic": "VR Workflow Step",
+          "source": "SRC_VR_SIM",
+          "text_snippet": "VR Workflow Step 2: Apply Tourniquet\nExpected Object: Tourniquet | Interaction: Patient Upper Arm (Grabbable + SnapZone)\nVR Guidance: Grab the Tourniquet and attach it to the Patie...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "clin_CLIN_000004",
+          "score": 24.1565,
+          "topic": "Tourniquet Application",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Topic: Tourniquet Application (Step 2)\nQuestion: Where should the tourniquet be placed on the arm?\nClinical Answer: Apply the tourniquet 3 to 4 inches (7.5 to 10 cm) above the inte...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_9_chunk_0",
+          "score": 17.0462,
+          "topic": "General",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile needle into a vein to draw venous blood samples for laborato...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "vr_5",
+          "score": 16.629,
+          "topic": "VR Workflow Step",
+          "source": "SRC_VR_SIM",
+          "text_snippet": "VR Workflow Step 5: Clean Area\nExpected Object: Patient Arm | Interaction: Antecubital Fossa Surface (Trigger)\nVR Guidance: Rub the soaked cotton over the selected antecubital area...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "clin_CLIN_000006",
+          "score": 11.3024,
+          "topic": "Site Selection",
+          "source": "SRC_WHO_01",
+          "text_snippet": "Topic: Site Selection (Step 5)\nQuestion: Which vein is the first preference for routine venipuncture?\nClinical Answer: The median cubital vein in the center of the antecubital foss...",
+          "is_conceptually_relevant": true
+        }
+      ]
+    },
+    {
+      "query": "What is blood collection?",
+      "normalized_query": "what is blood collection?",
+      "query_tokens": [
+        "blood",
+        "collection"
+      ],
+      "intent": "CLINICAL_QA",
+      "top_retrieved_score": 7.8978,
+      "top_5_retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc_0_chunk_19",
+          "score": 7.8978,
+          "topic": "General",
+          "source": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "text_snippet": "ompleted.\n\n**Q19: How does Step 12 (Blood Collection) work technically?**\nA: After the tube is correctly inserted, the BloodTrigger detects the required state and the blood collect...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_0_chunk_19",
+          "score": 7.8978,
+          "topic": "General",
+          "source": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "text_snippet": "ompleted.\n\n**Q19: How does Step 12 (Blood Collection) work technically?**\nA: After the tube is correctly inserted, the BloodTrigger detects the required state and the blood collect...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_0_chunk_26",
+          "score": 7.7664,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "nap event is triggered. The system validates the object and completes the step.\n\n**Step 12 \u2013 Blood Collection:** After the tube is correctly inserted, the BloodTrigger detects the ...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_0_chunk_26",
+          "score": 7.7664,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "nap event is triggered. The system validates the object and completes the step.\n\n**Step 12 \u2013 Blood Collection:** After the tube is correctly inserted, the BloodTrigger detects the ...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "doc_0_chunk_26",
+          "score": 7.7664,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "nap event is triggered. The system validates the object and completes the step.\n\n**Step 12 \u2013 Blood Collection:** After the tube is correctly inserted, the BloodTrigger detects the ...",
+          "is_conceptually_relevant": true
+        }
+      ]
+    },
+    {
+      "query": "What should I do at step 11?",
+      "normalized_query": "what should i do at step 11?",
+      "query_tokens": [
+        "step",
+        "11"
+      ],
+      "intent": "CLINICAL_QA",
+      "top_retrieved_score": 9.1449,
+      "top_5_retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "clin_CLIN_000011",
+          "score": 9.1449,
+          "topic": "Order of Draw",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Topic: Order of Draw (Step 11)\nQuestion: What is the standard CLSI order of draw for blood collection tubes?\nClinical Answer: 1. Blood Culture (SPS/Yellow) -> 2. Coagulation (Light...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "vr_11",
+          "score": 9.1449,
+          "topic": "VR Workflow Step",
+          "source": "SRC_VR_SIM",
+          "text_snippet": "VR Workflow Step 11: Insert Tube\nExpected Object: Tube Slot / SnapZone | Interaction: Tube Slot / SnapZone (SnapZone)\nVR Guidance: Push the collection tube firmly into the Cannula ...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "clin_CLIN_000012",
+          "score": 8.8365,
+          "topic": "Order of Draw",
+          "source": "SRC_CLSI_01",
+          "text_snippet": "Topic: Order of Draw (Step 11)\nQuestion: Why must Light Blue sodium citrate tubes be drawn prior to EDTA lavender tubes?\nClinical Answer: Light Blue citrate tubes measure coagulati...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_0_chunk_41",
+          "score": 7.7588,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "3. Tube enters SnapZone.\n4. SnapZone detects the object.\n5. `OnSnap()` event is triggered.\n6. System checks: Is the snapped object the expected Tube? Is CurrentStep equal to 11?\n\nI...",
+          "is_conceptually_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "doc_0_chunk_41",
+          "score": 7.7588,
+          "topic": "General",
+          "source": "Medical_VR_Training_Knowledge_Base.md",
+          "text_snippet": "3. Tube enters SnapZone.\n4. SnapZone detects the object.\n5. `OnSnap()` event is triggered.\n6. System checks: Is the snapped object the expected Tube? Is CurrentStep equal to 11?\n\nI...",
+          "is_conceptually_relevant": true
+        }
+      ]
+    }
+  ]
+}

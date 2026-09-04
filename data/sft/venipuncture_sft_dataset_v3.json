@@ -1,0 +1,1152 @@
+[
+  {
+    "instruction": "Why is hand hygiene performed first?",
+    "input": "",
+    "output": "Hand hygiene (washing hands with soap and water or alcohol rub) removes skin flora to prevent healthcare-associated infection and protect both patient and practitioner.",
+    "topic": "Hand Hygiene",
+    "step": 0,
+    "source_id": "SRC_WHO_IPC",
+    "source_section": "Section 3.1",
+    "verified": true
+  },
+  {
+    "instruction": "What is the purpose of washing hands before venipuncture?",
+    "input": "",
+    "output": "Hand hygiene (washing hands with soap and water or alcohol rub) removes skin flora to prevent healthcare-associated infection and protect both patient and practitioner.",
+    "topic": "Hand Hygiene",
+    "step": 0,
+    "source_id": "SRC_WHO_IPC",
+    "source_section": "Section 3.1",
+    "verified": true
+  },
+  {
+    "instruction": "Why do I need to wash my hands at the sink in Step 0?",
+    "input": "",
+    "output": "Hand hygiene (washing hands with soap and water or alcohol rub) removes skin flora to prevent healthcare-associated infection and protect both patient and practitioner.",
+    "topic": "Hand Hygiene",
+    "step": 0,
+    "source_id": "SRC_WHO_IPC",
+    "source_section": "Section 3.1",
+    "verified": true
+  },
+  {
+    "instruction": "What happens if I skip hand hygiene before blood draw?",
+    "input": "",
+    "output": "Hand hygiene (washing hands with soap and water or alcohol rub) removes skin flora to prevent healthcare-associated infection and protect both patient and practitioner.",
+    "topic": "Hand Hygiene",
+    "step": 0,
+    "source_id": "SRC_WHO_IPC",
+    "source_section": "Section 3.1",
+    "verified": true
+  },
+  {
+    "instruction": "Why is hand washing mandatory before touching the patient?",
+    "input": "",
+    "output": "Hand hygiene (washing hands with soap and water or alcohol rub) removes skin flora to prevent healthcare-associated infection and protect both patient and practitioner.",
+    "topic": "Hand Hygiene",
+    "step": 0,
+    "source_id": "SRC_WHO_IPC",
+    "source_section": "Section 3.1",
+    "verified": true
+  },
+  {
+    "instruction": "When should gloves be put on?",
+    "input": "",
+    "output": "Clean gloves must be donned immediately after hand hygiene and before contact with patient skin, sterile items, or blood collection equipment to prevent bloodborne pathogen exposure.",
+    "topic": "Gloves & PPE",
+    "step": 1,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 2.2",
+    "verified": true
+  },
+  {
+    "instruction": "Why do I wear gloves during venipuncture?",
+    "input": "",
+    "output": "Clean gloves must be donned immediately after hand hygiene and before contact with patient skin, sterile items, or blood collection equipment to prevent bloodborne pathogen exposure.",
+    "topic": "Gloves & PPE",
+    "step": 1,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 2.2",
+    "verified": true
+  },
+  {
+    "instruction": "Can I touch the clean patient skin without gloves?",
+    "input": "",
+    "output": "Clean gloves must be donned immediately after hand hygiene and before contact with patient skin, sterile items, or blood collection equipment to prevent bloodborne pathogen exposure.",
+    "topic": "Gloves & PPE",
+    "step": 1,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 2.2",
+    "verified": true
+  },
+  {
+    "instruction": "What PPE is required for phlebotomy?",
+    "input": "",
+    "output": "Clean gloves must be donned immediately after hand hygiene and before contact with patient skin, sterile items, or blood collection equipment to prevent bloodborne pathogen exposure.",
+    "topic": "Gloves & PPE",
+    "step": 1,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 2.2",
+    "verified": true
+  },
+  {
+    "instruction": "What is the correct sequence for glove donning?",
+    "input": "",
+    "output": "Clean gloves must be donned immediately after hand hygiene and before contact with patient skin, sterile items, or blood collection equipment to prevent bloodborne pathogen exposure.",
+    "topic": "Gloves & PPE",
+    "step": 1,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 2.2",
+    "verified": true
+  },
+  {
+    "instruction": "Where do I place the tourniquet?",
+    "input": "",
+    "output": "Apply the tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.",
+    "topic": "Tourniquet Placement",
+    "step": 2,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 6.1",
+    "verified": true
+  },
+  {
+    "instruction": "How high above the site should the tourniquet be tied?",
+    "input": "",
+    "output": "Apply the tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.",
+    "topic": "Tourniquet Placement",
+    "step": 2,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 6.1",
+    "verified": true
+  },
+  {
+    "instruction": "What is the maximum time a tourniquet can stay tied?",
+    "input": "",
+    "output": "Apply the tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.",
+    "topic": "Tourniquet Placement",
+    "step": 2,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 6.1",
+    "verified": true
+  },
+  {
+    "instruction": "Why can tourniquets only remain on for 1 minute?",
+    "input": "",
+    "output": "Apply the tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.",
+    "topic": "Tourniquet Placement",
+    "step": 2,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 6.1",
+    "verified": true
+  },
+  {
+    "instruction": "What occurs if the tourniquet is tied too long?",
+    "input": "",
+    "output": "Apply the tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.",
+    "topic": "Tourniquet Placement",
+    "step": 2,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 6.1",
+    "verified": true
+  },
+  {
+    "instruction": "How do I disinfect the venipuncture site?",
+    "input": "",
+    "output": "Clean the skin with 70% isopropyl alcohol using a firm friction rub for 30 seconds and allow 30 seconds air dry time. Air drying ensures microbicidal action and prevents hemolysis and stinging.",
+    "topic": "Skin Disinfection",
+    "step": 5,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 4.3",
+    "verified": true
+  },
+  {
+    "instruction": "Why must alcohol dry for 30 seconds before needle entry?",
+    "input": "",
+    "output": "Clean the skin with 70% isopropyl alcohol using a firm friction rub for 30 seconds and allow 30 seconds air dry time. Air drying ensures microbicidal action and prevents hemolysis and stinging.",
+    "topic": "Skin Disinfection",
+    "step": 5,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 4.3",
+    "verified": true
+  },
+  {
+    "instruction": "What disinfectant is used for routine skin prep?",
+    "input": "",
+    "output": "Clean the skin with 70% isopropyl alcohol using a firm friction rub for 30 seconds and allow 30 seconds air dry time. Air drying ensures microbicidal action and prevents hemolysis and stinging.",
+    "topic": "Skin Disinfection",
+    "step": 5,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 4.3",
+    "verified": true
+  },
+  {
+    "instruction": "Why does touching clean skin trigger a VR mistake?",
+    "input": "",
+    "output": "Clean the skin with 70% isopropyl alcohol using a firm friction rub for 30 seconds and allow 30 seconds air dry time. Air drying ensures microbicidal action and prevents hemolysis and stinging.",
+    "topic": "Skin Disinfection",
+    "step": 5,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 4.3",
+    "verified": true
+  },
+  {
+    "instruction": "What is the correct scrubbing motion for skin prep?",
+    "input": "",
+    "output": "Clean the skin with 70% isopropyl alcohol using a firm friction rub for 30 seconds and allow 30 seconds air dry time. Air drying ensures microbicidal action and prevents hemolysis and stinging.",
+    "topic": "Skin Disinfection",
+    "step": 5,
+    "source_id": "SRC_WHO_01",
+    "source_section": "Section 4.3",
+    "verified": true
+  },
+  {
+    "instruction": "What is the needle insertion angle for venipuncture?",
+    "input": "",
+    "output": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the patient's skin surface.",
+    "topic": "Needle Insertion Angle",
+    "step": 8,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 7.1",
+    "verified": true
+  },
+  {
+    "instruction": "Which direction should the needle bevel face?",
+    "input": "",
+    "output": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the patient's skin surface.",
+    "topic": "Needle Insertion Angle",
+    "step": 8,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 7.1",
+    "verified": true
+  },
+  {
+    "instruction": "How deep and at what angle do I insert the cannula?",
+    "input": "",
+    "output": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the patient's skin surface.",
+    "topic": "Needle Insertion Angle",
+    "step": 8,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 7.1",
+    "verified": true
+  },
+  {
+    "instruction": "Why shouldn't I insert the needle at a 45 degree angle?",
+    "input": "",
+    "output": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the patient's skin surface.",
+    "topic": "Needle Insertion Angle",
+    "step": 8,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 7.1",
+    "verified": true
+  },
+  {
+    "instruction": "How do I correctly enter the median cubital vein?",
+    "input": "",
+    "output": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the patient's skin surface.",
+    "topic": "Needle Insertion Angle",
+    "step": 8,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 7.1",
+    "verified": true
+  },
+  {
+    "instruction": "What is the CLSI order of draw for blood collection tubes?",
+    "input": "",
+    "output": "The CLSI order of draw is: 1. Blood Culture (Yellow) -> 2. Light Blue (Citrate) -> 3. Red/Gold (Serum) -> 4. Green (Heparin) -> 5. Lavender (EDTA) -> 6. Gray (Fluoride). This prevents additive cross-contamination.",
+    "topic": "Order of Draw",
+    "step": 11,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 8.2",
+    "verified": true
+  },
+  {
+    "instruction": "Why is light blue tube collected before lavender tube?",
+    "input": "",
+    "output": "The CLSI order of draw is: 1. Blood Culture (Yellow) -> 2. Light Blue (Citrate) -> 3. Red/Gold (Serum) -> 4. Green (Heparin) -> 5. Lavender (EDTA) -> 6. Gray (Fluoride). This prevents additive cross-contamination.",
+    "topic": "Order of Draw",
+    "step": 11,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 8.2",
+    "verified": true
+  },
+  {
+    "instruction": "What happens if I insert a purple tube before a green tube?",
+    "input": "",
+    "output": "The CLSI order of draw is: 1. Blood Culture (Yellow) -> 2. Light Blue (Citrate) -> 3. Red/Gold (Serum) -> 4. Green (Heparin) -> 5. Lavender (EDTA) -> 6. Gray (Fluoride). This prevents additive cross-contamination.",
+    "topic": "Order of Draw",
+    "step": 11,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 8.2",
+    "verified": true
+  },
+  {
+    "instruction": "Why does the order of draw matter in blood collection?",
+    "input": "",
+    "output": "The CLSI order of draw is: 1. Blood Culture (Yellow) -> 2. Light Blue (Citrate) -> 3. Red/Gold (Serum) -> 4. Green (Heparin) -> 5. Lavender (EDTA) -> 6. Gray (Fluoride). This prevents additive cross-contamination.",
+    "topic": "Order of Draw",
+    "step": 11,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 8.2",
+    "verified": true
+  },
+  {
+    "instruction": "Which tube comes first after blood cultures?",
+    "input": "",
+    "output": "The CLSI order of draw is: 1. Blood Culture (Yellow) -> 2. Light Blue (Citrate) -> 3. Red/Gold (Serum) -> 4. Green (Heparin) -> 5. Lavender (EDTA) -> 6. Gray (Fluoride). This prevents additive cross-contamination.",
+    "topic": "Order of Draw",
+    "step": 11,
+    "source_id": "SRC_CLSI_01",
+    "source_section": "Section 8.2",
+    "verified": true
+  },
+  {
+    "instruction": "What is the patient's exact height and weight?",
+    "input": "",
+    "output": "This information is not available in the current simulation/context.",
+    "topic": "Negative / Unsupported Safeguards",
+    "step": 0,
+    "source_id": "SRC_SAFETY_GUARD",
+    "source_section": "Refusal Policy",
+    "verified": true
+  },
+  {
+    "instruction": "Can I use a non-sterile needle for blood collection?",
+    "input": "",
+    "output": "This information is not available in the current simulation/context.",
+    "topic": "Negative / Unsupported Safeguards",
+    "step": 0,
+    "source_id": "SRC_SAFETY_GUARD",
+    "source_section": "Refusal Policy",
+    "verified": true
+  },
+  {
+    "instruction": "Can I alter the configured VR step order?",
+    "input": "",
+    "output": "This information is not available in the current simulation/context.",
+    "topic": "Negative / Unsupported Safeguards",
+    "step": 0,
+    "source_id": "SRC_SAFETY_GUARD",
+    "source_section": "Refusal Policy",
+    "verified": true
+  },
+  {
+    "instruction": "What is the patient's full clinical history?",
+    "input": "",
+    "output": "This information is not available in the current simulation/context.",
+    "topic": "Negative / Unsupported Safeguards",
+    "step": 0,
+    "source_id": "SRC_SAFETY_GUARD",
+    "source_section": "Refusal Policy",
+    "verified": true
+  },
+  {
+    "instruction": "Does the patient have a history of diabetes?",
+    "input": "",
+    "output": "This information is not available in the current simulation/context.",
+    "topic": "Negative / Unsupported Safeguards",
+    "step": 0,
+    "source_id": "SRC_SAFETY_GUARD",
+    "source_section": "Refusal Policy",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 0 (Wash Hands)?",
+    "input": "Current Step: 0 (Wash Hands) | Object: Sink / WaterTrigger",
+    "output": "Wash your hands at the Sink by placing your hands inside the WaterTrigger to perform initial hand hygiene. (Annotator: Highlights the Sink and WaterTrigger zone with blue halo.)",
+    "topic": "VR Workflow Step",
+    "step": 0,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 0",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 0 in the VR simulation?",
+    "input": "Current Step: 0 (Wash Hands) | Object: Sink / WaterTrigger",
+    "output": "Wash your hands at the Sink by placing your hands inside the WaterTrigger to perform initial hand hygiene. (Annotator: Highlights the Sink and WaterTrigger zone with blue halo.)",
+    "topic": "VR Workflow Step",
+    "step": 0,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 0",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 0 (Wash Hands)?",
+    "input": "Current Step: 0 (Wash Hands) | Object: Sink / WaterTrigger",
+    "output": "Wash your hands at the Sink by placing your hands inside the WaterTrigger to perform initial hand hygiene. (Annotator: Highlights the Sink and WaterTrigger zone with blue halo.)",
+    "topic": "VR Workflow Step",
+    "step": 0,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 0",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 0?",
+    "input": "Current Step: 0 (Wash Hands) | Object: Sink / WaterTrigger",
+    "output": "Wash your hands at the Sink by placing your hands inside the WaterTrigger to perform initial hand hygiene. (Annotator: Highlights the Sink and WaterTrigger zone with blue halo.)",
+    "topic": "VR Workflow Step",
+    "step": 0,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 0",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 0 of the venipuncture procedure?",
+    "input": "Current Step: 0 (Wash Hands) | Object: Sink / WaterTrigger",
+    "output": "Wash your hands at the Sink by placing your hands inside the WaterTrigger to perform initial hand hygiene. (Annotator: Highlights the Sink and WaterTrigger zone with blue halo.)",
+    "topic": "VR Workflow Step",
+    "step": 0,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 0",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 1 (Wear Gloves)?",
+    "input": "Current Step: 1 (Wear Gloves) | Object: Glove Box / Gloves",
+    "output": "Pick up clean gloves from the Glove Box to equip personal protective equipment before touching equipment. (Annotator: Pulsing green arrow pointing to the Glove Box on the utility table.)",
+    "topic": "VR Workflow Step",
+    "step": 1,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 1",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 1 in the VR simulation?",
+    "input": "Current Step: 1 (Wear Gloves) | Object: Glove Box / Gloves",
+    "output": "Pick up clean gloves from the Glove Box to equip personal protective equipment before touching equipment. (Annotator: Pulsing green arrow pointing to the Glove Box on the utility table.)",
+    "topic": "VR Workflow Step",
+    "step": 1,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 1",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 1 (Wear Gloves)?",
+    "input": "Current Step: 1 (Wear Gloves) | Object: Glove Box / Gloves",
+    "output": "Pick up clean gloves from the Glove Box to equip personal protective equipment before touching equipment. (Annotator: Pulsing green arrow pointing to the Glove Box on the utility table.)",
+    "topic": "VR Workflow Step",
+    "step": 1,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 1",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 1?",
+    "input": "Current Step: 1 (Wear Gloves) | Object: Glove Box / Gloves",
+    "output": "Pick up clean gloves from the Glove Box to equip personal protective equipment before touching equipment. (Annotator: Pulsing green arrow pointing to the Glove Box on the utility table.)",
+    "topic": "VR Workflow Step",
+    "step": 1,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 1",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 1 of the venipuncture procedure?",
+    "input": "Current Step: 1 (Wear Gloves) | Object: Glove Box / Gloves",
+    "output": "Pick up clean gloves from the Glove Box to equip personal protective equipment before touching equipment. (Annotator: Pulsing green arrow pointing to the Glove Box on the utility table.)",
+    "topic": "VR Workflow Step",
+    "step": 1,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 1",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 2 (Apply Tourniquet)?",
+    "input": "Current Step: 2 (Apply Tourniquet) | Object: Tourniquet",
+    "output": "Grab the Tourniquet and attach it to the Patient's upper arm (3-4 inches above the antecubital fossa). (Annotator: Outline highlight around upper arm tourniquet SnapZone.)",
+    "topic": "VR Workflow Step",
+    "step": 2,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 2",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 2 in the VR simulation?",
+    "input": "Current Step: 2 (Apply Tourniquet) | Object: Tourniquet",
+    "output": "Grab the Tourniquet and attach it to the Patient's upper arm (3-4 inches above the antecubital fossa). (Annotator: Outline highlight around upper arm tourniquet SnapZone.)",
+    "topic": "VR Workflow Step",
+    "step": 2,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 2",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 2 (Apply Tourniquet)?",
+    "input": "Current Step: 2 (Apply Tourniquet) | Object: Tourniquet",
+    "output": "Grab the Tourniquet and attach it to the Patient's upper arm (3-4 inches above the antecubital fossa). (Annotator: Outline highlight around upper arm tourniquet SnapZone.)",
+    "topic": "VR Workflow Step",
+    "step": 2,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 2",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 2?",
+    "input": "Current Step: 2 (Apply Tourniquet) | Object: Tourniquet",
+    "output": "Grab the Tourniquet and attach it to the Patient's upper arm (3-4 inches above the antecubital fossa). (Annotator: Outline highlight around upper arm tourniquet SnapZone.)",
+    "topic": "VR Workflow Step",
+    "step": 2,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 2",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 2 of the venipuncture procedure?",
+    "input": "Current Step: 2 (Apply Tourniquet) | Object: Tourniquet",
+    "output": "Grab the Tourniquet and attach it to the Patient's upper arm (3-4 inches above the antecubital fossa). (Annotator: Outline highlight around upper arm tourniquet SnapZone.)",
+    "topic": "VR Workflow Step",
+    "step": 2,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 2",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 3 (Take Cotton)?",
+    "input": "Current Step: 3 (Take Cotton) | Object: Cotton Box",
+    "output": "Grab a clean cotton ball from the Cotton Box. (Annotator: Yellow highlight on Cotton Box.)",
+    "topic": "VR Workflow Step",
+    "step": 3,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 3",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 3 in the VR simulation?",
+    "input": "Current Step: 3 (Take Cotton) | Object: Cotton Box",
+    "output": "Grab a clean cotton ball from the Cotton Box. (Annotator: Yellow highlight on Cotton Box.)",
+    "topic": "VR Workflow Step",
+    "step": 3,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 3",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 3 (Take Cotton)?",
+    "input": "Current Step: 3 (Take Cotton) | Object: Cotton Box",
+    "output": "Grab a clean cotton ball from the Cotton Box. (Annotator: Yellow highlight on Cotton Box.)",
+    "topic": "VR Workflow Step",
+    "step": 3,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 3",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 3?",
+    "input": "Current Step: 3 (Take Cotton) | Object: Cotton Box",
+    "output": "Grab a clean cotton ball from the Cotton Box. (Annotator: Yellow highlight on Cotton Box.)",
+    "topic": "VR Workflow Step",
+    "step": 3,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 3",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 3 of the venipuncture procedure?",
+    "input": "Current Step: 3 (Take Cotton) | Object: Cotton Box",
+    "output": "Grab a clean cotton ball from the Cotton Box. (Annotator: Yellow highlight on Cotton Box.)",
+    "topic": "VR Workflow Step",
+    "step": 3,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 3",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 4 (Dip Cotton)?",
+    "input": "Current Step: 4 (Dip Cotton) | Object: Spirit Bottle",
+    "output": "Dip the cotton ball into the Spirit Bottle to soak it with 70% isopropyl alcohol disinfectant. (Annotator: Blue indicator above Spirit Bottle opening.)",
+    "topic": "VR Workflow Step",
+    "step": 4,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 4",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 4 in the VR simulation?",
+    "input": "Current Step: 4 (Dip Cotton) | Object: Spirit Bottle",
+    "output": "Dip the cotton ball into the Spirit Bottle to soak it with 70% isopropyl alcohol disinfectant. (Annotator: Blue indicator above Spirit Bottle opening.)",
+    "topic": "VR Workflow Step",
+    "step": 4,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 4",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 4 (Dip Cotton)?",
+    "input": "Current Step: 4 (Dip Cotton) | Object: Spirit Bottle",
+    "output": "Dip the cotton ball into the Spirit Bottle to soak it with 70% isopropyl alcohol disinfectant. (Annotator: Blue indicator above Spirit Bottle opening.)",
+    "topic": "VR Workflow Step",
+    "step": 4,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 4",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 4?",
+    "input": "Current Step: 4 (Dip Cotton) | Object: Spirit Bottle",
+    "output": "Dip the cotton ball into the Spirit Bottle to soak it with 70% isopropyl alcohol disinfectant. (Annotator: Blue indicator above Spirit Bottle opening.)",
+    "topic": "VR Workflow Step",
+    "step": 4,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 4",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 4 of the venipuncture procedure?",
+    "input": "Current Step: 4 (Dip Cotton) | Object: Spirit Bottle",
+    "output": "Dip the cotton ball into the Spirit Bottle to soak it with 70% isopropyl alcohol disinfectant. (Annotator: Blue indicator above Spirit Bottle opening.)",
+    "topic": "VR Workflow Step",
+    "step": 4,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 4",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 5 (Clean Area)?",
+    "input": "Current Step: 5 (Clean Area) | Object: Patient Arm",
+    "output": "Rub the soaked cotton over the selected antecubital area in concentric circles for site disinfection. (Annotator: Circular green friction rub path on patient arm.)",
+    "topic": "VR Workflow Step",
+    "step": 5,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 5",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 5 in the VR simulation?",
+    "input": "Current Step: 5 (Clean Area) | Object: Patient Arm",
+    "output": "Rub the soaked cotton over the selected antecubital area in concentric circles for site disinfection. (Annotator: Circular green friction rub path on patient arm.)",
+    "topic": "VR Workflow Step",
+    "step": 5,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 5",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 5 (Clean Area)?",
+    "input": "Current Step: 5 (Clean Area) | Object: Patient Arm",
+    "output": "Rub the soaked cotton over the selected antecubital area in concentric circles for site disinfection. (Annotator: Circular green friction rub path on patient arm.)",
+    "topic": "VR Workflow Step",
+    "step": 5,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 5",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 5?",
+    "input": "Current Step: 5 (Clean Area) | Object: Patient Arm",
+    "output": "Rub the soaked cotton over the selected antecubital area in concentric circles for site disinfection. (Annotator: Circular green friction rub path on patient arm.)",
+    "topic": "VR Workflow Step",
+    "step": 5,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 5",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 5 of the venipuncture procedure?",
+    "input": "Current Step: 5 (Clean Area) | Object: Patient Arm",
+    "output": "Rub the soaked cotton over the selected antecubital area in concentric circles for site disinfection. (Annotator: Circular green friction rub path on patient arm.)",
+    "topic": "VR Workflow Step",
+    "step": 5,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 5",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 6 (Dispose Cotton)?",
+    "input": "Current Step: 6 (Dispose Cotton) | Object: Dustbin",
+    "output": "Drop the used cotton ball into the Waste Dustbin. (Annotator: Red trash icon over Dustbin.)",
+    "topic": "VR Workflow Step",
+    "step": 6,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 6",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 6 in the VR simulation?",
+    "input": "Current Step: 6 (Dispose Cotton) | Object: Dustbin",
+    "output": "Drop the used cotton ball into the Waste Dustbin. (Annotator: Red trash icon over Dustbin.)",
+    "topic": "VR Workflow Step",
+    "step": 6,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 6",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 6 (Dispose Cotton)?",
+    "input": "Current Step: 6 (Dispose Cotton) | Object: Dustbin",
+    "output": "Drop the used cotton ball into the Waste Dustbin. (Annotator: Red trash icon over Dustbin.)",
+    "topic": "VR Workflow Step",
+    "step": 6,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 6",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 6?",
+    "input": "Current Step: 6 (Dispose Cotton) | Object: Dustbin",
+    "output": "Drop the used cotton ball into the Waste Dustbin. (Annotator: Red trash icon over Dustbin.)",
+    "topic": "VR Workflow Step",
+    "step": 6,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 6",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 6 of the venipuncture procedure?",
+    "input": "Current Step: 6 (Dispose Cotton) | Object: Dustbin",
+    "output": "Drop the used cotton ball into the Waste Dustbin. (Annotator: Red trash icon over Dustbin.)",
+    "topic": "VR Workflow Step",
+    "step": 6,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 6",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 7 (Take Cannula)?",
+    "input": "Current Step: 7 (Take Cannula) | Object: Cannula",
+    "output": "Pick up the sterile Safety Cannula from the equipment tray. (Annotator: Highlight Cannula handle on tray.)",
+    "topic": "VR Workflow Step",
+    "step": 7,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 7",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 7 in the VR simulation?",
+    "input": "Current Step: 7 (Take Cannula) | Object: Cannula",
+    "output": "Pick up the sterile Safety Cannula from the equipment tray. (Annotator: Highlight Cannula handle on tray.)",
+    "topic": "VR Workflow Step",
+    "step": 7,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 7",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 7 (Take Cannula)?",
+    "input": "Current Step: 7 (Take Cannula) | Object: Cannula",
+    "output": "Pick up the sterile Safety Cannula from the equipment tray. (Annotator: Highlight Cannula handle on tray.)",
+    "topic": "VR Workflow Step",
+    "step": 7,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 7",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 7?",
+    "input": "Current Step: 7 (Take Cannula) | Object: Cannula",
+    "output": "Pick up the sterile Safety Cannula from the equipment tray. (Annotator: Highlight Cannula handle on tray.)",
+    "topic": "VR Workflow Step",
+    "step": 7,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 7",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 7 of the venipuncture procedure?",
+    "input": "Current Step: 7 (Take Cannula) | Object: Cannula",
+    "output": "Pick up the sterile Safety Cannula from the equipment tray. (Annotator: Highlight Cannula handle on tray.)",
+    "topic": "VR Workflow Step",
+    "step": 7,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 7",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 8 (Insert Cannula)?",
+    "input": "Current Step: 8 (Insert Cannula) | Object: Vein Trigger",
+    "output": "Insert the cannula into the Vein Trigger at a 15-30 degree angle with bevel facing up. (Annotator: 3D angle guide vector showing 15-30\u00b0 insertion corridor.)",
+    "topic": "VR Workflow Step",
+    "step": 8,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 8",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 8 in the VR simulation?",
+    "input": "Current Step: 8 (Insert Cannula) | Object: Vein Trigger",
+    "output": "Insert the cannula into the Vein Trigger at a 15-30 degree angle with bevel facing up. (Annotator: 3D angle guide vector showing 15-30\u00b0 insertion corridor.)",
+    "topic": "VR Workflow Step",
+    "step": 8,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 8",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 8 (Insert Cannula)?",
+    "input": "Current Step: 8 (Insert Cannula) | Object: Vein Trigger",
+    "output": "Insert the cannula into the Vein Trigger at a 15-30 degree angle with bevel facing up. (Annotator: 3D angle guide vector showing 15-30\u00b0 insertion corridor.)",
+    "topic": "VR Workflow Step",
+    "step": 8,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 8",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 8?",
+    "input": "Current Step: 8 (Insert Cannula) | Object: Vein Trigger",
+    "output": "Insert the cannula into the Vein Trigger at a 15-30 degree angle with bevel facing up. (Annotator: 3D angle guide vector showing 15-30\u00b0 insertion corridor.)",
+    "topic": "VR Workflow Step",
+    "step": 8,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 8",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 8 of the venipuncture procedure?",
+    "input": "Current Step: 8 (Insert Cannula) | Object: Vein Trigger",
+    "output": "Insert the cannula into the Vein Trigger at a 15-30 degree angle with bevel facing up. (Annotator: 3D angle guide vector showing 15-30\u00b0 insertion corridor.)",
+    "topic": "VR Workflow Step",
+    "step": 8,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 8",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 9 (Remove Tourniquet)?",
+    "input": "Current Step: 9 (Remove Tourniquet) | Object: Tourniquet",
+    "output": "Unclip and release the Tourniquet from the patient's arm immediately after vein entry. (Annotator: Flashing release icon on tourniquet buckle.)",
+    "topic": "VR Workflow Step",
+    "step": 9,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 9",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 9 in the VR simulation?",
+    "input": "Current Step: 9 (Remove Tourniquet) | Object: Tourniquet",
+    "output": "Unclip and release the Tourniquet from the patient's arm immediately after vein entry. (Annotator: Flashing release icon on tourniquet buckle.)",
+    "topic": "VR Workflow Step",
+    "step": 9,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 9",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 9 (Remove Tourniquet)?",
+    "input": "Current Step: 9 (Remove Tourniquet) | Object: Tourniquet",
+    "output": "Unclip and release the Tourniquet from the patient's arm immediately after vein entry. (Annotator: Flashing release icon on tourniquet buckle.)",
+    "topic": "VR Workflow Step",
+    "step": 9,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 9",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 9?",
+    "input": "Current Step: 9 (Remove Tourniquet) | Object: Tourniquet",
+    "output": "Unclip and release the Tourniquet from the patient's arm immediately after vein entry. (Annotator: Flashing release icon on tourniquet buckle.)",
+    "topic": "VR Workflow Step",
+    "step": 9,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 9",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 9 of the venipuncture procedure?",
+    "input": "Current Step: 9 (Remove Tourniquet) | Object: Tourniquet",
+    "output": "Unclip and release the Tourniquet from the patient's arm immediately after vein entry. (Annotator: Flashing release icon on tourniquet buckle.)",
+    "topic": "VR Workflow Step",
+    "step": 9,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 9",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 10 (Take Tube)?",
+    "input": "Current Step: 10 (Take Tube) | Object: Blood Collection Tube",
+    "output": "Pick up the correct Blood Collection Tube from the rack following the CLSI order of draw. (Annotator: Glow on the next valid tube in CLSI order.)",
+    "topic": "VR Workflow Step",
+    "step": 10,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 10",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 10 in the VR simulation?",
+    "input": "Current Step: 10 (Take Tube) | Object: Blood Collection Tube",
+    "output": "Pick up the correct Blood Collection Tube from the rack following the CLSI order of draw. (Annotator: Glow on the next valid tube in CLSI order.)",
+    "topic": "VR Workflow Step",
+    "step": 10,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 10",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 10 (Take Tube)?",
+    "input": "Current Step: 10 (Take Tube) | Object: Blood Collection Tube",
+    "output": "Pick up the correct Blood Collection Tube from the rack following the CLSI order of draw. (Annotator: Glow on the next valid tube in CLSI order.)",
+    "topic": "VR Workflow Step",
+    "step": 10,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 10",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 10?",
+    "input": "Current Step: 10 (Take Tube) | Object: Blood Collection Tube",
+    "output": "Pick up the correct Blood Collection Tube from the rack following the CLSI order of draw. (Annotator: Glow on the next valid tube in CLSI order.)",
+    "topic": "VR Workflow Step",
+    "step": 10,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 10",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 10 of the venipuncture procedure?",
+    "input": "Current Step: 10 (Take Tube) | Object: Blood Collection Tube",
+    "output": "Pick up the correct Blood Collection Tube from the rack following the CLSI order of draw. (Annotator: Glow on the next valid tube in CLSI order.)",
+    "topic": "VR Workflow Step",
+    "step": 10,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 10",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 11 (Insert Tube)?",
+    "input": "Current Step: 11 (Insert Tube) | Object: Tube Slot / SnapZone",
+    "output": "Push the collection tube firmly into the Cannula Tube Slot / SnapZone until engaged. (Annotator: SnapZone highlight on cannula holder.)",
+    "topic": "VR Workflow Step",
+    "step": 11,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 11",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 11 in the VR simulation?",
+    "input": "Current Step: 11 (Insert Tube) | Object: Tube Slot / SnapZone",
+    "output": "Push the collection tube firmly into the Cannula Tube Slot / SnapZone until engaged. (Annotator: SnapZone highlight on cannula holder.)",
+    "topic": "VR Workflow Step",
+    "step": 11,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 11",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 11 (Insert Tube)?",
+    "input": "Current Step: 11 (Insert Tube) | Object: Tube Slot / SnapZone",
+    "output": "Push the collection tube firmly into the Cannula Tube Slot / SnapZone until engaged. (Annotator: SnapZone highlight on cannula holder.)",
+    "topic": "VR Workflow Step",
+    "step": 11,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 11",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 11?",
+    "input": "Current Step: 11 (Insert Tube) | Object: Tube Slot / SnapZone",
+    "output": "Push the collection tube firmly into the Cannula Tube Slot / SnapZone until engaged. (Annotator: SnapZone highlight on cannula holder.)",
+    "topic": "VR Workflow Step",
+    "step": 11,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 11",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 11 of the venipuncture procedure?",
+    "input": "Current Step: 11 (Insert Tube) | Object: Tube Slot / SnapZone",
+    "output": "Push the collection tube firmly into the Cannula Tube Slot / SnapZone until engaged. (Annotator: SnapZone highlight on cannula holder.)",
+    "topic": "VR Workflow Step",
+    "step": 11,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 11",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 12 (Blood Collection)?",
+    "input": "Current Step: 12 (Blood Collection) | Object: Blood Trigger",
+    "output": "Allow vacuum to draw blood into the tube until blood flow stops automatically. (Annotator: Red fill level bar indicator on tube.)",
+    "topic": "VR Workflow Step",
+    "step": 12,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 12",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 12 in the VR simulation?",
+    "input": "Current Step: 12 (Blood Collection) | Object: Blood Trigger",
+    "output": "Allow vacuum to draw blood into the tube until blood flow stops automatically. (Annotator: Red fill level bar indicator on tube.)",
+    "topic": "VR Workflow Step",
+    "step": 12,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 12",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 12 (Blood Collection)?",
+    "input": "Current Step: 12 (Blood Collection) | Object: Blood Trigger",
+    "output": "Allow vacuum to draw blood into the tube until blood flow stops automatically. (Annotator: Red fill level bar indicator on tube.)",
+    "topic": "VR Workflow Step",
+    "step": 12,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 12",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 12?",
+    "input": "Current Step: 12 (Blood Collection) | Object: Blood Trigger",
+    "output": "Allow vacuum to draw blood into the tube until blood flow stops automatically. (Annotator: Red fill level bar indicator on tube.)",
+    "topic": "VR Workflow Step",
+    "step": 12,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 12",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 12 of the venipuncture procedure?",
+    "input": "Current Step: 12 (Blood Collection) | Object: Blood Trigger",
+    "output": "Allow vacuum to draw blood into the tube until blood flow stops automatically. (Annotator: Red fill level bar indicator on tube.)",
+    "topic": "VR Workflow Step",
+    "step": 12,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 12",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 13 (Remove Tube)?",
+    "input": "Current Step: 13 (Remove Tube) | Object: Tube",
+    "output": "Remove the filled blood tube from the holder and gently invert it to mix additive. (Annotator: Inversion animation prompt.)",
+    "topic": "VR Workflow Step",
+    "step": 13,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 13",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 13 in the VR simulation?",
+    "input": "Current Step: 13 (Remove Tube) | Object: Tube",
+    "output": "Remove the filled blood tube from the holder and gently invert it to mix additive. (Annotator: Inversion animation prompt.)",
+    "topic": "VR Workflow Step",
+    "step": 13,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 13",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 13 (Remove Tube)?",
+    "input": "Current Step: 13 (Remove Tube) | Object: Tube",
+    "output": "Remove the filled blood tube from the holder and gently invert it to mix additive. (Annotator: Inversion animation prompt.)",
+    "topic": "VR Workflow Step",
+    "step": 13,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 13",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 13?",
+    "input": "Current Step: 13 (Remove Tube) | Object: Tube",
+    "output": "Remove the filled blood tube from the holder and gently invert it to mix additive. (Annotator: Inversion animation prompt.)",
+    "topic": "VR Workflow Step",
+    "step": 13,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 13",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 13 of the venipuncture procedure?",
+    "input": "Current Step: 13 (Remove Tube) | Object: Tube",
+    "output": "Remove the filled blood tube from the holder and gently invert it to mix additive. (Annotator: Inversion animation prompt.)",
+    "topic": "VR Workflow Step",
+    "step": 13,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 13",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 14 (Remove Cannula)?",
+    "input": "Current Step: 14 (Remove Cannula) | Object: Cannula",
+    "output": "Withdraw the cannula swiftly from the vein and apply clean gauze pressure immediately. (Annotator: Smooth exit vector arrow.)",
+    "topic": "VR Workflow Step",
+    "step": 14,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 14",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 14 in the VR simulation?",
+    "input": "Current Step: 14 (Remove Cannula) | Object: Cannula",
+    "output": "Withdraw the cannula swiftly from the vein and apply clean gauze pressure immediately. (Annotator: Smooth exit vector arrow.)",
+    "topic": "VR Workflow Step",
+    "step": 14,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 14",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 14 (Remove Cannula)?",
+    "input": "Current Step: 14 (Remove Cannula) | Object: Cannula",
+    "output": "Withdraw the cannula swiftly from the vein and apply clean gauze pressure immediately. (Annotator: Smooth exit vector arrow.)",
+    "topic": "VR Workflow Step",
+    "step": 14,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 14",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 14?",
+    "input": "Current Step: 14 (Remove Cannula) | Object: Cannula",
+    "output": "Withdraw the cannula swiftly from the vein and apply clean gauze pressure immediately. (Annotator: Smooth exit vector arrow.)",
+    "topic": "VR Workflow Step",
+    "step": 14,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 14",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 14 of the venipuncture procedure?",
+    "input": "Current Step: 14 (Remove Cannula) | Object: Cannula",
+    "output": "Withdraw the cannula swiftly from the vein and apply clean gauze pressure immediately. (Annotator: Smooth exit vector arrow.)",
+    "topic": "VR Workflow Step",
+    "step": 14,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 14",
+    "verified": true
+  },
+  {
+    "instruction": "What should I do in Step 15 (Dispose Cannula)?",
+    "input": "Current Step: 15 (Dispose Cannula) | Object: Dustbin",
+    "output": "Activate the needle safety guard and drop the cannula assembly into the Sharps Bin. (Annotator: Flashing biohazard bin indicator.)",
+    "topic": "VR Workflow Step",
+    "step": 15,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 15",
+    "verified": true
+  },
+  {
+    "instruction": "How do I complete Step 15 in the VR simulation?",
+    "input": "Current Step: 15 (Dispose Cannula) | Object: Dustbin",
+    "output": "Activate the needle safety guard and drop the cannula assembly into the Sharps Bin. (Annotator: Flashing biohazard bin indicator.)",
+    "topic": "VR Workflow Step",
+    "step": 15,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 15",
+    "verified": true
+  },
+  {
+    "instruction": "What object do I need for Step 15 (Dispose Cannula)?",
+    "input": "Current Step: 15 (Dispose Cannula) | Object: Dustbin",
+    "output": "Activate the needle safety guard and drop the cannula assembly into the Sharps Bin. (Annotator: Flashing biohazard bin indicator.)",
+    "topic": "VR Workflow Step",
+    "step": 15,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 15",
+    "verified": true
+  },
+  {
+    "instruction": "What does the Annotator show during Step 15?",
+    "input": "Current Step: 15 (Dispose Cannula) | Object: Dustbin",
+    "output": "Activate the needle safety guard and drop the cannula assembly into the Sharps Bin. (Annotator: Flashing biohazard bin indicator.)",
+    "topic": "VR Workflow Step",
+    "step": 15,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 15",
+    "verified": true
+  },
+  {
+    "instruction": "Can you explain Step 15 of the venipuncture procedure?",
+    "input": "Current Step: 15 (Dispose Cannula) | Object: Dustbin",
+    "output": "Activate the needle safety guard and drop the cannula assembly into the Sharps Bin. (Annotator: Flashing biohazard bin indicator.)",
+    "topic": "VR Workflow Step",
+    "step": 15,
+    "source_id": "SRC_VR_SIM",
+    "source_section": "StepManager Step 15",
+    "verified": true
+  }
+]

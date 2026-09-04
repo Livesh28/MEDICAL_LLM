@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets & Environment
+.env
+.env.*
+!.env.example
+
+# Model checkpoints (Preserved locally, excluded from Git due to size)
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.bin
+checkpoints/*.safetensors
+*.gguf
+!checkpoints/.gitkeep
+
+# Large model artifacts & caches
+ollama/
+model_cache/
+huggingface_cache/
+
+# Generated vector databases & large index files (Preserved locally, rebuilt via scripts)
+data/rag_db/
+data/vector_db/
+*.faiss
+*.index
+
+# Large raw datasets & binaries
+data/raw/*.json
+data/processed/*.txt
+data/processed/*.bin
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Frontend dependencies & build
+node_modules/
+dist/
+build/
+
+# Logs & temporary outputs
+*.log
+logs/
+outputs/*.csv
+outputs/*.png
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.swp

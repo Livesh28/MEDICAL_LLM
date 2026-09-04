@@ -1,0 +1,182 @@
+{
+  "source_type": "PROJECT_GROUND_TRUTH",
+  "total_steps": 16,
+  "steps": [
+    {
+      "step": 0,
+      "name": "Wash Hands",
+      "expected_object": "Sink / WaterTrigger",
+      "interaction": "WaterTrigger",
+      "trigger_or_zone": "WaterTrigger",
+      "success_condition": "OnTriggerEnter with hands",
+      "next_step": 1,
+      "vr_description": "Wash hands at the Sink placing hands inside WaterTrigger for hand hygiene.",
+      "annotation_target": "Sink WaterTrigger"
+    },
+    {
+      "step": 1,
+      "name": "Wear Gloves",
+      "expected_object": "Glove Box / Gloves",
+      "interaction": "Glove Box",
+      "trigger_or_zone": "Grabbable",
+      "success_condition": "OnGrab gloves",
+      "next_step": 2,
+      "vr_description": "Equip clean gloves from the Glove Box before touching equipment.",
+      "annotation_target": "Glove Box"
+    },
+    {
+      "step": 2,
+      "name": "Apply Tourniquet",
+      "expected_object": "Tourniquet",
+      "interaction": "Tourniquet",
+      "trigger_or_zone": "Arm SnapZone",
+      "success_condition": "OnSnap on upper arm",
+      "next_step": 3,
+      "vr_description": "Attach tourniquet 3-4 inches above antecubital fossa on upper arm.",
+      "annotation_target": "Upper Arm Tourniquet Zone"
+    },
+    {
+      "step": 3,
+      "name": "Take Cotton",
+      "expected_object": "Cotton Box",
+      "interaction": "Cotton Box",
+      "trigger_or_zone": "Grabbable",
+      "success_condition": "OnGrab cotton ball",
+      "next_step": 4,
+      "vr_description": "Pick up a clean cotton ball from the Cotton Box.",
+      "annotation_target": "Cotton Box"
+    },
+    {
+      "step": 4,
+      "name": "Dip Cotton",
+      "expected_object": "Spirit Bottle",
+      "interaction": "Spirit Bottle",
+      "trigger_or_zone": "LiquidTrigger",
+      "success_condition": "OnTriggerEnter inside bottle",
+      "next_step": 5,
+      "vr_description": "Dip cotton ball into Spirit Bottle for 70% isopropyl alcohol disinfectant.",
+      "annotation_target": "Spirit Bottle Opening"
+    },
+    {
+      "step": 5,
+      "name": "Clean Area",
+      "expected_object": "Patient Arm",
+      "interaction": "Patient Arm",
+      "trigger_or_zone": "Skin Friction Trigger",
+      "success_condition": "OnTriggerEnter 30s friction rub",
+      "next_step": 6,
+      "vr_description": "Clean antecubital skin in concentric circles for 30s and allow 30s dry time.",
+      "annotation_target": "Antecubital Fossa Surface"
+    },
+    {
+      "step": 6,
+      "name": "Dispose Cotton",
+      "expected_object": "Dustbin",
+      "interaction": "Dustbin",
+      "trigger_or_zone": "WasteTrigger",
+      "success_condition": "OnTriggerEnter drop cotton",
+      "next_step": 7,
+      "vr_description": "Discard used cotton ball into Waste Dustbin.",
+      "annotation_target": "Waste Dustbin"
+    },
+    {
+      "step": 7,
+      "name": "Take Cannula",
+      "expected_object": "Cannula",
+      "interaction": "Cannula",
+      "trigger_or_zone": "Grabbable",
+      "success_condition": "OnGrab cannula assembly",
+      "next_step": 8,
+      "vr_description": "Pick up safety cannula from equipment tray.",
+      "annotation_target": "Safety Cannula Tray"
+    },
+    {
+      "step": 8,
+      "name": "Insert Cannula",
+      "expected_object": "Vein Trigger",
+      "interaction": "Vein Trigger",
+      "trigger_or_zone": "Vein Trigger",
+      "success_condition": "OnTriggerEnter at 15-30 deg bevel up",
+      "next_step": 9,
+      "vr_description": "Insert cannula into median cubital vein at 15-30 degree angle bevel up.",
+      "annotation_target": "Median Cubital Vein Entry Corridor"
+    },
+    {
+      "step": 9,
+      "name": "Remove Tourniquet",
+      "expected_object": "Tourniquet",
+      "interaction": "Tourniquet",
+      "trigger_or_zone": "Grabbable",
+      "success_condition": "OnUngrab unclip tourniquet",
+      "next_step": 10,
+      "vr_description": "Release tourniquet immediately upon blood flashback in cannula.",
+      "annotation_target": "Tourniquet Buckle"
+    },
+    {
+      "step": 10,
+      "name": "Take Tube",
+      "expected_object": "Blood Collection Tube",
+      "interaction": "Blood Collection Tube",
+      "trigger_or_zone": "Grabbable",
+      "success_condition": "OnGrab tube in CLSI order",
+      "next_step": 11,
+      "vr_description": "Pick up blood collection tube in CLSI order of draw.",
+      "annotation_target": "Vacutainer Tube Rack"
+    },
+    {
+      "step": 11,
+      "name": "Insert Tube",
+      "expected_object": "Tube Slot / SnapZone",
+      "interaction": "Tube Slot / SnapZone",
+      "trigger_or_zone": "SnapZone",
+      "success_condition": "OnSnap tube into holder slot",
+      "next_step": 12,
+      "vr_description": "Engage collection tube into cannula hub SnapZone.",
+      "annotation_target": "Cannula Tube Holder SnapZone"
+    },
+    {
+      "step": 12,
+      "name": "Blood Collection",
+      "expected_object": "Blood Trigger",
+      "interaction": "Blood Trigger",
+      "trigger_or_zone": "Blood Trigger",
+      "success_condition": "OnTriggerEnter vacuum fill",
+      "next_step": 13,
+      "vr_description": "Allow vacuum to fill tube completely with blood.",
+      "annotation_target": "Blood Tube Vacuum Fill Indicator"
+    },
+    {
+      "step": 13,
+      "name": "Remove Tube",
+      "expected_object": "Tube",
+      "interaction": "Tube",
+      "trigger_or_zone": "Grabbable",
+      "success_condition": "OnUngrab tube from slot",
+      "next_step": 14,
+      "vr_description": "Disengage filled tube and invert gently.",
+      "annotation_target": "Filled Collection Tube"
+    },
+    {
+      "step": 14,
+      "name": "Remove Cannula",
+      "expected_object": "Cannula",
+      "interaction": "Cannula",
+      "trigger_or_zone": "Grabbable",
+      "success_condition": "OnUngrab cannula from vein",
+      "next_step": 15,
+      "vr_description": "Withdraw cannula smoothly and apply clean gauze pressure.",
+      "annotation_target": "Cannula Hub Exit Corridor"
+    },
+    {
+      "step": 15,
+      "name": "Dispose Cannula",
+      "expected_object": "Dustbin",
+      "interaction": "Dustbin",
+      "trigger_or_zone": "SharpsBinTrigger",
+      "success_condition": "OnTriggerEnter biohazard disposal",
+      "next_step": 16,
+      "vr_description": "Activate needle safety guard and dispose of cannula in Sharps Bin.",
+      "annotation_target": "Biohazard Sharps Bin"
+    }
+  ]
+}

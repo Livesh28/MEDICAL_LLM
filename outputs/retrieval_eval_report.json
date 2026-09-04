@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-09-03T10:20:13Z",
+  "total_queries": 25,
+  "metrics": {
+    "recall_at_1_percent": 68.0,
+    "recall_at_3_percent": 68.0,
+    "recall_at_5_percent": 68.0,
+    "mrr": 0.68,
+    "step_retrieval_accuracy_percent": 68.0,
+    "topic_retrieval_accuracy_percent": 12.0
+  },
+  "query_details": [
+    {
+      "id": "eval_v2_001",
+      "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+      "found_at_rank": 0,
+      "top_hit_text": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile "
+    },
+    {
+      "id": "eval_v2_002",
+      "question": "When should clean gloves be donned during blood collection?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Gloves & PPE (Step 1)\nQuestion: When should gloves be donned during blood collection?\nClinical Answer: Clean non-"
+    },
+    {
+      "id": "eval_v2_003",
+      "question": "How many patient identifiers must be verified before performing venipuncture?",
+      "found_at_rank": 0,
+      "top_hit_text": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile "
+    },
+    {
+      "id": "eval_v2_004",
+      "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+      "found_at_rank": 1,
+      "top_hit_text": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile "
+    },
+    {
+      "id": "eval_v2_005",
+      "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Tourniquet Time Limit (Step 2)\nQuestion: What is the maximum duration a tourniquet may remain applied?\nClinical A"
+    },
+    {
+      "id": "eval_v2_006",
+      "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+      "found_at_rank": 1,
+      "top_hit_text": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile "
+    },
+    {
+      "id": "eval_v2_007",
+      "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Site Selection (Step 5)\nQuestion: Why is the basilic vein considered the least desirable choice in the arm?\nClini"
+    },
+    {
+      "id": "eval_v2_008",
+      "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Skin Disinfection (Step 5)\nQuestion: How should 70% isopropyl alcohol be applied during site prep?\nClinical Answe"
+    },
+    {
+      "id": "eval_v2_009",
+      "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Skin Disinfection (Step 5)\nQuestion: Why is a 30-second air-drying period required after alcohol cleaning?\nClinic"
+    },
+    {
+      "id": "eval_v2_010",
+      "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+      "found_at_rank": 1,
+      "top_hit_text": "VR Workflow Step 8: Insert Cannula\nExpected Object: Vein Trigger | Interaction: Vein Trigger (Median Cubital) (Trigger)\n"
+    },
+    {
+      "id": "eval_v2_011",
+      "question": "What is the standard CLSI order of draw for blood collection tubes?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Order of Draw (Step 11)\nQuestion: What is the standard CLSI order of draw for blood collection tubes?\nClinical An"
+    },
+    {
+      "id": "eval_v2_012",
+      "question": "Why must Light Blue sodium citrate tubes be drawn before Lavender EDTA tubes?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Order of Draw (Step 11)\nQuestion: Why must Light Blue sodium citrate tubes be drawn prior to EDTA lavender tubes?"
+    },
+    {
+      "id": "eval_v2_013",
+      "question": "How many gentle inversions are required for EDTA blood collection tubes?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Tube Inversion (Step 13)\nQuestion: How many inversions are required for EDTA blood collection tubes?\nClinical Ans"
+    },
+    {
+      "id": "eval_v2_014",
+      "question": "When should the tourniquet be released during blood draw?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Tourniquet Release (Step 9)\nQuestion: When should the tourniquet be released during the venipuncture sequence?\nCl"
+    },
+    {
+      "id": "eval_v2_015",
+      "question": "When should pressure be applied with cotton/gauze after withdrawing the needle?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Needle Withdrawal & Pressure (Step 14)\nQuestion: When should gauze pressure be applied relative to needle withdra"
+    },
+    {
+      "id": "eval_v2_016",
+      "question": "Where should used needle cannula assemblies be disposed of?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Sharps Safety & Disposal (Step 15)\nQuestion: Where and when should used needle cannula assemblies be disposed of?"
+    },
+    {
+      "id": "eval_v2_017",
+      "question": "When and where should blood collection tubes be labeled with patient information?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Specimen Labeling (Step 13)\nQuestion: When and where should blood collection tubes be labeled?\nClinical Answer: C"
+    },
+    {
+      "id": "eval_v2_018",
+      "question": "What is hemoconcentration and what causes it during blood draw?",
+      "found_at_rank": 0,
+      "top_hit_text": "Topic: Complications - Hematoma (Step 8)\nQuestion: What causes a hematoma during venipuncture?\nClinical Answer: A hemato"
+    },
+    {
+      "id": "eval_v2_019",
+      "question": "What causes sample hemolysis during phlebotomy?",
+      "found_at_rank": 1,
+      "top_hit_text": "Topic: Complications - Hemolysis (Step 8)\nQuestion: What causes sample hemolysis during phlebotomy?\nClinical Answer: Hem"
+    },
+    {
+      "id": "eval_v2_020",
+      "question": "Why is probing or moving the needle side to side prohibited if blood flow is missed?",
+      "found_at_rank": 0,
+      "top_hit_text": "Topic: Needle Probing Prohibition (Step 8)\nQuestion: Why is probing or side-to-side needle manipulation prohibited?\nClin"
+    },
+    {
+      "id": "eval_v2_021",
+      "question": "In the VR trainer, why does touching the vein after alcohol cleaning trigger a step error?",
+      "found_at_rank": 1,
+      "top_hit_text": "VR Workflow Step 5: Clean Area\nExpected Object: Patient Arm | Interaction: Antecubital Fossa Surface (Trigger)\nVR Guidan"
+    },
+    {
+      "id": "eval_v2_022",
+      "question": "In the VR venipuncture simulator, why was inserting a lavender tube before a green tube marked wrong?",
+      "found_at_rank": 0,
+      "top_hit_text": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile "
+    },
+    {
+      "id": "eval_v2_023",
+      "question": "What is the patient's exact blood pressure right now?",
+      "found_at_rank": 0,
+      "top_hit_text": "irst bleeding episode until birth, it is now considered safe to treat placenta praevia on an outpatient basis if the fet"
+    },
+    {
+      "id": "eval_v2_024",
+      "question": "What medication did the patient take this morning?",
+      "found_at_rank": 0,
+      "top_hit_text": "different etiologies according to the clinical presentation. Assess for the presence of coagulopathy or the intake of an"
+    },
+    {
+      "id": "eval_v2_025",
+      "question": "Should I change the clinical procedure from the configured workflow?",
+      "found_at_rank": 0,
+      "top_hit_text": "hyperextended position while supine. The carotid sinus can be found along the carotid artery medial to the sternocleidom"
+    }
+  ]
+}

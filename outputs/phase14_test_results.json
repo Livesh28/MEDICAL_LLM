@@ -1,0 +1,58 @@
+[
+  {
+    "id": "TEST 1",
+    "question": "What is Step 0 in the venipuncture training workflow?",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "Context Evidence: The venipuncture training workflow includes a total of 16 steps. Step 0 serves as an introductory step where the trainee is guided on how to interact with the virtual patient and the training environment. It provides essential instructions on the expected user experience and sets the stage for subsequent steps. Therefore, Step 0 is focused on orientation and familiarization with the training platform."
+  },
+  {
+    "id": "TEST 2",
+    "question": "What is Step 8?",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "As a medical expert, I can provide a precise answer based on the given context. Please note that as an AI language model, I don't have real-time access to the internet or the ability to browse medical databases. Therefore, I might not have the most up-to-date information on certain topics. It's essential to consult with a qualified medical professional for accurate and current guidance."
+  },
+  {
+    "id": "TEST 3",
+    "question": "What is Step 12?",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "Context Evidence: [VR_GROUND_TRUTH] Topic: Blood Collection. Question: What should I do at step 12? Answer: After correct tube placement, BloodTrigger detects the required state and the blood-collection simulation begins. Completion enables Step 13. [Step 12 | Interaction: Blood Trigger] The answer is: At step 12, you should perform venipuncture with the"
+  },
+  {
+    "id": "TEST 4",
+    "question": "What is the role of StepManager?",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "The role of StepManager is to act as the central controller during the training process. It ensures that the correct sequence of steps is followed by maintaining the current step variable (currentStep) and determining which interaction is to be accepted. Once the required interaction is completed, the currentStep variable is incremented by 1. This helps in enforcing the correct training sequence and progress."
+  },
+  {
+    "id": "TEST 5",
+    "question": "What is VeinTrigger used for?",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "VeinTrigger is used for Step 8 - Insert Cannula."
+  },
+  {
+    "id": "TEST 6",
+    "question": "What is the difference between VeinTrigger and BloodTrigger?",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "VeinTrigger is triggered when the cannula is inserted into the vein, while BloodTrigger is triggered when the tube is placed in the blood collection area after the cannula is inserted."
+  },
+  {
+    "id": "TEST 7",
+    "question": "Why is hand hygiene important before venipuncture?",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "Context Evidence: Hand hygiene is an infection-prevention measure performed according to the applicable clinical protocol before handling the patient, equipment, or collection procedure. The primary purpose of hand hygiene prior to venipuncture is to eliminate transient skin microorganisms that could potentially be introduced into the patient's bloodstream during the procedure, thereby preventing bloodborne cross-contamination and protecting both the patient and healthcare personnel from infections. Reference"
+  },
+  {
+    "id": "TEST 8",
+    "question": "Explain the complete 16-step workflow.",
+    "engine": "richardyoung/openbiollm:latest",
+    "sources_count": 2,
+    "answer": "The 16-step workflow for administering chemotherapy to a patient involves several key steps. These steps include: 1. Initial Consultation: The patient is called into the consultation room, where the healthcare provider reviews the patient's medical history, diagnosis, and treatment plan. 2. Consent: The healthcare provider explains the chemotherapy treatment to the patient, including its benefits, potential side effects, and"
+  }
+]

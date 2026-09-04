@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-09-03T10:32:29Z",
+  "model_name": "MedicalTransformerLM_v3",
+  "checkpoint_saved": "checkpoints/best_v3.pt",
+  "epochs": 10,
+  "total_steps": 230,
+  "elapsed_seconds": 197.2,
+  "best_val_loss": 0.1806,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "step": 23,
+      "train_loss": 5.0679,
+      "val_loss": 3.4242,
+      "perplexity": 30.7,
+      "learning_rate": 0.0001983677483492918
+    },
+    {
+      "epoch": 2,
+      "step": 46,
+      "train_loss": 2.4776,
+      "val_loss": 2.0818,
+      "perplexity": 8.02,
+      "learning_rate": 0.00018772087732637883
+    },
+    {
+      "epoch": 3,
+      "step": 69,
+      "train_loss": 1.1709,
+      "val_loss": 1.2332,
+      "perplexity": 3.43,
+      "learning_rate": 0.00016823063943112497
+    },
+    {
+      "epoch": 4,
+      "step": 92,
+      "train_loss": 0.5498,
+      "val_loss": 0.6454,
+      "perplexity": 1.91,
+      "learning_rate": 0.0001419806601001522
+    },
+    {
+      "epoch": 5,
+      "step": 115,
+      "train_loss": 0.246,
+      "val_loss": 0.4788,
+      "perplexity": 1.61,
+      "learning_rate": 0.00011177722240392707
+    },
+    {
+      "epoch": 6,
+      "step": 138,
+      "train_loss": 0.1339,
+      "val_loss": 0.2983,
+      "perplexity": 1.35,
+      "learning_rate": 8.084925825161876e-05
+    },
+    {
+      "epoch": 7,
+      "step": 161,
+      "train_loss": 0.0695,
+      "val_loss": 0.2151,
+      "perplexity": 1.24,
+      "learning_rate": 5.250315585444424e-05
+    },
+    {
+      "epoch": 8,
+      "step": 184,
+      "train_loss": 0.0349,
+      "val_loss": 0.1979,
+      "perplexity": 1.22,
+      "learning_rate": 2.9769286637383878e-05
+    },
+    {
+      "epoch": 9,
+      "step": 207,
+      "train_loss": 0.0257,
+      "val_loss": 0.1899,
+      "perplexity": 1.21,
+      "learning_rate": 1.5078040030678449e-05
+    },
+    {
+      "epoch": 10,
+      "step": 230,
+      "train_loss": 0.0206,
+      "val_loss": 0.1806,
+      "perplexity": 1.2,
+      "learning_rate": 1e-05
+    }
+  ]
+}

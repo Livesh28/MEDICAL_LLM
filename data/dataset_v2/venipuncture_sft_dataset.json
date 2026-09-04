@@ -1,0 +1,219 @@
+[
+  {
+    "instruction": "What is the first step in the VR venipuncture training procedure?",
+    "input": "",
+    "output": "The first step in the 16-step VR venipuncture procedure is to perform hand hygiene (sanitise hands) and greet the patient warmly to explain the blood collection procedure.",
+    "topic": "procedural_sequence",
+    "step": 1
+  },
+  {
+    "instruction": "How do I start a venipuncture procedure in the simulator?",
+    "input": "",
+    "output": "Begin by washing or sanitising your hands, putting on clean gloves, and introducing yourself to the patient while explaining the steps of the procedure.",
+    "topic": "procedural_sequence",
+    "step": 1
+  },
+  {
+    "instruction": "What patient identification protocol must be followed prior to blood collection?",
+    "input": "",
+    "output": "Verify at least two distinct patient identifiers (such as full name and date of birth) by checking the patient's wristband and comparing them against the laboratory requisition form.",
+    "topic": "patient_preparation",
+    "step": 2
+  },
+  {
+    "instruction": "Why is verifying two patient identifiers mandatory before venipuncture?",
+    "input": "",
+    "output": "Verifying two patient identifiers prevents catastrophic misidentification errors, ensuring specimen integrity and preventing incorrect medical diagnosis or treatment.",
+    "topic": "patient_preparation",
+    "step": 2
+  },
+  {
+    "instruction": "What equipment needs to be assembled before performing a blood draw?",
+    "input": "",
+    "output": "Assemble a double-pointed safety needle or butterfly needle, needle holder/vacutainer hub, tourniquet, 70% isopropyl alcohol prep pads, blood collection tubes in proper order of draw, sterile gauze, biohazard sharps container, and bandage tape.",
+    "topic": "equipment",
+    "step": 3
+  },
+  {
+    "instruction": "How should a tourniquet be applied on the patient's arm?",
+    "input": "",
+    "output": "Apply the tourniquet 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site. It should be snug enough to restrict venous return while allowing arterial flow, tied with a quick-release loop.",
+    "topic": "tourniquet",
+    "step": 4
+  },
+  {
+    "instruction": "Where do I tie the tourniquet on the arm?",
+    "input": "",
+    "output": "Tie the tourniquet 3 to 4 inches above the antecubital fossa (elbow fold) on the upper arm.",
+    "topic": "tourniquet",
+    "step": 4
+  },
+  {
+    "instruction": "What is the maximum time a tourniquet can remain tied on the arm?",
+    "input": "",
+    "output": "The tourniquet must not remain tied for more than 1 minute (60 seconds). Prolonged application causes hemoconcentration and inaccurate laboratory blood test results.",
+    "topic": "tourniquet",
+    "step": 4
+  },
+  {
+    "instruction": "What happens if the tourniquet is left on longer than one minute?",
+    "input": "",
+    "output": "Leaving the tourniquet on longer than 60 seconds causes hemoconcentration (stagnation of blood flow), causing falsely elevated blood cell counts, iron, protein, and potassium levels.",
+    "topic": "tourniquet",
+    "step": 4
+  },
+  {
+    "instruction": "Which vein should be selected first for venipuncture?",
+    "input": "",
+    "output": "The median cubital vein located in the center of the antecubital fossa is the first choice because it is large, well-anchored, prominent, and carries the lowest risk of nerve or arterial injury.",
+    "topic": "site_selection",
+    "step": 5
+  },
+  {
+    "instruction": "What is the order of preference for selecting veins in the arm?",
+    "input": "",
+    "output": "1st choice: Median Cubital vein (center of antecubital fossa); 2nd choice: Cephalic vein (lateral/outer arm); 3rd choice: Basilic vein (medial/inner arm near brachial artery and median nerve).",
+    "topic": "site_selection",
+    "step": 5
+  },
+  {
+    "instruction": "How do you properly palpate a vein?",
+    "input": "",
+    "output": "Palpate the vein using the index finger to assess direction, depth, elasticity, and rebound resilience. A healthy vein feels bouncy and spongy, unlike an artery which pulsates.",
+    "topic": "site_selection",
+    "step": 5
+  },
+  {
+    "instruction": "How should the skin be disinfected before inserting the needle?",
+    "input": "",
+    "output": "Clean the site with 70% isopropyl alcohol using a firm friction rub for 30 seconds. Allow the disinfected site to air dry completely for 30 seconds before puncturing.",
+    "topic": "skin_preparation",
+    "step": 6
+  },
+  {
+    "instruction": "Why do I have to wait 30 seconds for the alcohol to dry?",
+    "input": "",
+    "output": "Air drying for 30 seconds allows the isopropyl alcohol to effectively destroy skin pathogens, prevents hemolysis of the blood sample, and avoids a burning/stinging sensation upon needle entry.",
+    "topic": "skin_preparation",
+    "step": 6
+  },
+  {
+    "instruction": "Why does re-touching the clean vein trigger a mistake in the VR trainer?",
+    "input": "",
+    "output": "Touching the skin after alcohol cleaning recontaminates the disinfected area with bacteria from your gloves, violating sterile technique and risking patient infection.",
+    "topic": "skin_preparation",
+    "step": 6
+  },
+  {
+    "instruction": "What is the correct angle and bevel position for inserting the needle?",
+    "input": "",
+    "output": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the patient's skin surface.",
+    "topic": "needle_insertion",
+    "step": 7
+  },
+  {
+    "instruction": "How do I anchor the vein before needle insertion?",
+    "input": "",
+    "output": "Anchor the vein by placing your non-dominant thumb 1 to 2 inches below the insertion site, pulling the skin taut downward toward the wrist.",
+    "topic": "needle_insertion",
+    "step": 7
+  },
+  {
+    "instruction": "What is the CLSI recommended order of draw for blood collection tubes?",
+    "input": "",
+    "output": "1. Blood Culture tubes (Yellow/SPS)\n2. Coagulation tube (Light Blue - Sodium Citrate)\n3. Serum tubes (Red / Gold / SST)\n4. Heparin tube (Green / Light Green)\n5. EDTA tube (Lavender / Purple)\n6. Fluoride/Oxalate tube (Gray).",
+    "topic": "order_of_draw",
+    "step": 8
+  },
+  {
+    "instruction": "Why is the CLSI order of draw strictly required?",
+    "input": "",
+    "output": "The order of draw prevents additive cross-contamination between collection tubes. For example, EDTA from lavender tubes can elevate potassium levels if drawn before heparin green tubes.",
+    "topic": "order_of_draw",
+    "step": 8
+  },
+  {
+    "instruction": "Why was inserting a lavender tube before a green tube marked wrong in VR?",
+    "input": "",
+    "output": "Lavender tubes contain EDTA anticoagulant. Inserting a lavender tube first contaminates the needle with EDTA, which ruins electrolyte readings in subsequent green heparin tubes.",
+    "topic": "order_of_draw",
+    "step": 8
+  },
+  {
+    "instruction": "How should additive tubes be handled after collection?",
+    "input": "",
+    "output": "Invert additive tubes gently immediately after collection: EDTA lavender tubes (8-10 times), Light Blue citrate tubes (3-4 times), Heparin green tubes (8-10 times), SST serum tubes (5 times). Do not shake vigorously.",
+    "topic": "tube_handling",
+    "step": 9
+  },
+  {
+    "instruction": "When should the tourniquet be released during blood draw?",
+    "input": "",
+    "output": "Release the tourniquet as soon as blood flow is established in the first collection tube, and always before removing the needle from the vein.",
+    "topic": "tourniquet_release",
+    "step": 10
+  },
+  {
+    "instruction": "How should the needle be withdrawn from the vein?",
+    "input": "",
+    "output": "Withdraw the needle swiftly at the same angle it entered while simultaneously holding folded clean gauze lightly over the site. Apply firm pressure immediately AFTER the needle is fully out.",
+    "topic": "needle_withdrawal",
+    "step": 11
+  },
+  {
+    "instruction": "When is the needle safety device activated?",
+    "input": "",
+    "output": "Activate the safety shield or safety cover on the needle immediately upon withdrawing the needle from the vein using a single-handed technique.",
+    "topic": "safety_disposal",
+    "step": 12
+  },
+  {
+    "instruction": "Where do I dispose of the used needle?",
+    "input": "",
+    "output": "Dispose of the intact needle and holder assembly immediately into a puncture-resistant, rigid biohazard sharps container.",
+    "topic": "safety_disposal",
+    "step": 13
+  },
+  {
+    "instruction": "When should blood collection tubes be labeled?",
+    "input": "",
+    "output": "Label all collection tubes immediately after drawing at the patient's bedside in the presence of the patient, confirming name, date of birth, date, time, and collector initials.",
+    "topic": "specimen_labeling",
+    "step": 14
+  },
+  {
+    "instruction": "What care should be provided to the patient's arm after needle removal?",
+    "input": "",
+    "output": "Apply firm pressure with clean gauze until bleeding stops completely (at least 2 minutes), then apply a sterile adhesive bandage. Instruct the patient to avoid heavy lifting with that arm for 1 hour.",
+    "topic": "post_procedure",
+    "step": 15
+  },
+  {
+    "instruction": "What causes a hematoma during venipuncture?",
+    "input": "",
+    "output": "A hematoma is caused when blood leaks out of the vein into surrounding tissue. Causes include penetrating the back vein wall, failing to insert the needle bevel completely into the vein, or not applying pressure after withdrawal.",
+    "topic": "common_mistakes",
+    "step": 7
+  },
+  {
+    "instruction": "What causes sample hemolysis during phlebotomy?",
+    "input": "",
+    "output": "Hemolysis occurs when red blood cells rupture. Causes include using too small a needle gauge (under 23G), shaking collection tubes forcefully, pulling syringe plungers too fast, or inserting the needle through wet alcohol.",
+    "topic": "common_mistakes",
+    "step": 7
+  },
+  {
+    "instruction": "Why is probing or moving the needle side to side prohibited?",
+    "input": "",
+    "output": "Probing inside the arm damages tissue, ruptures adjacent blood vessels forming a hematoma, causes severe pain, and carries a high risk of puncturing the brachial artery or median nerve.",
+    "topic": "common_mistakes",
+    "step": 7
+  },
+  {
+    "instruction": "What are the complete 16 steps of venipuncture in order?",
+    "input": "",
+    "output": "1. Hand hygiene; 2. Patient identification; 3. Assemble equipment; 4. Apply tourniquet; 5. Select vein; 6. Disinfect site; 7. Anchor vein & insert needle (15-30°); 8. Collect tubes (order of draw); 9. Invert tubes; 10. Release tourniquet; 11. Withdraw needle & apply pressure; 12. Activate safety shield; 13. Sharps container disposal; 14. Label tubes at bedside; 15. Apply bandage & post-care; 16. Final hand hygiene.",
+    "topic": "procedural_sequence",
+    "step": 16
+  }
+]

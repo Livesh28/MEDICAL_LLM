@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "source_id": "SRC_WHO_01",
+      "title": "WHO Guidelines on Drawing Blood: Best Practices in Phlebotomy",
+      "organization": "World Health Organization (WHO)",
+      "edition": "1st Edition / Current Standards",
+      "publication_date": "2010",
+      "url": "https://www.who.int/publications/i/item/9789241599221",
+      "license": "Public Health Clinical Guideline",
+      "description": "Comprehensive international gold-standard clinical guidelines for blood sampling, infection control, and phlebotomy procedures."
+    },
+    {
+      "source_id": "SRC_CLSI_01",
+      "title": "CLSI GP41-Ed7: Collection of Diagnostic Venous Blood Specimens",
+      "organization": "Clinical and Laboratory Standards Institute (CLSI)",
+      "edition": "7th Edition",
+      "publication_date": "2017",
+      "url": "https://clsi.org/standards/products/methodology/documents/gp41/",
+      "license": "Clinical Practice Standard",
+      "description": "Global laboratory standard defining exact venipuncture procedural sequence, order of draw, equipment handling, and safety protocol."
+    },
+    {
+      "source_id": "SRC_WHO_IPC",
+      "title": "WHO Guidelines on Hand Hygiene and Infection Control in Health Care",
+      "organization": "World Health Organization (WHO)",
+      "edition": "Revised Edition",
+      "publication_date": "2009",
+      "url": "https://www.who.int/publications/i/item/9789241597906",
+      "license": "Public Health Clinical Guideline",
+      "description": "Standardized hand hygiene protocols, glove usage rules, and antiseptic drying requirements prior to invasive medical procedures."
+    }
+  ]
+}

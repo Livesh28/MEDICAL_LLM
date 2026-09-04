@@ -1,0 +1,168 @@
+{
+  "total_spoken_queries": 20,
+  "failed_transcriptions": 0,
+  "mean_word_accuracy": 0.9491,
+  "avg_stt_latency_ms": 232.28,
+  "test_results": [
+    {
+      "query_id": 1,
+      "spoken_prompt": "What should I do next?",
+      "recognized_transcript": "What should I do next?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 384.94,
+      "status": "success"
+    },
+    {
+      "query_id": 2,
+      "spoken_prompt": "Why do we clean the site with alcohol?",
+      "recognized_transcript": "Why do we clean the side with alcohol?",
+      "accuracy": 0.875,
+      "stt_latency_ms": 218.01,
+      "status": "success"
+    },
+    {
+      "query_id": 3,
+      "spoken_prompt": "Why was that wrong?",
+      "recognized_transcript": "Why was that wrong?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 216.3,
+      "status": "success"
+    },
+    {
+      "query_id": 4,
+      "spoken_prompt": "What is the maximum time a tourniquet can remain on?",
+      "recognized_transcript": "What is the maximum time a tourniquet can remain on?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 265.68,
+      "status": "success"
+    },
+    {
+      "query_id": 5,
+      "spoken_prompt": "What angle should the needle be inserted?",
+      "recognized_transcript": "What angle should the needle be inserted?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 215.88,
+      "status": "success"
+    },
+    {
+      "query_id": 6,
+      "spoken_prompt": "Repeat the instruction",
+      "recognized_transcript": "Repeat the instruction.",
+      "accuracy": 1.0,
+      "stt_latency_ms": 197.01,
+      "status": "success"
+    },
+    {
+      "query_id": 7,
+      "spoken_prompt": "Where is the annotator guidance?",
+      "recognized_transcript": "Where is the annotator guidance?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 204.1,
+      "status": "success"
+    },
+    {
+      "query_id": 8,
+      "spoken_prompt": "What object do I grab?",
+      "recognized_transcript": "What object do I grab?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 196.92,
+      "status": "success"
+    },
+    {
+      "query_id": 9,
+      "spoken_prompt": "What is the patient's blood pressure?",
+      "recognized_transcript": "What is the patient's blood pressure?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 214.48,
+      "status": "success"
+    },
+    {
+      "query_id": 10,
+      "spoken_prompt": "What medication does the patient take?",
+      "recognized_transcript": "What medication does the patient take?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 224.87,
+      "status": "success"
+    },
+    {
+      "query_id": 11,
+      "spoken_prompt": "Tell me about venipuncture",
+      "recognized_transcript": "Tell me about Vina puncture.",
+      "accuracy": 0.75,
+      "stt_latency_ms": 224.99,
+      "status": "success"
+    },
+    {
+      "query_id": 12,
+      "spoken_prompt": "Why must alcohol dry for 30 seconds?",
+      "recognized_transcript": "Why must alcohol drive for 30 seconds?",
+      "accuracy": 0.8571,
+      "stt_latency_ms": 218.56,
+      "status": "success"
+    },
+    {
+      "query_id": 13,
+      "spoken_prompt": "What tube is drawn first for blood culture?",
+      "recognized_transcript": "What tube is drawn first for blood culture.",
+      "accuracy": 1.0,
+      "stt_latency_ms": 213.69,
+      "status": "success"
+    },
+    {
+      "query_id": 14,
+      "spoken_prompt": "What causes hemolysis during blood draw?",
+      "recognized_transcript": "What causes him all assist during blood draw?",
+      "accuracy": 0.8333,
+      "stt_latency_ms": 216.51,
+      "status": "success"
+    },
+    {
+      "query_id": 15,
+      "spoken_prompt": "Why did I get an error?",
+      "recognized_transcript": "Why did I get an error?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 202.84,
+      "status": "success"
+    },
+    {
+      "query_id": 16,
+      "spoken_prompt": "Help me I am stuck",
+      "recognized_transcript": "Help me, I am stuck.",
+      "accuracy": 1.0,
+      "stt_latency_ms": 202.13,
+      "status": "success"
+    },
+    {
+      "query_id": 17,
+      "spoken_prompt": "Where do I place the tourniquet?",
+      "recognized_transcript": "Where do I place the tourniquet?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 243.49,
+      "status": "success"
+    },
+    {
+      "query_id": 18,
+      "spoken_prompt": "Explain phlebotomy safety",
+      "recognized_transcript": "Explain Flibbautamy Safety",
+      "accuracy": 0.6667,
+      "stt_latency_ms": 209.21,
+      "status": "success"
+    },
+    {
+      "query_id": 19,
+      "spoken_prompt": "What is the function of sodium citrate in blue tubes?",
+      "recognized_transcript": "What is the function of sodium citrate in blue tubes?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 331.1,
+      "status": "success"
+    },
+    {
+      "query_id": 20,
+      "spoken_prompt": "Why must tubes be inverted gently?",
+      "recognized_transcript": "Why must tubes be inverted gently?",
+      "accuracy": 1.0,
+      "stt_latency_ms": 244.92,
+      "status": "success"
+    }
+  ]
+}

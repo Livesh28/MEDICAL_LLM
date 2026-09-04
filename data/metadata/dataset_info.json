@@ -1,0 +1,32 @@
+{
+  "datasets": {
+    "medical_meadow_wikidoc": {
+      "hf_name": "medalpaca/medical_meadow_wikidoc",
+      "description": "WikiDoc medical encyclopedia articles covering diseases, symptoms, anatomy, and treatments.",
+      "license": "Apache 2.0 / CC-BY-SA",
+      "source_url": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc",
+      "intended_purpose": "Pretraining corpus for foundational medical knowledge and terminology.",
+      "redistribution_permitted": true,
+      "documents_downloaded": 5000
+    },
+    "medical_meadow_medqa": {
+      "hf_name": "medalpaca/medical_meadow_medqa",
+      "description": "Medical Question-Answering pairs derived from board exam educational materials.",
+      "license": "Apache 2.0 / CC-BY",
+      "source_url": "https://huggingface.co/datasets/medalpaca/medical_meadow_medqa",
+      "intended_purpose": "Medical reasoning, clinical inquiry, and domain-specific Q&A.",
+      "redistribution_permitted": true,
+      "documents_downloaded": 5000
+    },
+    "medical_meadow_medical_flashcards": {
+      "hf_name": "medalpaca/medical_meadow_medical_flashcards",
+      "description": "Medical concepts, anatomy, physiology, and pharmacology flashcards.",
+      "license": "Apache 2.0 / CC-BY",
+      "source_url": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards",
+      "intended_purpose": "High-density medical definitions and core clinical facts.",
+      "redistribution_permitted": true,
+      "documents_downloaded": 5000
+    }
+  },
+  "total_documents": 15000
+}

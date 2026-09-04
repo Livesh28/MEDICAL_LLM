@@ -1,0 +1,20 @@
+{
+  "best.pt": {
+    "path": "checkpoints/best.pt",
+    "sha256": "16bb8bae5faa4bb4f499c74ece942037630188225591f64fa6b902b1e390fa5b",
+    "size_bytes": 1333254775,
+    "protected": true
+  },
+  "best_v2.pt": {
+    "path": "checkpoints/best_v2.pt",
+    "sha256": "574aa17218bf482cbbd3236b21476604263781b5c77fae12f995db7b45c2692d",
+    "size_bytes": 1333257205,
+    "protected": true
+  },
+  "best_v3.pt": {
+    "path": "checkpoints/best_v3.pt",
+    "sha256": "850a88e14d46ebefdf432576d57d811f53f21aa4f8cf07ac87dd0d3c971608a7",
+    "size_bytes": 1333257205,
+    "protected": true
+  }
+}

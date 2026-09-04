@@ -1,0 +1,734 @@
+{
+  "timestamp": "2026-09-03T18:32:13Z",
+  "total_questions": 10,
+  "metrics_summary": {
+    "openbiollm_no_rag": {
+      "correct_count": 4,
+      "partial_count": 4,
+      "incorrect_count": 0,
+      "hallucination_count": 2,
+      "safe_refusal_count": 0,
+      "accuracy_percent": 80.0,
+      "hallucination_percent": 20.0,
+      "safe_refusal_percent": 0.0,
+      "average_latency_ms": 9132.64,
+      "raw_breakdown": {
+        "Correct": 4,
+        "Partial": 4,
+        "Incorrect": 0,
+        "Hallucination": 2,
+        "Safe Refusal": 0,
+        "total_latency_ms": 91326.42000000001
+      }
+    },
+    "llama32_no_rag": {
+      "correct_count": 6,
+      "partial_count": 2,
+      "incorrect_count": 1,
+      "hallucination_count": 1,
+      "safe_refusal_count": 0,
+      "accuracy_percent": 80.0,
+      "hallucination_percent": 10.0,
+      "safe_refusal_percent": 0.0,
+      "average_latency_ms": 2793.2,
+      "raw_breakdown": {
+        "Correct": 6,
+        "Partial": 2,
+        "Incorrect": 1,
+        "Hallucination": 1,
+        "Safe Refusal": 0,
+        "total_latency_ms": 27932.010000000002
+      }
+    },
+    "medical_transformer_no_rag": {
+      "correct_count": 4,
+      "partial_count": 1,
+      "incorrect_count": 2,
+      "hallucination_count": 3,
+      "safe_refusal_count": 0,
+      "accuracy_percent": 50.0,
+      "hallucination_percent": 30.0,
+      "safe_refusal_percent": 0.0,
+      "average_latency_ms": 2500.86,
+      "raw_breakdown": {
+        "Correct": 4,
+        "Partial": 1,
+        "Incorrect": 2,
+        "Hallucination": 3,
+        "Safe Refusal": 0,
+        "total_latency_ms": 25008.609999999997
+      }
+    },
+    "openbiollm_rag": {
+      "correct_count": 8,
+      "partial_count": 0,
+      "incorrect_count": 1,
+      "hallucination_count": 1,
+      "safe_refusal_count": 0,
+      "accuracy_percent": 80.0,
+      "hallucination_percent": 10.0,
+      "safe_refusal_percent": 0.0,
+      "average_latency_ms": 11106.27,
+      "raw_breakdown": {
+        "Correct": 8,
+        "Partial": 0,
+        "Incorrect": 1,
+        "Hallucination": 1,
+        "Safe Refusal": 0,
+        "total_latency_ms": 111062.73999999999
+      }
+    },
+    "llama32_rag": {
+      "correct_count": 8,
+      "partial_count": 0,
+      "incorrect_count": 1,
+      "hallucination_count": 1,
+      "safe_refusal_count": 0,
+      "accuracy_percent": 80.0,
+      "hallucination_percent": 10.0,
+      "safe_refusal_percent": 0.0,
+      "average_latency_ms": 3894.56,
+      "raw_breakdown": {
+        "Correct": 8,
+        "Partial": 0,
+        "Incorrect": 1,
+        "Hallucination": 1,
+        "Safe Refusal": 0,
+        "total_latency_ms": 38945.60999999999
+      }
+    },
+    "medical_transformer_rag": {
+      "correct_count": 0,
+      "partial_count": 4,
+      "incorrect_count": 0,
+      "hallucination_count": 2,
+      "safe_refusal_count": 4,
+      "accuracy_percent": 40.0,
+      "hallucination_percent": 20.0,
+      "safe_refusal_percent": 40.0,
+      "average_latency_ms": 2564.03,
+      "raw_breakdown": {
+        "Correct": 0,
+        "Partial": 4,
+        "Incorrect": 0,
+        "Hallucination": 2,
+        "Safe Refusal": 4,
+        "total_latency_ms": 25640.27
+      }
+    }
+  },
+  "detailed_runs": {
+    "openbiollm_no_rag": [
+      {
+        "question_id": "eval_v2_001",
+        "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+        "verified_answer": "The first step is hand hygiene (washing hands with soap and water or applying an alcohol hand rub).",
+        "generated_answer": "The first step in the 16-step VR venipuncture procedure is to select an appropriate vein for cannulation.",
+        "classification": "Hallucination",
+        "latency_ms": 6063.13,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_002",
+        "question": "When should clean gloves be donned during blood collection?",
+        "verified_answer": "Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching sterile equipment or patient skin.",
+        "generated_answer": "Clean gloves should be worn before and after handling blood or blood-containing items to prevent contamination and protect against potential infections.",
+        "classification": "Partial",
+        "latency_ms": 7689.64,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_003",
+        "question": "How many patient identifiers must be verified before performing venipuncture?",
+        "verified_answer": "At least two patient identifiers (such as full name and date of birth) must be verified against the wristband and requisition form.",
+        "generated_answer": "Before performing venipuncture, at least two patient identifiers must be verified to ensure the correct patient is receiving the procedure.",
+        "classification": "Correct",
+        "latency_ms": 7686.47,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_004",
+        "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+        "verified_answer": "The tourniquet should be applied 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site on the upper arm.",
+        "generated_answer": "The tourniquet should be placed proximal to the venipuncture site.",
+        "classification": "Partial",
+        "latency_ms": 9849.5,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_005",
+        "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+        "verified_answer": "The tourniquet must not remain tied for longer than 1 minute (60 seconds).",
+        "generated_answer": "The maximum duration a tourniquet may remain applied on the patient's arm is typically up to 1-2 hours. However, this duration can vary depending on the specific clinical scenario and the patient's condition. It is important to regularly assess the patient's neurovascular status and relieve the tourniquet if there are any signs of ischemia or nerve compression.",
+        "classification": "Correct",
+        "latency_ms": 11165.91,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_006",
+        "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+        "verified_answer": "The median cubital vein is the first choice because it is large, prominent, well-anchored, and has the lowest risk of nerve damage.",
+        "generated_answer": "The median cubital vein is the preferred site for venipuncture in the antecubital fossa due to its superficial location and consistent anatomy.",
+        "classification": "Partial",
+        "latency_ms": 7222.66,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_007",
+        "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+        "verified_answer": "The basilic vein lies close to the brachial artery and median nerve, increasing the risk of arterial puncture and nerve injury.",
+        "generated_answer": "The basilic vein is considered the least desirable choice for venipuncture due to its superficial location and the presence of valves in its proximal portion. These factors can make it difficult to access and prone to accidental damage during the procedure. Additionally, the basilic vein has a smaller diameter compared to other veins in the arm, which may limit the volume of blood that can be drawn from it.",
+        "classification": "Partial",
+        "latency_ms": 9924.6,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_008",
+        "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+        "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds.",
+        "generated_answer": "The skin should be disinfected using 70% isopropyl alcohol by applying it onto a clean cloth or wipe and then gently rubbing it over the surface of the skin in a circular motion. It is important to ensure that the alcohol is not in direct contact with the eyes, mucous membranes, or open wounds. After disinfection, it is recommended to allow the skin to air dry",
+        "classification": "Correct",
+        "latency_ms": 10315.67,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_009",
+        "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+        "verified_answer": "Air drying permits full antiseptic action to destroy skin microbes, prevents sample hemolysis, and eliminates stinging upon puncture.",
+        "generated_answer": "Allowing the disinfected skin to air dry for 30 seconds before needle entry is essential to ensure proper disinfection and prevent potential complications. When the skin is wet, the effectiveness of the disinfectant can be reduced, as water can dilute the disinfectant and decrease its ability to kill bacteria and other pathogens. Additionally, allowing the skin to air dry ensures that any excess moisture is",
+        "classification": "Hallucination",
+        "latency_ms": 10526.77,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_010",
+        "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+        "verified_answer": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the skin surface.",
+        "generated_answer": "The correct angle of entry and bevel orientation when inserting the needle is dependent on the specific procedure being performed. In most cases, a bevel angle of 15 to 30 degrees is commonly used to minimize tissue trauma while allowing for effective penetration. The angle of entry is typically determined by the anatomical landmarks of the site being injected. It is essential to consider the individual patient's anatomy and any",
+        "classification": "Correct",
+        "latency_ms": 10882.07,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      }
+    ],
+    "llama32_no_rag": [
+      {
+        "question_id": "eval_v2_001",
+        "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+        "verified_answer": "The first step is hand hygiene (washing hands with soap and water or applying an alcohol hand rub).",
+        "generated_answer": "The first step in the 16-step VR (Virtual Reality) venipuncture procedure is to \"Position the patient in a comfortable seated position with their arm in a neutral position\".",
+        "classification": "Hallucination",
+        "latency_ms": 2462.3,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_002",
+        "question": "When should clean gloves be donned during blood collection?",
+        "verified_answer": "Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching sterile equipment or patient skin.",
+        "generated_answer": "According to OSHA guidelines, clean gloves should be donned immediately before starting to collect blood, prior to making contact with the patient's skin.",
+        "classification": "Correct",
+        "latency_ms": 2289.76,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_003",
+        "question": "How many patient identifiers must be verified before performing venipuncture?",
+        "verified_answer": "At least two patient identifiers (such as full name and date of birth) must be verified against the wristband and requisition form.",
+        "generated_answer": "According to current guidelines, at least 3 patient identifiers must be verified before performing venipuncture, including:\n\n1. Name\n2. Date of birth\n3. Medical record number (MRN) or other unique identifier\n\nVerification of these identifiers helps ensure accurate patient identification and reduces the risk of medical errors.",
+        "classification": "Correct",
+        "latency_ms": 2912.47,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_004",
+        "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+        "verified_answer": "The tourniquet should be applied 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site on the upper arm.",
+        "generated_answer": "The tourniquet should be placed above the venipuncture site, at a level that is 2-3 cm above the site, to ensure effective compression of the vein and prevent backflow of blood.",
+        "classification": "Correct",
+        "latency_ms": 4129.42,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_005",
+        "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+        "verified_answer": "The tourniquet must not remain tied for longer than 1 minute (60 seconds).",
+        "generated_answer": "The maximum duration a tourniquet may remain applied on the patient's arm is 30-60 minutes, depending on the individual's anatomy and the specific clinical situation.",
+        "classification": "Correct",
+        "latency_ms": 2420.06,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_006",
+        "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+        "verified_answer": "The median cubital vein is the first choice because it is large, prominent, well-anchored, and has the lowest risk of nerve damage.",
+        "generated_answer": "The median cubital vein is the primary choice for venipuncture in the antecubital fossa.",
+        "classification": "Partial",
+        "latency_ms": 2174.85,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_007",
+        "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+        "verified_answer": "The basilic vein lies close to the brachial artery and median nerve, increasing the risk of arterial puncture and nerve injury.",
+        "generated_answer": "The basilic vein is considered the least desirable choice in the arm because it is located close to the brachial artery and is at higher risk of bleeding into the surrounding soft tissues, leading to hematoma formation.",
+        "classification": "Partial",
+        "latency_ms": 2574.54,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_008",
+        "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+        "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds.",
+        "generated_answer": "The skin should be disinfected by swabbing the area with a 70% isopropyl alcohol swab, allowing the solution to evaporate, and then wiping the area clean with a sterile gauze.",
+        "classification": "Correct",
+        "latency_ms": 2605.49,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_009",
+        "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+        "verified_answer": "Air drying permits full antiseptic action to destroy skin microbes, prevents sample hemolysis, and eliminates stinging upon puncture.",
+        "generated_answer": "Allowing disinfected skin to air dry for 30 seconds before needle entry is crucial to prevent the formation of a skin blister or hematoma, which can occur when the skin is still wet and the needle puncture site is exposed to the disinfectant solution. This allows the skin to return to its normal pH and reduces the risk of tissue damage.",
+        "classification": "Incorrect",
+        "latency_ms": 3113.26,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_010",
+        "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+        "verified_answer": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the skin surface.",
+        "generated_answer": "The correct angle of entry and bevel orientation when inserting a needle is:\n\n* Angle of entry: 15-20 degrees from the skin surface, with the needle entering at a 90-degree angle to the skin surface.\n* Bevel orientation: The bevel (the flat surface of the needle) should be facing upwards, with the bevel tip pointing towards the skin surface.\n\nThis orientation helps",
+        "classification": "Correct",
+        "latency_ms": 3249.86,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      }
+    ],
+    "medical_transformer_no_rag": [
+      {
+        "question_id": "eval_v2_001",
+        "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+        "verified_answer": "The first step is hand hygiene (washing hands with soap and water or applying an alcohol hand rub).",
+        "generated_answer": "Medical Answer: 1 minute tourniquet from the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.<|endoftext|>",
+        "classification": "Hallucination",
+        "latency_ms": 3114.42,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_002",
+        "question": "When should clean gloves be donned during blood collection?",
+        "verified_answer": "Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching sterile equipment or patient skin.",
+        "generated_answer": "Medical Answer: 1 gloves must be donned immediately after hand hygiene and before contact with patient skin, sterile items, or blood collection equipment to prevent bloodborne pathogen exposure.<|endoftext|>",
+        "classification": "Correct",
+        "latency_ms": 2123.67,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_003",
+        "question": "How many patient identifiers must be verified before performing venipuncture?",
+        "verified_answer": "At least two patient identifiers (such as full name and date of birth) must be verified against the wristband and requisition form.",
+        "generated_answer": "Medical Answer: Flashing be donned immediately after hand hygiene and before contact with patient skin, sterile items, or blood collection equipment to prevent bloodborne pathogen exposure.<|endoftext|>",
+        "classification": "Incorrect",
+        "latency_ms": 1680.57,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_004",
+        "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+        "verified_answer": "The tourniquet should be applied 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site on the upper arm.",
+        "generated_answer": "Medical Answer: 1 tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.<|endoftext|>",
+        "classification": "Correct",
+        "latency_ms": 3261.28,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_005",
+        "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+        "verified_answer": "The tourniquet must not remain tied for longer than 1 minute (60 seconds).",
+        "generated_answer": "Medical Answer: 1 minute tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.<|endoftext|>",
+        "classification": "Correct",
+        "latency_ms": 2662.11,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_006",
+        "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+        "verified_answer": "The median cubital vein is the first choice because it is large, prominent, well-anchored, and has the lowest risk of nerve damage.",
+        "generated_answer": "Medical Answer: 1 minute tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.<|endoftext|>",
+        "classification": "Hallucination",
+        "latency_ms": 2514.95,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_007",
+        "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+        "verified_answer": "The basilic vein lies close to the brachial artery and median nerve, increasing the risk of arterial puncture and nerve injury.",
+        "generated_answer": "Medical Answer: 1 tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.<|endoftext|>",
+        "classification": "Incorrect",
+        "latency_ms": 2485.6,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_008",
+        "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+        "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds.",
+        "generated_answer": "Medical Answer: Redyl alcohol using a firm friction rub for 30 seconds and allow 30 seconds air dry time. Air drying ensures microbicidal action and prevents hemolysis and stinging.<|endoftext|>",
+        "classification": "Correct",
+        "latency_ms": 2189.0,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_009",
+        "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+        "verified_answer": "Air drying permits full antiseptic action to destroy skin microbes, prevents sample hemolysis, and eliminates stinging upon puncture.",
+        "generated_answer": "Medical Answer: 1 tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and stinging.<|endoftext|>",
+        "classification": "Partial",
+        "latency_ms": 2470.37,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_010",
+        "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+        "verified_answer": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the skin surface.",
+        "generated_answer": "Medical Answer: 1 tourniquet 3 to 4 inches above the venipuncture site. It must remain tied for no longer than 1 minute to prevent hemoconcentration and inaccurate blood test results.<|endoftext|>",
+        "classification": "Hallucination",
+        "latency_ms": 2506.64,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      }
+    ],
+    "openbiollm_rag": [
+      {
+        "question_id": "eval_v2_001",
+        "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+        "verified_answer": "The first step is hand hygiene (washing hands with soap and water or applying an alcohol hand rub).",
+        "generated_answer": "SYSTEM: The very first step in the 16-step VR venipuncture procedure is to properly position the patient. This involves ensuring the patient is comfortably seated and positioned at an angle that allows for easy access to the veins. The healthcare provider should also explain the procedure to the patient and ensure their consent before proceeding.",
+        "classification": "Hallucination",
+        "latency_ms": 15414.46,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_002",
+        "question": "When should clean gloves be donned during blood collection?",
+        "verified_answer": "Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching sterile equipment or patient skin.",
+        "generated_answer": "SYSTEM: Clean non-sterile gloves should be worn immediately after hand hygiene and before touching the patient's disinfected skin or performing the venipuncture. This is to prevent contamination and protect both the healthcare worker and the patient from potential infections. The Answer is: Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching the patient's disinfected skin or",
+        "classification": "Correct",
+        "latency_ms": 11056.8,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_003",
+        "question": "How many patient identifiers must be verified before performing venipuncture?",
+        "verified_answer": "At least two patient identifiers (such as full name and date of birth) must be verified against the wristband and requisition form.",
+        "generated_answer": "SYSTEM: According to the two-identifier rule for patient verification, healthcare workers must verify at least two patient identifiers before performing venipuncture. This ensures the correct patient is identified for the procedure.",
+        "classification": "Correct",
+        "latency_ms": 9449.37,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_004",
+        "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+        "verified_answer": "The tourniquet should be applied 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site on the upper arm.",
+        "generated_answer": "SYSTEM: You should place the tourniquet 3 to 4 inches (7.5 to 10 cm) above the intended venipuncture site on the upper arm. This placement helps to occlude venous blood flow while minimizing discomfort and potential injury to the patient.",
+        "classification": "Correct",
+        "latency_ms": 14162.97,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_005",
+        "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+        "verified_answer": "The tourniquet must not remain tied for longer than 1 minute (60 seconds).",
+        "generated_answer": "SYSTEM: The maximum duration a tourniquet may remain applied on the patient's arm is 1 minute (60 seconds). This is to avoid hemoconcentration and erroneous laboratory test results. The evidence for this is found in the SRC_CLSI_01 document, section 6.2 Hemoconcentration Artifacts, page 13.",
+        "classification": "Correct",
+        "latency_ms": 10597.07,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_006",
+        "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+        "verified_answer": "The median cubital vein is the first choice because it is large, prominent, well-anchored, and has the lowest risk of nerve damage.",
+        "generated_answer": "SYSTEM: The primary choice for venipuncture in the antecubital fossa is the median cubital vein located in the center of the antecubital fossa. This vein is preferred due to its size, good anchorage, and lower risk of nerve damage compared to other veins in the area.",
+        "classification": "Correct",
+        "latency_ms": 10012.65,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_007",
+        "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+        "verified_answer": "The basilic vein lies close to the brachial artery and median nerve, increasing the risk of arterial puncture and nerve injury.",
+        "generated_answer": "SYSTEM: The basilic vein is considered the least desirable choice for venipuncture due to its anatomical location. It lies close to the brachial artery and median nerve. Puncturing the basilic vein increases the risk of arterial puncture and severe nerve injury.",
+        "classification": "Correct",
+        "latency_ms": 9529.82,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_008",
+        "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+        "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds.",
+        "generated_answer": "SYSTEM: The skin should be disinfected with 70% isopropyl alcohol using a firm friction rub for 30 seconds, working in concentric circles outwards or a vigorous back-and-forth scrub.",
+        "classification": "Correct",
+        "latency_ms": 10183.89,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_009",
+        "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+        "verified_answer": "Air drying permits full antiseptic action to destroy skin microbes, prevents sample hemolysis, and eliminates stinging upon puncture.",
+        "generated_answer": "SYSTEM: The skin must be allowed to air dry for 30 seconds before needle entry to ensure effective disinfection. Isopropyl alcohol is used for skin disinfection because it is effective against a wide range of microorganisms, including bacteria, viruses, and fungi. However, it needs time to evaporate completely to leave behind a dry surface that prevents the growth of microorganisms. Allowing the",
+        "classification": "Incorrect",
+        "latency_ms": 12022.18,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      },
+      {
+        "question_id": "eval_v2_010",
+        "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+        "verified_answer": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the skin surface.",
+        "generated_answer": "SYSTEM: The correct angle of entry for needle insertion during venipuncture is between 15 to 30 degrees. The bevel of the needle should face upwards.",
+        "classification": "Correct",
+        "latency_ms": 8633.53,
+        "provider": "ollama",
+        "model": "richardyoung/openbiollm:latest"
+      }
+    ],
+    "llama32_rag": [
+      {
+        "question_id": "eval_v2_001",
+        "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+        "verified_answer": "The first step is hand hygiene (washing hands with soap and water or applying an alcohol hand rub).",
+        "generated_answer": "The very first step in the 16-step VR venipuncture procedure is for the trainee to put on the VR headset and enter the medical environment. This initial step sets the stage for the simulation, allowing the trainee to become immersed in the virtual patient setting and prepare for the venipuncture procedure. By donning the headset and entering the environment, the trainee is able to focus on",
+        "classification": "Hallucination",
+        "latency_ms": 3956.72,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_002",
+        "question": "When should clean gloves be donned during blood collection?",
+        "verified_answer": "Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching sterile equipment or patient skin.",
+        "generated_answer": "During blood collection, clean non-sterile gloves must be donned immediately after hand hygiene and prior to touching the patient's disinfected skin or performing the venipuncture. This is to serve as personal protective equipment, reducing exposure to blood and body fluids. By following this protocol, healthcare professionals can minimize the risk of infection transmission and maintain a safe environment for both the patient and themselves.",
+        "classification": "Correct",
+        "latency_ms": 3785.59,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_003",
+        "question": "How many patient identifiers must be verified before performing venipuncture?",
+        "verified_answer": "At least two patient identifiers (such as full name and date of birth) must be verified against the wristband and requisition form.",
+        "generated_answer": "To perform venipuncture safely and accurately, it is essential to verify patient identification. According to the two-identifier rule, at least two patient identifiers, such as the patient's full legal name and date of birth, must be verified by asking the patient to state them and cross-checking against the ID wristband and laboratory requisition form. This step ensures that the correct patient is being treated,",
+        "classification": "Correct",
+        "latency_ms": 3881.98,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_004",
+        "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+        "verified_answer": "The tourniquet should be applied 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site on the upper arm.",
+        "generated_answer": "When applying a tourniquet for venipuncture, it is essential to place it 3 to 4 inches above the intended venipuncture site on the upper arm. This positioning helps to compress the vein and prevent blood flow, allowing for a more accurate and successful venipuncture. By applying the tourniquet at this specific location, healthcare professionals can minimize the risk of complications and",
+        "classification": "Correct",
+        "latency_ms": 4122.97,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_005",
+        "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+        "verified_answer": "The tourniquet must not remain tied for longer than 1 minute (60 seconds).",
+        "generated_answer": "The maximum duration a tourniquet may remain applied on the patient's arm is 60 seconds, or 1 minute. This is to avoid hemoconcentration and erroneous laboratory test results. According to the clinical guidelines, the tourniquet must be removed after 1 minute to prevent these complications and ensure accurate test results.",
+        "classification": "Correct",
+        "latency_ms": 3703.41,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_006",
+        "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+        "verified_answer": "The median cubital vein is the first choice because it is large, prominent, well-anchored, and has the lowest risk of nerve damage.",
+        "generated_answer": "In the antecubital fossa, the primary choice for venipuncture is the median cubital vein. This vein is preferred due to its large size, well-anchored position, and low risk of nerve damage. Applying a tourniquet 3 to 4 inches above the puncture site helps to distend the vein, making it easier to access for blood collection.",
+        "classification": "Correct",
+        "latency_ms": 3931.89,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_007",
+        "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+        "verified_answer": "The basilic vein lies close to the brachial artery and median nerve, increasing the risk of arterial puncture and nerve injury.",
+        "generated_answer": "The basilic vein is considered the least desirable choice in the arm due to its proximity to the brachial artery and median nerve. This increased risk of arterial puncture and severe nerve injury makes it a less preferred site for venipuncture. According to the clinical guidelines, the basilic vein is associated with a higher risk of complications, making it essential to carefully evaluate the arm for suitable venip",
+        "classification": "Correct",
+        "latency_ms": 3997.12,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_008",
+        "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+        "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds.",
+        "generated_answer": "To disinfect the skin, I should use a firm friction rub with 70% isopropyl alcohol for 30 seconds, working in concentric circles outwards or a vigorous back-and-forth scrub. This will effectively clean the skin and prepare it for the venipuncture procedure. By following this step, I can ensure a sterile site and minimize the risk of infection.",
+        "classification": "Correct",
+        "latency_ms": 3896.35,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_009",
+        "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+        "verified_answer": "Air drying permits full antiseptic action to destroy skin microbes, prevents sample hemolysis, and eliminates stinging upon puncture.",
+        "generated_answer": "According to the clinical guidelines, the skin must be allowed to air dry for 30 seconds after applying 70% isopropyl alcohol to ensure proper disinfection and to prevent any potential interference with the needle entry. This step is crucial in ensuring the effectiveness of the skin disinfection process and preventing any adverse reactions. By allowing the skin to air dry, we can ensure that the disinfectant",
+        "classification": "Incorrect",
+        "latency_ms": 3872.7,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      },
+      {
+        "question_id": "eval_v2_010",
+        "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+        "verified_answer": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the skin surface.",
+        "generated_answer": "When inserting the cannula, the correct angle of entry is between 15-30 degrees, with the bevel facing upwards. This is indicated by the 3D angle guide vector in the VR simulation, which provides a clear visual cue to ensure accurate placement. By following this guideline, the risk of vein puncture failure is minimized, and a successful cannulation is achieved.",
+        "classification": "Correct",
+        "latency_ms": 3796.88,
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      }
+    ],
+    "medical_transformer_rag": [
+      {
+        "question_id": "eval_v2_001",
+        "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+        "verified_answer": "The first step is hand hygiene (washing hands with soap and water or applying an alcohol hand rub).",
+        "generated_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+        "classification": "Safe Refusal",
+        "latency_ms": 1614.91,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_002",
+        "question": "When should clean gloves be donned during blood collection?",
+        "verified_answer": "Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching sterile equipment or patient skin.",
+        "generated_answer": "Red trash icon on the utility table.)",
+        "classification": "Hallucination",
+        "latency_ms": 1844.74,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_003",
+        "question": "How many patient identifiers must be verified before performing venipuncture?",
+        "verified_answer": "At least two patient identifiers (such as full name and date of birth) must be verified against the wristband and requisition form.",
+        "generated_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+        "classification": "Safe Refusal",
+        "latency_ms": 3247.91,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_004",
+        "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+        "verified_answer": "The tourniquet should be applied 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site on the upper arm.",
+        "generated_answer": "Flashing release the antecubital fossa). (Annotator: Outline highlight on the venipuncture site. (Annotator: Flashing release icon on tourniquet SnapZone.)",
+        "classification": "Partial",
+        "latency_ms": 6303.98,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_005",
+        "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+        "verified_answer": "The tourniquet must not remain tied for longer than 1 minute (60 seconds).",
+        "generated_answer": "Outline highlight on tourniquet SnapZone.)",
+        "classification": "Partial",
+        "latency_ms": 1549.33,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_006",
+        "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+        "verified_answer": "The median cubital vein is the first choice because it is large, prominent, well-anchored, and has the lowest risk of nerve damage.",
+        "generated_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+        "classification": "Safe Refusal",
+        "latency_ms": 2333.72,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_007",
+        "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+        "verified_answer": "The basilic vein lies close to the brachial artery and median nerve, increasing the risk of arterial puncture and nerve injury.",
+        "generated_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+        "classification": "Safe Refusal",
+        "latency_ms": 2124.61,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_008",
+        "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+        "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds.",
+        "generated_answer": "Blue and allow 30 seconds and allow 30 seconds and allow 30 seconds. (Annotator: Red trash icidal action.)",
+        "classification": "Partial",
+        "latency_ms": 2201.17,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_009",
+        "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+        "verified_answer": "Air drying permits full antiseptic action to destroy skin microbes, prevents sample hemolysis, and eliminates stinging upon puncture.",
+        "generated_answer": "Red trash icon over Dustbin. (Annotator: Red trash icon on tourniquet and apply clean gauze pressure.)",
+        "classification": "Hallucination",
+        "latency_ms": 2725.89,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      },
+      {
+        "question_id": "eval_v2_010",
+        "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+        "verified_answer": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the skin surface.",
+        "generated_answer": "3D angle guide vector showing 15-30\u00b0 insertion corridor.)",
+        "classification": "Partial",
+        "latency_ms": 1694.01,
+        "provider": "pytorch",
+        "model": "MedicalTransformerLM"
+      }
+    ]
+  }
+}

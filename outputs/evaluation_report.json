@@ -1,0 +1,54 @@
+{
+  "metrics": {
+    "val_loss": 5.7897,
+    "perplexity": 326.9,
+    "tokens_evaluated": 204800,
+    "eval_seconds": 6.65,
+    "eval_tokens_per_sec": 30814.0
+  },
+  "medical_benchmark": [
+    {
+      "category": "Anatomy",
+      "prompt": "What organ pumps blood throughout the human body?",
+      "expected_concept": "heart",
+      "generated_response": "What organ pumps blood throughout the human body?\nMedical Details: Answer this question truthfully\nContext/Input: Q: Please answer with one of the bracket\nContext/Input: Answer this question truthfully\nContext/Input: Please answer with one of the bracket\nMedical Details: What is the"
+    },
+    {
+      "category": "Physiology",
+      "prompt": "What is the primary function of red blood cells?",
+      "expected_concept": "oxygen transport",
+      "generated_response": "What is the primary function of red blood cells?\nMedical Details: Answer this question truthfully\nContext/Input:A': 'C': 'D': 'B': 'E': 'B': 'B': 'E': 'C': 'E': 'E': 'E': 'B"
+    },
+    {
+      "category": "Biology",
+      "prompt": "What is DNA and what is its primary structure?",
+      "expected_concept": "genetic material / double helix",
+      "generated_response": "What is DNA and what is its primary structure?\nContext/Input:A': 'E': 'C': 'D': 'D': 'C': 'C': 'C': 'D': 'E': 'C': 'C': 'C': 'E': 'D': '"
+    },
+    {
+      "category": "Diseases",
+      "prompt": "What is diabetes mellitus?",
+      "expected_concept": "blood glucose / insulin deficiency or resistance",
+      "generated_response": "What is diabetes mellitus?\nMedical Details: The option in the option in the emergency to the bracket\nContext/Input: What is a blood in the bracket\nMedical Details: Answer this question truthfully\nContext/Input:A': 'D': 'E': 'E"
+    },
+    {
+      "category": "Medical Terminology",
+      "prompt": "What does tachycardia mean in medical terms?",
+      "expected_concept": "abnormally rapid heart rate",
+      "generated_response": "What does tachycardia mean in medical terms?\nMedical Details: Answer this question truthfully\nContext/Input: What is the most likely to the most likely to the following is the bracket\nMedical Details:A': 'C': 'D': 'E': 'D': 'D': '"
+    },
+    {
+      "category": "Basic Pharmacology",
+      "prompt": "What are antibiotics generally used to treat?",
+      "expected_concept": "bacterial infections",
+      "generated_response": "What are antibiotics generally used to treat?\nMedical Details: What is the the past the following is the option in the following is a normal is a one of the right-old is the following is the bracket\nContext/Input: Q:A': 'B': 'E': '"
+    },
+    {
+      "category": "General Health Education",
+      "prompt": "What is a fever and why does the body develop one?",
+      "expected_concept": "elevated body temperature / immune response",
+      "generated_response": "What is a fever and why does the body develop one?\nContext/Input: Q: What is the body. This is a symptoms is the patient is the option in the following is the option in the following is the following is the past of the option in the following is the option in the following is"
+    }
+  ],
+  "disclaimer": "This system is an educational/research prototype and is not a substitute for professional medical advice, diagnosis, or treatment."
+}

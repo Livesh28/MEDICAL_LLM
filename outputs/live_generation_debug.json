@@ -1,0 +1,89 @@
+{
+  "total_queries": 7,
+  "generations": [
+    {
+      "query": "What is hypertension?",
+      "intent": "CLINICAL_QA",
+      "engine": "pytorch_medical_transformer_v3",
+      "grounded": true,
+      "confidence": "high",
+      "raw_answer": "C) is a type of the disease.",
+      "sanitized_answer": "C) is a type of the disease.",
+      "token_leakage_detected": [],
+      "latency_ms": 3419.79,
+      "first_source_chunk_id": "doc_153_chunk_0"
+    },
+    {
+      "query": "What is diabetes?",
+      "intent": "CLINICAL_QA",
+      "engine": "pytorch_medical_transformer_v3",
+      "grounded": false,
+      "confidence": "low",
+      "raw_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+      "sanitized_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+      "token_leakage_detected": [],
+      "latency_ms": 9342.52,
+      "first_source_chunk_id": "doc_135_chunk_0"
+    },
+    {
+      "query": "What is venipuncture?",
+      "intent": "CLINICAL_QA",
+      "engine": "llama3.2:3b",
+      "grounded": true,
+      "confidence": "high",
+      "raw_answer": "Venipuncture is the clinical procedure of puncturing a vein, typically with a needle or cannula, to collect a blood sample or to establish intravenous (IV) access.",
+      "sanitized_answer": "Venipuncture is the clinical procedure of puncturing a vein, typically with a needle or cannula, to collect a blood sample or to establish intravenous (IV) access.",
+      "token_leakage_detected": [],
+      "latency_ms": 1403.34,
+      "first_source_chunk_id": "doc_0_chunk_1"
+    },
+    {
+      "query": "Why is the venipuncture site cleaned?",
+      "intent": "CLINICAL_QA",
+      "engine": "llama3.2:3b",
+      "grounded": true,
+      "confidence": "high",
+      "raw_answer": "According to the evidence, the venipuncture site is cleaned with 70% isopropyl alcohol to reduce the risk of infection and ensure a sterile environment. This is stated in the evidence as: \"The skin is cleansed with 70% iso\"",
+      "sanitized_answer": "According to the evidence, the venipuncture site is cleaned with 70% isopropyl alcohol to reduce the risk of infection and ensure a sterile environment. This is stated in the evidence as: \"The skin is cleansed with 70% iso\"",
+      "token_leakage_detected": [],
+      "latency_ms": 1576.9,
+      "first_source_chunk_id": "clin_CLIN_000006"
+    },
+    {
+      "query": "What is a tourniquet?",
+      "intent": "CLINICAL_QA",
+      "engine": "llama3.2:3b",
+      "grounded": false,
+      "confidence": "low",
+      "raw_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+      "sanitized_answer": "I don't have enough verified information in the current knowledge base to answer that reliably.",
+      "token_leakage_detected": [],
+      "latency_ms": 1389.73,
+      "first_source_chunk_id": "vr_2"
+    },
+    {
+      "query": "What is blood collection?",
+      "intent": "CLINICAL_QA",
+      "engine": "llama3.2:3b",
+      "grounded": true,
+      "confidence": "high",
+      "raw_answer": "Based on the evidence, I can answer the question.\n\nBlood collection refers to the process of drawing blood from a vein using a phlebotomy needle and a collection tube. This process is simulated in Step 12 of the training, where the BloodTrigger detects the required state and the blood collection process begins, resulting in a blood-flow/collection visual effect.",
+      "sanitized_answer": "Based on the evidence, I can answer the question.\n\nBlood collection refers to the process of drawing blood from a vein using a phlebotomy needle and a collection tube. This process is simulated in Step 12 of the training, where the BloodTrigger detects the required state and the blood collection process begins, resulting in a blood-flow/collection visual effect.",
+      "token_leakage_detected": [],
+      "latency_ms": 1978.53,
+      "first_source_chunk_id": "doc_0_chunk_19"
+    },
+    {
+      "query": "What should I do at step 11?",
+      "intent": "CLINICAL_QA",
+      "engine": "llama3.2:3b",
+      "grounded": true,
+      "confidence": "high",
+      "raw_answer": "At step 11, according to the CLSI order of draw, the standard order is to insert the Blood Culture (SPS/Yellow) tube first, followed by the Coagulation (Light Blue/Citrate) tube. \n\nSo, I should push the Blood Culture tube firmly into the Cannula Tube Slot / SnapZone until engaged.",
+      "sanitized_answer": "At step 11, according to the CLSI order of draw, the standard order is to insert the Blood Culture (SPS/Yellow) tube first, followed by the Coagulation (Light Blue/Citrate) tube. \n\nSo, I should push the Blood Culture tube firmly into the Cannula Tube Slot / SnapZone until engaged.",
+      "token_leakage_detected": [],
+      "latency_ms": 1893.01,
+      "first_source_chunk_id": "clin_CLIN_000011"
+    }
+  ]
+}

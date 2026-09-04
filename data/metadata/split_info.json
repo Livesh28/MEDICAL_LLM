@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "vocab_size": 16000,
+  "total_documents": 14995,
+  "train_documents": 13495,
+  "val_documents": 1500,
+  "train_tokens": 2559973,
+  "val_tokens": 281298,
+  "total_tokens": 2841271,
+  "train_ratio": 0.9,
+  "dtype": "uint16",
+  "train_bin_path": "data/processed/train_tokens.bin",
+  "val_bin_path": "data/processed/val_tokens.bin"
+}

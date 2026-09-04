@@ -1,0 +1,1402 @@
+[
+  {
+    "question_id": "eval_v2_001",
+    "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "procedural_sequence",
+    "expected_step": 0,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "doc_131_chunk_0",
+        "score": 12.022,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is the likelihood of developing an infection after unde..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc_0_chunk_34",
+        "score": 11.9198,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "eni, StepList, Annotator).\n\n**Q35: What is the trainee's overall user experience flow?**\nA: Put on VR Headset \u2192 Enter Me..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_0_chunk_34",
+        "score": 11.9198,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "eni, StepList, Annotator).\n\n**Q35: What is the trainee's overall user experience flow?**\nA: Put on VR Headset \u2192 Enter Me..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_0_chunk_10",
+        "score": 11.8311,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "rect supervision, all of which constrain practice \u2014 this is the clinical rationale for building a VR-based training simu..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_0_chunk_10",
+        "score": 11.8311,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "rect supervision, all of which constrain practice \u2014 this is the clinical rationale for building a VR-based training simu..."
+      }
+    ],
+    "correct_chunk_retrieved": false,
+    "correct_rank": null
+  },
+  {
+    "question_id": "eval_v2_002",
+    "question": "When should clean gloves be donned during blood collection?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "gloves_ppe",
+    "expected_step": 1,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000002",
+        "score": 37.0138,
+        "topic": "Gloves & PPE",
+        "step": 1,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Gloves & PPE (Step 1)\nQuestion: When should gloves be donned during blood collection?\nClinical Answer: Clean non-..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000014",
+        "score": 12.8103,
+        "topic": "Tourniquet Release",
+        "step": 9,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Release (Step 9)\nQuestion: When should the tourniquet be released during the venipuncture sequence?\nCl..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_369_chunk_4",
+        "score": 12.275,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "f. \u2751 Infected patients should be isolated during period of illness and up to 48-72 hours following recovery. \u2751 Asymptoma..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "clin_CLIN_000008",
+        "score": 11.4074,
+        "topic": "Skin Disinfection",
+        "step": 5,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Skin Disinfection (Step 5)\nQuestion: How should 70% isopropyl alcohol be applied during site prep?\nClinical Answe..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_139_chunk_3",
+        "score": 10.7296,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "ntibodies can be highly active and can attack RBCs and bind components of the complement system to cause massive hemolys..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_003",
+    "question": "How many patient identifiers must be verified before performing venipuncture?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "patient_preparation",
+    "expected_step": 2,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000003",
+        "score": 15.4491,
+        "topic": "Patient Identification",
+        "step": 2,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Patient Identification (Step 2)\nQuestion: What is the two-identifier rule for patient verification?\nClinical Answ..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000002",
+        "score": 11.061,
+        "topic": "Gloves & PPE",
+        "step": 1,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Gloves & PPE (Step 1)\nQuestion: When should gloves be donned during blood collection?\nClinical Answer: Clean non-..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_230_chunk_0",
+        "score": 9.3721,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is Subependymoma, and how can it be distinguished from ..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_241_chunk_1",
+        "score": 9.2112,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "rrhagic fever (CCHF), Hantavirus Infection, Rift Valley fever, Lujo hemorrhagic fever and Lassa fever. SInce many of the..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_59_chunk_0",
+        "score": 9.1565,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is Myxedema, and how can it be distinguished from other..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_004",
+    "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "tourniquet",
+    "expected_step": 2,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000004",
+        "score": 25.3571,
+        "topic": "Tourniquet Application",
+        "step": 2,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Application (Step 2)\nQuestion: Where should the tourniquet be placed on the arm?\nClinical Answer: Appl..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000014",
+        "score": 15.207,
+        "topic": "Tourniquet Release",
+        "step": 9,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Release (Step 9)\nQuestion: When should the tourniquet be released during the venipuncture sequence?\nCl..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000010",
+        "score": 11.7827,
+        "topic": "Needle Insertion",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Needle Insertion (Step 8)\nQuestion: What is the recommended angle of insertion for venipuncture needles?\nClinical..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "clin_CLIN_000015",
+        "score": 10.8414,
+        "topic": "Needle Withdrawal & Pressure",
+        "step": 14,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Needle Withdrawal & Pressure (Step 14)\nQuestion: When should gauze pressure be applied relative to needle withdra..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_175_chunk_15",
+        "score": 10.782,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "e weight gaining program. Forced feeding was reserved for the most dangerous cases of anorexia nervosa, where a patient ..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_005",
+    "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "tourniquet",
+    "expected_step": 2,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000005",
+        "score": 29.919,
+        "topic": "Tourniquet Time Limit",
+        "step": 2,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Time Limit (Step 2)\nQuestion: What is the maximum duration a tourniquet may remain applied?\nClinical A..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000004",
+        "score": 17.4092,
+        "topic": "Tourniquet Application",
+        "step": 2,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Application (Step 2)\nQuestion: Where should the tourniquet be placed on the arm?\nClinical Answer: Appl..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_118_chunk_2",
+        "score": 15.5508,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "lose-up vision may remain blurred for several hours. Tonometry: An instrument measures the pressure inside the eye. Numb..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "vr_9",
+        "score": 14.0723,
+        "topic": "VR Workflow Step",
+        "step": 9,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 9: Remove Tourniquet\nExpected Object: Tourniquet | Interaction: Tourniquet Strap (Grabbable)\nVR Guidanc..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "vr_2",
+        "score": 11.334,
+        "topic": "VR Workflow Step",
+        "step": 2,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 2: Apply Tourniquet\nExpected Object: Tourniquet | Interaction: Patient Upper Arm (Grabbable + SnapZone)..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_006",
+    "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "site_selection",
+    "expected_step": 5,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000006",
+        "score": 21.3873,
+        "topic": "Site Selection",
+        "step": 5,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Site Selection (Step 5)\nQuestion: Which vein is the first preference for routine venipuncture?\nClinical Answer: T..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc_9_chunk_0",
+        "score": 17.2815,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_7_chunk_3",
+        "score": 15.6385,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "thigh). Common SubQ medications include insulin, heparin, and enoxaparin.\n3. Intravenous (IV) Injection and Venipuncture..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "clin_CLIN_000007",
+        "score": 11.863,
+        "topic": "Site Selection",
+        "step": 5,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Site Selection (Step 5)\nQuestion: Why is the basilic vein considered the least desirable choice in the arm?\nClini..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_7_chunk_4",
+        "score": 11.6128,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "s the median cubital vein in the antecubital fossa) for blood sample collection or continuous fluid and drug infusion.\n4..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_007",
+    "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "site_selection",
+    "expected_step": 5,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000007",
+        "score": 46.6393,
+        "topic": "Site Selection",
+        "step": 5,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Site Selection (Step 5)\nQuestion: Why is the basilic vein considered the least desirable choice in the arm?\nClini..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000006",
+        "score": 12.7066,
+        "topic": "Site Selection",
+        "step": 5,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Site Selection (Step 5)\nQuestion: Which vein is the first preference for routine venipuncture?\nClinical Answer: T..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_0_chunk_4",
+        "score": 9.9844,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "*\nA: The median cubital vein (most common \u2014 stable, easily palpable), the cephalic vein, the basilic vein (higher risk o..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_0_chunk_4",
+        "score": 9.9844,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "*\nA: The median cubital vein (most common \u2014 stable, easily palpable), the cephalic vein, the basilic vein (higher risk o..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_0_chunk_4",
+        "score": 9.6259,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Training_Knowledge_Base.md",
+        "text": "enous fistula, or shunt\n- Use caution in patients on anticoagulant therapy (higher bleeding risk)\n- Avoid edematous limb..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_008",
+    "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "skin_preparation",
+    "expected_step": 5,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000008",
+        "score": 34.1914,
+        "topic": "Skin Disinfection",
+        "step": 5,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Skin Disinfection (Step 5)\nQuestion: How should 70% isopropyl alcohol be applied during site prep?\nClinical Answe..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000002",
+        "score": 16.3347,
+        "topic": "Gloves & PPE",
+        "step": 1,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Gloves & PPE (Step 1)\nQuestion: When should gloves be donned during blood collection?\nClinical Answer: Clean non-..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_9_chunk_1",
+        "score": 15.3893,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "s above the puncture site to distend the vein. The skin is cleansed with 70% isopropyl alcohol. The needle is inserted a..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "vr_4",
+        "score": 12.5144,
+        "topic": "VR Workflow Step",
+        "step": 4,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 4: Dip Cotton\nExpected Object: Spirit Bottle | Interaction: Spirit Bottle / LiquidTrigger (Trigger)\nVR ..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_261_chunk_0",
+        "score": 9.9685,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What constitutes an avulsion fracture?\nMedical Details: The ..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_009",
+    "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "skin_preparation",
+    "expected_step": 5,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000009",
+        "score": 24.3994,
+        "topic": "Skin Disinfection",
+        "step": 5,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Skin Disinfection (Step 5)\nQuestion: Why is a 30-second air-drying period required after alcohol cleaning?\nClinic..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000010",
+        "score": 22.4517,
+        "topic": "Needle Insertion",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Needle Insertion (Step 8)\nQuestion: What is the recommended angle of insertion for venipuncture needles?\nClinical..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000002",
+        "score": 17.8121,
+        "topic": "Gloves & PPE",
+        "step": 1,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Gloves & PPE (Step 1)\nQuestion: When should gloves be donned during blood collection?\nClinical Answer: Clean non-..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_7_chunk_3",
+        "score": 13.4833,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "thigh). Common SubQ medications include insulin, heparin, and enoxaparin.\n3. Intravenous (IV) Injection and Venipuncture..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_288_chunk_1",
+        "score": 13.244,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "rotid atherosclerosis, carotid sinus massage (CSM) is generally not recommended.\nThe usual criteria for diagnosis are >3..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_010",
+    "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "needle_insertion",
+    "expected_step": 8,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "vr_8",
+        "score": 26.7493,
+        "topic": "VR Workflow Step",
+        "step": 8,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 8: Insert Cannula\nExpected Object: Vein Trigger | Interaction: Vein Trigger (Median Cubital) (Trigger)\n..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000010",
+        "score": 15.4307,
+        "topic": "Needle Insertion",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Needle Insertion (Step 8)\nQuestion: What is the recommended angle of insertion for venipuncture needles?\nClinical..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_7_chunk_1",
+        "score": 12.1517,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "id muscle of the arm, vastus lateralis of the thigh, or ventrogluteal muscle of the hip). A 90 degree insertion angle en..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_9_chunk_1",
+        "score": 11.9308,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "s above the puncture site to distend the vein. The skin is cleansed with 70% isopropyl alcohol. The needle is inserted a..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_7_chunk_3",
+        "score": 11.2724,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "thigh). Common SubQ medications include insulin, heparin, and enoxaparin.\n3. Intravenous (IV) Injection and Venipuncture..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_011",
+    "question": "What is the standard CLSI order of draw for blood collection tubes?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "order_of_draw",
+    "expected_step": 11,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000011",
+        "score": 42.657,
+        "topic": "Order of Draw",
+        "step": 11,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Order of Draw (Step 11)\nQuestion: What is the standard CLSI order of draw for blood collection tubes?\nClinical An..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "vr_10",
+        "score": 28.5391,
+        "topic": "VR Workflow Step",
+        "step": 10,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 10: Take Tube\nExpected Object: Blood Collection Tube | Interaction: Vacutainer Tube Rack (Grabbable)\nVR..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000012",
+        "score": 16.3353,
+        "topic": "Order of Draw",
+        "step": 11,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Order of Draw (Step 11)\nQuestion: Why must Light Blue sodium citrate tubes be drawn prior to EDTA lavender tubes?..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "clin_CLIN_000013",
+        "score": 15.4253,
+        "topic": "Tube Inversion",
+        "step": 13,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tube Inversion (Step 13)\nQuestion: How many inversions are required for EDTA blood collection tubes?\nClinical Ans..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_9_chunk_0",
+        "score": 13.7617,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Venipuncture Procedure and Blood Collection:\nVenipuncture (phlebotomy) is the clinical procedure of inserting a sterile ..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_012",
+    "question": "Why must Light Blue sodium citrate tubes be drawn before Lavender EDTA tubes?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "order_of_draw",
+    "expected_step": 11,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000012",
+        "score": 82.9377,
+        "topic": "Order of Draw",
+        "step": 11,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Order of Draw (Step 11)\nQuestion: Why must Light Blue sodium citrate tubes be drawn prior to EDTA lavender tubes?..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000013",
+        "score": 28.4704,
+        "topic": "Tube Inversion",
+        "step": 13,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tube Inversion (Step 13)\nQuestion: How many inversions are required for EDTA blood collection tubes?\nClinical Ans..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "vr_10",
+        "score": 14.8008,
+        "topic": "VR Workflow Step",
+        "step": 10,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 10: Take Tube\nExpected Object: Blood Collection Tube | Interaction: Vacutainer Tube Rack (Grabbable)\nVR..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "clin_CLIN_000020",
+        "score": 12.7676,
+        "topic": "Specimen Labeling",
+        "step": 13,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Specimen Labeling (Step 13)\nQuestion: When and where should blood collection tubes be labeled?\nClinical Answer: C..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "clin_CLIN_000011",
+        "score": 12.4483,
+        "topic": "Order of Draw",
+        "step": 11,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Order of Draw (Step 11)\nQuestion: What is the standard CLSI order of draw for blood collection tubes?\nClinical An..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_013",
+    "question": "How many gentle inversions are required for EDTA blood collection tubes?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "tube_handling",
+    "expected_step": 13,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000013",
+        "score": 54.5236,
+        "topic": "Tube Inversion",
+        "step": 13,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tube Inversion (Step 13)\nQuestion: How many inversions are required for EDTA blood collection tubes?\nClinical Ans..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000011",
+        "score": 19.2363,
+        "topic": "Order of Draw",
+        "step": 11,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Order of Draw (Step 11)\nQuestion: What is the standard CLSI order of draw for blood collection tubes?\nClinical An..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000012",
+        "score": 17.0421,
+        "topic": "Order of Draw",
+        "step": 11,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Order of Draw (Step 11)\nQuestion: Why must Light Blue sodium citrate tubes be drawn prior to EDTA lavender tubes?..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_0_chunk_19",
+        "score": 12.0573,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "ompleted.\n\n**Q19: How does Step 12 (Blood Collection) work technically?**\nA: After the tube is correctly inserted, the B..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_0_chunk_19",
+        "score": 12.0573,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "ompleted.\n\n**Q19: How does Step 12 (Blood Collection) work technically?**\nA: After the tube is correctly inserted, the B..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_014",
+    "question": "When should the tourniquet be released during blood draw?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "tourniquet_release",
+    "expected_step": 9,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000014",
+        "score": 25.9159,
+        "topic": "Tourniquet Release",
+        "step": 9,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Release (Step 9)\nQuestion: When should the tourniquet be released during the venipuncture sequence?\nCl..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000002",
+        "score": 13.824,
+        "topic": "Gloves & PPE",
+        "step": 1,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Gloves & PPE (Step 1)\nQuestion: When should gloves be donned during blood collection?\nClinical Answer: Clean non-..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000004",
+        "score": 11.7871,
+        "topic": "Tourniquet Application",
+        "step": 2,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Application (Step 2)\nQuestion: Where should the tourniquet be placed on the arm?\nClinical Answer: Appl..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_139_chunk_3",
+        "score": 11.0479,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "ntibodies can be highly active and can attack RBCs and bind components of the complement system to cause massive hemolys..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_139_chunk_6",
+        "score": 10.5818,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "oup may be included on identification tags or on tattoos worn by military personnel, in case they should need an emergen..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_015",
+    "question": "When should pressure be applied with cotton/gauze after withdrawing the needle?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "needle_withdrawal",
+    "expected_step": 14,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000015",
+        "score": 21.1212,
+        "topic": "Needle Withdrawal & Pressure",
+        "step": 14,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Needle Withdrawal & Pressure (Step 14)\nQuestion: When should gauze pressure be applied relative to needle withdra..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000014",
+        "score": 15.253,
+        "topic": "Tourniquet Release",
+        "step": 9,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Release (Step 9)\nQuestion: When should the tourniquet be released during the venipuncture sequence?\nCl..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_118_chunk_2",
+        "score": 12.5225,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "lose-up vision may remain blurred for several hours. Tonometry: An instrument measures the pressure inside the eye. Numb..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_9_chunk_1",
+        "score": 12.19,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "s above the puncture site to distend the vein. The skin is cleansed with 70% isopropyl alcohol. The needle is inserted a..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "clin_CLIN_000002",
+        "score": 11.0536,
+        "topic": "Gloves & PPE",
+        "step": 1,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Gloves & PPE (Step 1)\nQuestion: When should gloves be donned during blood collection?\nClinical Answer: Clean non-..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_016",
+    "question": "Where should used needle cannula assemblies be disposed of?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "safety_disposal",
+    "expected_step": 15,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000016",
+        "score": 40.9914,
+        "topic": "Sharps Safety & Disposal",
+        "step": 15,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Sharps Safety & Disposal (Step 15)\nQuestion: Where and when should used needle cannula assemblies be disposed of?..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "vr_7",
+        "score": 13.2862,
+        "topic": "VR Workflow Step",
+        "step": 7,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 7: Take Cannula\nExpected Object: Cannula | Interaction: Safety Cannula / Needle Assembly (Grabbable)\nVR..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000015",
+        "score": 11.3519,
+        "topic": "Needle Withdrawal & Pressure",
+        "step": 14,
+        "source_id": "SRC_WHO_01",
+        "text": "Topic: Needle Withdrawal & Pressure (Step 14)\nQuestion: When should gauze pressure be applied relative to needle withdra..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "vr_14",
+        "score": 10.361,
+        "topic": "VR Workflow Step",
+        "step": 14,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 14: Remove Cannula\nExpected Object: Cannula | Interaction: Cannula Hub (Grabbable)\nVR Guidance: Withdra..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_494_chunk_11",
+        "score": 9.2996,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "ry. Urgent transthoracic echocardiography should be obtained to establish a definite diagnosis. Nitroglycerin or nitropr..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_017",
+    "question": "When and where should blood collection tubes be labeled with patient information?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "specimen_labeling",
+    "expected_step": 13,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000020",
+        "score": 32.7225,
+        "topic": "Specimen Labeling",
+        "step": 13,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Specimen Labeling (Step 13)\nQuestion: When and where should blood collection tubes be labeled?\nClinical Answer: C..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc_175_chunk_15",
+        "score": 13.8782,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "e weight gaining program. Forced feeding was reserved for the most dangerous cases of anorexia nervosa, where a patient ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000013",
+        "score": 12.5578,
+        "topic": "Tube Inversion",
+        "step": 13,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tube Inversion (Step 13)\nQuestion: How many inversions are required for EDTA blood collection tubes?\nClinical Ans..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_494_chunk_11",
+        "score": 12.1881,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "ry. Urgent transthoracic echocardiography should be obtained to establish a definite diagnosis. Nitroglycerin or nitropr..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_441_chunk_2",
+        "score": 11.5237,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "weeks after resolution of an episode of diarrhea, avoidance of contact with someone who has diagnosed cryptospiroidosis,..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_018",
+    "question": "What is hemoconcentration and what causes it during blood draw?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "complications",
+    "expected_step": 2,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000005",
+        "score": 13.4301,
+        "topic": "Tourniquet Time Limit",
+        "step": 2,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Time Limit (Step 2)\nQuestion: What is the maximum duration a tourniquet may remain applied?\nClinical A..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000017",
+        "score": 12.2888,
+        "topic": "Complications - Hemolysis",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Complications - Hemolysis (Step 8)\nQuestion: What causes sample hemolysis during phlebotomy?\nClinical Answer: Hem..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_385_chunk_0",
+        "score": 12.1388,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is mediastinitis and what causes it?\nMedical Details: C..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "clin_CLIN_000018",
+        "score": 11.5333,
+        "topic": "Complications - Hematoma",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Complications - Hematoma (Step 8)\nQuestion: What causes a hematoma during venipuncture?\nClinical Answer: A hemato..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_59_chunk_0",
+        "score": 10.6627,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is Myxedema, and how can it be distinguished from other..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_019",
+    "question": "What causes sample hemolysis during phlebotomy?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "complications",
+    "expected_step": 8,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000017",
+        "score": 31.0804,
+        "topic": "Complications - Hemolysis",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Complications - Hemolysis (Step 8)\nQuestion: What causes sample hemolysis during phlebotomy?\nClinical Answer: Hem..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc_385_chunk_0",
+        "score": 8.4752,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is mediastinitis and what causes it?\nMedical Details: C..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "clin_CLIN_000018",
+        "score": 8.1645,
+        "topic": "Complications - Hematoma",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Complications - Hematoma (Step 8)\nQuestion: What causes a hematoma during venipuncture?\nClinical Answer: A hemato..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_0_chunk_1",
+        "score": 7.1272,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "ipuncture?**\nA: Venipuncture is the clinical procedure of puncturing a vein, typically with a needle or cannula, to coll..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_0_chunk_1",
+        "score": 7.1272,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "ipuncture?**\nA: Venipuncture is the clinical procedure of puncturing a vein, typically with a needle or cannula, to coll..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_020",
+    "question": "Why is probing or moving the needle side to side prohibited if blood flow is missed?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "complications",
+    "expected_step": 8,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "clin_CLIN_000019",
+        "score": 26.5921,
+        "topic": "Needle Probing Prohibition",
+        "step": 8,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Needle Probing Prohibition (Step 8)\nQuestion: Why is probing or side-to-side needle manipulation prohibited?\nClin..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc_404_chunk_2",
+        "score": 21.8798,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "ta to suggest that stenting of a side branch improves outcomes over conventional balloon dilation of the side branch ori..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_267_chunk_14",
+        "score": 16.3541,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "the ostium of side branch. Type F lesions are defined as lesions involving only the ostium of side branch,in the main ve..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_267_chunk_13",
+        "score": 16.0554,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "not involving the ostium of side branch, in the main vessel both proximal and distal to the ostium of the side branch. T..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_267_chunk_12",
+        "score": 15.9174,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "r.\nType A lesions are defined as lesions not involving the ostium of side branch, in the main vessel proximal to the ost..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_021",
+    "question": "In the VR trainer, why does touching the vein after alcohol cleaning trigger a step error?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "vr_workflow",
+    "expected_step": 5,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "vr_5",
+        "score": 22.3689,
+        "topic": "VR Workflow Step",
+        "step": 5,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 5: Clean Area\nExpected Object: Patient Arm | Interaction: Antecubital Fossa Surface (Trigger)\nVR Guidan..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "vr_8",
+        "score": 19.9233,
+        "topic": "VR Workflow Step",
+        "step": 8,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 8: Insert Cannula\nExpected Object: Vein Trigger | Interaction: Vein Trigger (Median Cubital) (Trigger)\n..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_0_chunk_17",
+        "score": 16.311,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "s to Step 1.\n\n**Q16: How does Step 5 (Clean Area) work technically?**\nA: The trainee moves the prepared cotton (previous..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_0_chunk_17",
+        "score": 16.311,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "s to Step 1.\n\n**Q16: How does Step 5 (Clean Area) work technically?**\nA: The trainee moves the prepared cotton (previous..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_0_chunk_27",
+        "score": 14.2968,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Knowledge_Base_QA_Full.md",
+        "text": "einTrigger detects cannula insertion; BloodTrigger detects/initiates blood collection after the tube is correctly positi..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 1
+  },
+  {
+    "question_id": "eval_v2_022",
+    "question": "In the VR venipuncture simulator, why was inserting a lavender tube before a green tube marked wrong?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "vr_workflow",
+    "expected_step": 11,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "vr_10",
+        "score": 26.0098,
+        "topic": "VR Workflow Step",
+        "step": 10,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 10: Take Tube\nExpected Object: Blood Collection Tube | Interaction: Vacutainer Tube Rack (Grabbable)\nVR..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "vr_11",
+        "score": 22.5254,
+        "topic": "VR Workflow Step",
+        "step": 11,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 11: Insert Tube\nExpected Object: Tube Slot / SnapZone | Interaction: Tube Slot / SnapZone (SnapZone)\nVR..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "vr_12",
+        "score": 17.0551,
+        "topic": "VR Workflow Step",
+        "step": 12,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 12: Blood Collection\nExpected Object: Blood Trigger | Interaction: Blood Flow Fill Trigger (Trigger)\nVR..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "vr_13",
+        "score": 16.28,
+        "topic": "VR Workflow Step",
+        "step": 13,
+        "source_id": "SRC_VR_SIM",
+        "text": "VR Workflow Step 13: Remove Tube\nExpected Object: Tube | Interaction: Filled Blood Tube (Grabbable)\nVR Guidance: Remove ..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "clin_CLIN_000013",
+        "score": 15.9092,
+        "topic": "Tube Inversion",
+        "step": 13,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tube Inversion (Step 13)\nQuestion: How many inversions are required for EDTA blood collection tubes?\nClinical Ans..."
+      }
+    ],
+    "correct_chunk_retrieved": true,
+    "correct_rank": 2
+  },
+  {
+    "question_id": "eval_v2_023",
+    "question": "What is the patient's exact blood pressure right now?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "unsupported_safeguard",
+    "expected_step": 0,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "doc_121_chunk_1",
+        "score": 10.1225,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": ") is the narrowing of the tricuspid orifice that obstructs blood flow from the right atrium to the right ventricle. Almo..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc_461_chunk_1",
+        "score": 8.8937,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "he iris, ciliary body, and choroid; it provides most of the blood supply to the retina. Uveitis may occur unilaterally o..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_407_chunk_2",
+        "score": 8.6465,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "e is no place for swollen tissues to expand and no adjoining tissues to absorb excess fluid. This leads to an increase i..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_61_chunk_0",
+        "score": 8.5927,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is the pathophysiology behind cardiogenic shock?\nMedica..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_481_chunk_0",
+        "score": 8.3704,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is involved in the physical examination for atrial sept..."
+      }
+    ],
+    "correct_chunk_retrieved": false,
+    "correct_rank": null
+  },
+  {
+    "question_id": "eval_v2_024",
+    "question": "What medication did the patient take this morning?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "unsupported_safeguard",
+    "expected_step": 0,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "doc_202_chunk_3",
+        "score": 11.1714,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "bleeding. Drink only fluids if the bleeding and cramping are severe.\nIf a miscarriage occurs, expect a small amount of v..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "doc_312_chunk_1",
+        "score": 10.4326,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "ions on your prescription label carefully, and ask your doctor or pharmacist to explain any part you do not understand. ..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_380_chunk_0",
+        "score": 10.272,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "Instruction: Answer this question truthfully\nContext/Input: What is the available information on immune hemolytic anemia..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_165_chunk_5",
+        "score": 9.6997,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "this medication may make you drowsy or dizzy. Do not drive a car or operate machinery until you know how it affects you...."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_478_chunk_6",
+        "score": 8.4986,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "ute disseminated encephalomyelitis, Neuromyelitis optica Medication Overdose Ketamine, Phencyclidine..."
+      }
+    ],
+    "correct_chunk_retrieved": false,
+    "correct_rank": null
+  },
+  {
+    "question_id": "eval_v2_025",
+    "question": "Should I change the clinical procedure from the configured workflow?",
+    "expected_source": "SRC_CLSI_01",
+    "expected_topic": "unsupported_safeguard",
+    "expected_step": 0,
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "doc_136_chunk_7",
+        "score": 8.7758,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "N/A",
+        "text": "sease; MPGN type II is uncommon. However, the incidence of MPGN type I is decreasing progressively in developed countrie..."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "clin_CLIN_000014",
+        "score": 8.7184,
+        "topic": "Tourniquet Release",
+        "step": 9,
+        "source_id": "SRC_CLSI_01",
+        "text": "Topic: Tourniquet Release (Step 9)\nQuestion: When should the tourniquet be released during the venipuncture sequence?\nCl..."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "doc_0_chunk_31",
+        "score": 8.3494,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Training_Knowledge_Base.md",
+        "text": "ing the configured StepList.\n\n```\nVeni\n\u251c\u2500\u2500 StepList\n\u251c\u2500\u2500 Current Step\n\u251c\u2500\u2500 Next()\n\u2514\u2500\u2500 Annotation\n```\n\nWhen an action is su..."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "doc_0_chunk_31",
+        "score": 8.3494,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Training_Knowledge_Base.md",
+        "text": "ing the configured StepList.\n\n```\nVeni\n\u251c\u2500\u2500 StepList\n\u251c\u2500\u2500 Current Step\n\u251c\u2500\u2500 Next()\n\u2514\u2500\u2500 Annotation\n```\n\nWhen an action is su..."
+      },
+      {
+        "rank": 5,
+        "chunk_id": "doc_0_chunk_31",
+        "score": 8.3494,
+        "topic": "N/A",
+        "step": null,
+        "source_id": "Medical_VR_Training_Knowledge_Base.md",
+        "text": "ing the configured StepList.\n\n```\nVeni\n\u251c\u2500\u2500 StepList\n\u251c\u2500\u2500 Current Step\n\u251c\u2500\u2500 Next()\n\u2514\u2500\u2500 Annotation\n```\n\nWhen an action is su..."
+      }
+    ],
+    "correct_chunk_retrieved": false,
+    "correct_rank": null
+  }
+]

@@ -1,0 +1,1004 @@
+{
+  "metadata": {
+    "project": "Medical VR – Venipuncture Training Simulation",
+    "version": "1.0",
+    "created": "2026-09-03",
+    "domains": [
+      "CLINICAL",
+      "VR_GROUND_TRUTH",
+      "VR_TECHNICAL",
+      "META_QUEST",
+      "VOICE_ROUTING"
+    ],
+    "notes": [
+      "VR records are based on the supplied finalized 16-step project specification.",
+      "Clinical starter records use conservative wording and should retain exact source section/page metadata in the production source registry.",
+      "Meta Quest technical records use official Meta developer documentation and must be cross-checked against the exact headset/controller and Unity/BNG input implementation."
+    ]
+  },
+  "records": [
+    {
+      "id": "CLIN_001",
+      "knowledge_type": "CLINICAL",
+      "topic": "Venipuncture Fundamentals",
+      "question": "What is venipuncture?",
+      "answer": "Venipuncture is the collection of blood from a vein for clinical or diagnostic purposes.",
+      "source_type": "EXTERNAL_CLINICAL_SOURCE",
+      "source_note": "Use the project's approved WHO/CLSI source registry to attach exact section/page before production use."
+    },
+    {
+      "id": "CLIN_002",
+      "knowledge_type": "CLINICAL",
+      "topic": "Hand Hygiene",
+      "question": "Why is hand hygiene important before venipuncture?",
+      "answer": "Hand hygiene is an infection-prevention measure performed according to the applicable clinical protocol before handling the patient, equipment, or collection procedure.",
+      "source_type": "EXTERNAL_CLINICAL_SOURCE",
+      "source_note": "WHO infection-prevention guidance."
+    },
+    {
+      "id": "CLIN_003",
+      "knowledge_type": "CLINICAL",
+      "topic": "Gloves",
+      "question": "Why are gloves used during venipuncture?",
+      "answer": "Gloves are used as personal protective equipment to reduce exposure to blood and body fluids and should be used according to the applicable infection-prevention protocol.",
+      "source_type": "EXTERNAL_CLINICAL_SOURCE",
+      "source_note": "WHO infection-prevention guidance."
+    },
+    {
+      "id": "CLIN_004",
+      "knowledge_type": "CLINICAL",
+      "topic": "Tourniquet",
+      "question": "What is a tourniquet used for during venipuncture?",
+      "answer": "A tourniquet is used during venous blood collection to help make a vein more prominent and easier to access, following the applicable collection protocol.",
+      "source_type": "EXTERNAL_CLINICAL_SOURCE",
+      "source_note": "WHO/CLSI blood collection guidance."
+    },
+    {
+      "id": "CLIN_005",
+      "knowledge_type": "CLINICAL",
+      "topic": "Skin Preparation",
+      "question": "Why is the venipuncture site cleaned before collection?",
+      "answer": "The collection site is prepared according to the applicable skin-antisepsis protocol to reduce contamination and support safe specimen collection.",
+      "source_type": "EXTERNAL_CLINICAL_SOURCE",
+      "source_note": "WHO/CLSI blood collection guidance."
+    },
+    {
+      "id": "CLIN_006",
+      "knowledge_type": "CLINICAL",
+      "topic": "Specimen Handling",
+      "question": "Why is proper specimen handling important after blood collection?",
+      "answer": "Proper specimen handling helps maintain specimen integrity and supports accurate laboratory testing. The required handling depends on the specimen and collection protocol.",
+      "source_type": "EXTERNAL_CLINICAL_SOURCE",
+      "source_note": "CLSI diagnostic venous blood collection guidance."
+    },
+    {
+      "id": "CLIN_007",
+      "knowledge_type": "CLINICAL",
+      "topic": "Sharps Safety",
+      "question": "Why should used sharps be disposed of promptly?",
+      "answer": "Used sharps should be handled and discarded according to sharps-safety procedures to reduce the risk of needlestick injury and blood exposure.",
+      "source_type": "EXTERNAL_CLINICAL_SOURCE",
+      "source_note": "WHO infection-prevention/sharps safety guidance."
+    },
+    {
+      "id": "VR_STEP_00",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wash Hands",
+      "step": 0,
+      "question": "What should I do at step 0?",
+      "answer": "The trainee performs the hand-washing interaction at the sink. WaterTrigger detects the required interaction. On successful validation, progress to Step 1.",
+      "expected_interaction": "Sink / WaterTrigger",
+      "next_step": 1,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_00_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wash Hands",
+      "step": 0,
+      "question": "What is step 0?",
+      "answer": "The trainee performs the hand-washing interaction at the sink. WaterTrigger detects the required interaction. On successful validation, progress to Step 1.",
+      "expected_interaction": "Sink / WaterTrigger",
+      "next_step": 1,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_00_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wash Hands",
+      "step": 0,
+      "question": "How do I complete step 0?",
+      "answer": "The trainee performs the hand-washing interaction at the sink. WaterTrigger detects the required interaction. On successful validation, progress to Step 1.",
+      "expected_interaction": "Sink / WaterTrigger",
+      "next_step": 1,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_00_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wash Hands",
+      "step": 0,
+      "question": "What happens after step 0?",
+      "answer": "The trainee performs the hand-washing interaction at the sink. WaterTrigger detects the required interaction. On successful validation, progress to Step 1.",
+      "expected_interaction": "Sink / WaterTrigger",
+      "next_step": 1,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_01",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wear Gloves",
+      "step": 1,
+      "question": "What should I do at step 1?",
+      "answer": "The trainee takes the gloves using the VR controller. The required glove interaction is validated before advancing to Step 2.",
+      "expected_interaction": "Glove Box / Gloves",
+      "next_step": 2,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_01_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wear Gloves",
+      "step": 1,
+      "question": "What is step 1?",
+      "answer": "The trainee takes the gloves using the VR controller. The required glove interaction is validated before advancing to Step 2.",
+      "expected_interaction": "Glove Box / Gloves",
+      "next_step": 2,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_01_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wear Gloves",
+      "step": 1,
+      "question": "How do I complete step 1?",
+      "answer": "The trainee takes the gloves using the VR controller. The required glove interaction is validated before advancing to Step 2.",
+      "expected_interaction": "Glove Box / Gloves",
+      "next_step": 2,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_01_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Wear Gloves",
+      "step": 1,
+      "question": "What happens after step 1?",
+      "answer": "The trainee takes the gloves using the VR controller. The required glove interaction is validated before advancing to Step 2.",
+      "expected_interaction": "Glove Box / Gloves",
+      "next_step": 2,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_02",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Apply Tourniquet",
+      "step": 2,
+      "question": "What should I do at step 2?",
+      "answer": "The trainee grabs and applies the tourniquet to the patient arm. The configured interaction is validated before advancing to Step 3.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 3,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_02_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Apply Tourniquet",
+      "step": 2,
+      "question": "What is step 2?",
+      "answer": "The trainee grabs and applies the tourniquet to the patient arm. The configured interaction is validated before advancing to Step 3.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 3,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_02_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Apply Tourniquet",
+      "step": 2,
+      "question": "How do I complete step 2?",
+      "answer": "The trainee grabs and applies the tourniquet to the patient arm. The configured interaction is validated before advancing to Step 3.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 3,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_02_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Apply Tourniquet",
+      "step": 2,
+      "question": "What happens after step 2?",
+      "answer": "The trainee grabs and applies the tourniquet to the patient arm. The configured interaction is validated before advancing to Step 3.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 3,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_03",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cotton",
+      "step": 3,
+      "question": "What should I do at step 3?",
+      "answer": "The trainee picks up cotton from the cotton box. The system validates selection of the expected object before Step 4.",
+      "expected_interaction": "Cotton Box",
+      "next_step": 4,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_03_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cotton",
+      "step": 3,
+      "question": "What is step 3?",
+      "answer": "The trainee picks up cotton from the cotton box. The system validates selection of the expected object before Step 4.",
+      "expected_interaction": "Cotton Box",
+      "next_step": 4,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_03_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cotton",
+      "step": 3,
+      "question": "How do I complete step 3?",
+      "answer": "The trainee picks up cotton from the cotton box. The system validates selection of the expected object before Step 4.",
+      "expected_interaction": "Cotton Box",
+      "next_step": 4,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_03_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cotton",
+      "step": 3,
+      "question": "What happens after step 3?",
+      "answer": "The trainee picks up cotton from the cotton box. The system validates selection of the expected object before Step 4.",
+      "expected_interaction": "Cotton Box",
+      "next_step": 4,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_04",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dip Cotton in Spirit",
+      "step": 4,
+      "question": "What should I do at step 4?",
+      "answer": "The trainee moves the cotton to the spirit/antiseptic bottle and performs the configured dipping interaction. Completion enables Step 5.",
+      "expected_interaction": "Spirit Bottle",
+      "next_step": 5,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_04_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dip Cotton in Spirit",
+      "step": 4,
+      "question": "What is step 4?",
+      "answer": "The trainee moves the cotton to the spirit/antiseptic bottle and performs the configured dipping interaction. Completion enables Step 5.",
+      "expected_interaction": "Spirit Bottle",
+      "next_step": 5,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_04_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dip Cotton in Spirit",
+      "step": 4,
+      "question": "How do I complete step 4?",
+      "answer": "The trainee moves the cotton to the spirit/antiseptic bottle and performs the configured dipping interaction. Completion enables Step 5.",
+      "expected_interaction": "Spirit Bottle",
+      "next_step": 5,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_04_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dip Cotton in Spirit",
+      "step": 4,
+      "question": "What happens after step 4?",
+      "answer": "The trainee moves the cotton to the spirit/antiseptic bottle and performs the configured dipping interaction. Completion enables Step 5.",
+      "expected_interaction": "Spirit Bottle",
+      "next_step": 5,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_05",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Clean Area",
+      "step": 5,
+      "question": "What should I do at step 5?",
+      "answer": "The trainee moves the prepared cotton to the patient arm. The configured arm interaction/trigger validates the cleaning action before Step 6.",
+      "expected_interaction": "Patient Arm",
+      "next_step": 6,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_05_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Clean Area",
+      "step": 5,
+      "question": "What is step 5?",
+      "answer": "The trainee moves the prepared cotton to the patient arm. The configured arm interaction/trigger validates the cleaning action before Step 6.",
+      "expected_interaction": "Patient Arm",
+      "next_step": 6,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_05_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Clean Area",
+      "step": 5,
+      "question": "How do I complete step 5?",
+      "answer": "The trainee moves the prepared cotton to the patient arm. The configured arm interaction/trigger validates the cleaning action before Step 6.",
+      "expected_interaction": "Patient Arm",
+      "next_step": 6,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_05_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Clean Area",
+      "step": 5,
+      "question": "What happens after step 5?",
+      "answer": "The trainee moves the prepared cotton to the patient arm. The configured arm interaction/trigger validates the cleaning action before Step 6.",
+      "expected_interaction": "Patient Arm",
+      "next_step": 6,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_06",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cotton",
+      "step": 6,
+      "question": "What should I do at step 6?",
+      "answer": "The used cotton is moved to the dustbin. The disposal interaction is validated before Step 7.",
+      "expected_interaction": "Dustbin",
+      "next_step": 7,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_06_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cotton",
+      "step": 6,
+      "question": "What is step 6?",
+      "answer": "The used cotton is moved to the dustbin. The disposal interaction is validated before Step 7.",
+      "expected_interaction": "Dustbin",
+      "next_step": 7,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_06_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cotton",
+      "step": 6,
+      "question": "How do I complete step 6?",
+      "answer": "The used cotton is moved to the dustbin. The disposal interaction is validated before Step 7.",
+      "expected_interaction": "Dustbin",
+      "next_step": 7,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_06_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cotton",
+      "step": 6,
+      "question": "What happens after step 6?",
+      "answer": "The used cotton is moved to the dustbin. The disposal interaction is validated before Step 7.",
+      "expected_interaction": "Dustbin",
+      "next_step": 7,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_07",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cannula",
+      "step": 7,
+      "question": "What should I do at step 7?",
+      "answer": "The trainee grabs the cannula. The system verifies that the expected object was selected before Step 8.",
+      "expected_interaction": "Cannula",
+      "next_step": 8,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_07_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cannula",
+      "step": 7,
+      "question": "What is step 7?",
+      "answer": "The trainee grabs the cannula. The system verifies that the expected object was selected before Step 8.",
+      "expected_interaction": "Cannula",
+      "next_step": 8,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_07_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cannula",
+      "step": 7,
+      "question": "How do I complete step 7?",
+      "answer": "The trainee grabs the cannula. The system verifies that the expected object was selected before Step 8.",
+      "expected_interaction": "Cannula",
+      "next_step": 8,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_07_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Cannula",
+      "step": 7,
+      "question": "What happens after step 7?",
+      "answer": "The trainee grabs the cannula. The system verifies that the expected object was selected before Step 8.",
+      "expected_interaction": "Cannula",
+      "next_step": 8,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_08",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Cannula",
+      "step": 8,
+      "question": "What should I do at step 8?",
+      "answer": "The trainee moves the cannula to the configured vein location. VeinTrigger detects the cannula interaction; a correct object/current-step match completes Step 8.",
+      "expected_interaction": "Vein Trigger",
+      "next_step": 9,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_08_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Cannula",
+      "step": 8,
+      "question": "What is step 8?",
+      "answer": "The trainee moves the cannula to the configured vein location. VeinTrigger detects the cannula interaction; a correct object/current-step match completes Step 8.",
+      "expected_interaction": "Vein Trigger",
+      "next_step": 9,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_08_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Cannula",
+      "step": 8,
+      "question": "How do I complete step 8?",
+      "answer": "The trainee moves the cannula to the configured vein location. VeinTrigger detects the cannula interaction; a correct object/current-step match completes Step 8.",
+      "expected_interaction": "Vein Trigger",
+      "next_step": 9,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_08_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Cannula",
+      "step": 8,
+      "question": "What happens after step 8?",
+      "answer": "The trainee moves the cannula to the configured vein location. VeinTrigger detects the cannula interaction; a correct object/current-step match completes Step 8.",
+      "expected_interaction": "Vein Trigger",
+      "next_step": 9,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_09",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tourniquet",
+      "step": 9,
+      "question": "What should I do at step 9?",
+      "answer": "After cannula insertion, the trainee removes the tourniquet from the patient arm. The action is validated before Step 10.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 10,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_09_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tourniquet",
+      "step": 9,
+      "question": "What is step 9?",
+      "answer": "After cannula insertion, the trainee removes the tourniquet from the patient arm. The action is validated before Step 10.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 10,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_09_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tourniquet",
+      "step": 9,
+      "question": "How do I complete step 9?",
+      "answer": "After cannula insertion, the trainee removes the tourniquet from the patient arm. The action is validated before Step 10.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 10,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_09_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tourniquet",
+      "step": 9,
+      "question": "What happens after step 9?",
+      "answer": "After cannula insertion, the trainee removes the tourniquet from the patient arm. The action is validated before Step 10.",
+      "expected_interaction": "Tourniquet",
+      "next_step": 10,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_10",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Blood Collection Tube",
+      "step": 10,
+      "question": "What should I do at step 10?",
+      "answer": "The trainee picks up the blood collection tube. The system validates the expected object before Step 11.",
+      "expected_interaction": "Blood Collection Tube",
+      "next_step": 11,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_10_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Blood Collection Tube",
+      "step": 10,
+      "question": "What is step 10?",
+      "answer": "The trainee picks up the blood collection tube. The system validates the expected object before Step 11.",
+      "expected_interaction": "Blood Collection Tube",
+      "next_step": 11,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_10_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Blood Collection Tube",
+      "step": 10,
+      "question": "How do I complete step 10?",
+      "answer": "The trainee picks up the blood collection tube. The system validates the expected object before Step 11.",
+      "expected_interaction": "Blood Collection Tube",
+      "next_step": 11,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_10_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Take Blood Collection Tube",
+      "step": 10,
+      "question": "What happens after step 10?",
+      "answer": "The trainee picks up the blood collection tube. The system validates the expected object before Step 11.",
+      "expected_interaction": "Blood Collection Tube",
+      "next_step": 11,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_11",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Tube",
+      "step": 11,
+      "question": "What should I do at step 11?",
+      "answer": "The trainee moves the tube to the Tube Slot. SnapZone detects the object, OnSnap fires, and the system validates the expected tube/current step before Step 12.",
+      "expected_interaction": "Tube Slot / SnapZone",
+      "next_step": 12,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_11_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Tube",
+      "step": 11,
+      "question": "What is step 11?",
+      "answer": "The trainee moves the tube to the Tube Slot. SnapZone detects the object, OnSnap fires, and the system validates the expected tube/current step before Step 12.",
+      "expected_interaction": "Tube Slot / SnapZone",
+      "next_step": 12,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_11_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Tube",
+      "step": 11,
+      "question": "How do I complete step 11?",
+      "answer": "The trainee moves the tube to the Tube Slot. SnapZone detects the object, OnSnap fires, and the system validates the expected tube/current step before Step 12.",
+      "expected_interaction": "Tube Slot / SnapZone",
+      "next_step": 12,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_11_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Insert Tube",
+      "step": 11,
+      "question": "What happens after step 11?",
+      "answer": "The trainee moves the tube to the Tube Slot. SnapZone detects the object, OnSnap fires, and the system validates the expected tube/current step before Step 12.",
+      "expected_interaction": "Tube Slot / SnapZone",
+      "next_step": 12,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_12",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Blood Collection",
+      "step": 12,
+      "question": "What should I do at step 12?",
+      "answer": "After correct tube placement, BloodTrigger detects the required state and the blood-collection simulation begins. Completion enables Step 13.",
+      "expected_interaction": "Blood Trigger",
+      "next_step": 13,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_12_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Blood Collection",
+      "step": 12,
+      "question": "What is step 12?",
+      "answer": "After correct tube placement, BloodTrigger detects the required state and the blood-collection simulation begins. Completion enables Step 13.",
+      "expected_interaction": "Blood Trigger",
+      "next_step": 13,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_12_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Blood Collection",
+      "step": 12,
+      "question": "How do I complete step 12?",
+      "answer": "After correct tube placement, BloodTrigger detects the required state and the blood-collection simulation begins. Completion enables Step 13.",
+      "expected_interaction": "Blood Trigger",
+      "next_step": 13,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_12_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Blood Collection",
+      "step": 12,
+      "question": "What happens after step 12?",
+      "answer": "After correct tube placement, BloodTrigger detects the required state and the blood-collection simulation begins. Completion enables Step 13.",
+      "expected_interaction": "Blood Trigger",
+      "next_step": 13,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_13",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tube",
+      "step": 13,
+      "question": "What should I do at step 13?",
+      "answer": "The trainee removes the tube from the Tube Slot. The configured removal interaction is validated before Step 14.",
+      "expected_interaction": "Tube",
+      "next_step": 14,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_13_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tube",
+      "step": 13,
+      "question": "What is step 13?",
+      "answer": "The trainee removes the tube from the Tube Slot. The configured removal interaction is validated before Step 14.",
+      "expected_interaction": "Tube",
+      "next_step": 14,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_13_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tube",
+      "step": 13,
+      "question": "How do I complete step 13?",
+      "answer": "The trainee removes the tube from the Tube Slot. The configured removal interaction is validated before Step 14.",
+      "expected_interaction": "Tube",
+      "next_step": 14,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_13_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Tube",
+      "step": 13,
+      "question": "What happens after step 13?",
+      "answer": "The trainee removes the tube from the Tube Slot. The configured removal interaction is validated before Step 14.",
+      "expected_interaction": "Tube",
+      "next_step": 14,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_14",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Cannula",
+      "step": 14,
+      "question": "What should I do at step 14?",
+      "answer": "The trainee removes the cannula from the patient arm. The configured interaction is validated before Step 15.",
+      "expected_interaction": "Cannula",
+      "next_step": 15,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_14_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Cannula",
+      "step": 14,
+      "question": "What is step 14?",
+      "answer": "The trainee removes the cannula from the patient arm. The configured interaction is validated before Step 15.",
+      "expected_interaction": "Cannula",
+      "next_step": 15,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_14_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Cannula",
+      "step": 14,
+      "question": "How do I complete step 14?",
+      "answer": "The trainee removes the cannula from the patient arm. The configured interaction is validated before Step 15.",
+      "expected_interaction": "Cannula",
+      "next_step": 15,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_14_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Remove Cannula",
+      "step": 14,
+      "question": "What happens after step 14?",
+      "answer": "The trainee removes the cannula from the patient arm. The configured interaction is validated before Step 15.",
+      "expected_interaction": "Cannula",
+      "next_step": 15,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_15",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cannula",
+      "step": 15,
+      "question": "What should I do at step 15?",
+      "answer": "The trainee places the cannula into the dustbin. Successful disposal completes the final step and the training state becomes Complete.",
+      "expected_interaction": "Dustbin",
+      "next_step": null,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_15_Q1",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cannula",
+      "step": 15,
+      "question": "What is step 15?",
+      "answer": "The trainee places the cannula into the dustbin. Successful disposal completes the final step and the training state becomes Complete.",
+      "expected_interaction": "Dustbin",
+      "next_step": null,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_15_Q2",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cannula",
+      "step": 15,
+      "question": "How do I complete step 15?",
+      "answer": "The trainee places the cannula into the dustbin. Successful disposal completes the final step and the training state becomes Complete.",
+      "expected_interaction": "Dustbin",
+      "next_step": null,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_STEP_15_Q3",
+      "knowledge_type": "VR_GROUND_TRUTH",
+      "topic": "Dispose Cannula",
+      "step": 15,
+      "question": "What happens after step 15?",
+      "answer": "The trainee places the cannula into the dustbin. Successful disposal completes the final step and the training state becomes Complete.",
+      "expected_interaction": "Dustbin",
+      "next_step": null,
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_001",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "StepManager",
+      "question": "What is StepManager used for in this project?",
+      "answer": "StepManager is the centralized workflow controller. It maintains the current training step and determines which configured interaction is eligible to advance the sequence.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_002",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "Veni",
+      "question": "What is Veni used for in this project?",
+      "answer": "Veni works with the configured StepList and current step to manage progression after a validated interaction and supports the training flow.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_003",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "StepList",
+      "question": "What is StepList?",
+      "answer": "StepList stores the ordered 16-step venipuncture training sequence used by the simulation.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_004",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "Annotator",
+      "question": "What does the Annotator do?",
+      "answer": "The Annotator provides visual guidance toward the object or action associated with the current training step.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_005",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "Grabbable",
+      "question": "What does Grabbable do?",
+      "answer": "Grabbable allows configured VR objects to be picked up and manipulated with the controller interaction system.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_006",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "Trigger",
+      "question": "What does a Trigger do?",
+      "answer": "A Trigger detects configured collision or proximity interactions and passes the event to the validation logic.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_007",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "SnapZone",
+      "question": "What does a SnapZone do?",
+      "answer": "A SnapZone provides a target area where a configured object can snap into place and produce an OnSnap event.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_008",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "OnSnap",
+      "question": "What is an OnSnap event?",
+      "answer": "OnSnap is the event associated with an object being snapped into a configured SnapZone and can be used by the project to validate placement and progress the step.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_009",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "BNG XR Rig Advanced",
+      "question": "What is BNG XR Rig Advanced?",
+      "answer": "BNG XR Rig Advanced is the VR rig used by the project for headset and controller interaction.",
+      "source_type": "PROJECT_GROUND_TRUTH"
+    },
+    {
+      "id": "VR_TECH_010",
+      "knowledge_type": "VR_TECHNICAL",
+      "topic": "Unity AudioSource",
+      "question": "What is Unity AudioSource used for?",
+      "answer": "Unity AudioSource is used to play generated voice audio inside the VR application.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "QUEST_001",
+      "knowledge_type": "META_QUEST",
+      "topic": "Controller Tracking",
+      "question": "How does a Meta Quest controller track movement?",
+      "answer": "Meta Quest Touch controllers provide 6DoF tracking, exposing controller position and rotation so applications can track controller pose in 3D space.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/documentation/unity/unity-tutorial-basic-controller-input/"
+    },
+    {
+      "id": "QUEST_002",
+      "knowledge_type": "META_QUEST",
+      "topic": "Index Trigger",
+      "question": "What does the controller index trigger do?",
+      "answer": "The index trigger is an input control whose meaning is defined by the application. It is commonly used for selection or interaction; the exact mapping in this project depends on its BNG/Unity input configuration.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/documentation/unity/unity-tutorial-basic-controller-input/"
+    },
+    {
+      "id": "QUEST_003",
+      "knowledge_type": "META_QUEST",
+      "topic": "Grip",
+      "question": "What is the controller grip used for?",
+      "answer": "The grip/hand trigger is commonly used for gripping or holding interactable objects, although the exact mapping is application-specific.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/design/controllers/"
+    },
+    {
+      "id": "QUEST_004",
+      "knowledge_type": "META_QUEST",
+      "topic": "Thumbstick",
+      "question": "What does the controller thumbstick do?",
+      "answer": "A Quest controller thumbstick provides analog directional input and can be used for locomotion, menu navigation, or other application-defined actions.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/design/controllers/"
+    },
+    {
+      "id": "QUEST_005",
+      "knowledge_type": "META_QUEST",
+      "topic": "Face Buttons",
+      "question": "Where are the A, B, X and Y buttons?",
+      "answer": "On Meta Quest Touch-style controllers, A and B are on the right controller and X and Y are on the left controller.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/documentation/unity/unity-tutorial-basic-controller-input/"
+    },
+    {
+      "id": "QUEST_006",
+      "knowledge_type": "META_QUEST",
+      "topic": "Haptics",
+      "question": "What is haptic feedback on a Meta Quest controller?",
+      "answer": "Haptic feedback provides tactile vibration from the controller and can be used by an application to acknowledge or enhance interactions.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/essentials/horizon-os-input/"
+    },
+    {
+      "id": "QUEST_007",
+      "knowledge_type": "META_QUEST",
+      "topic": "Controller Pose",
+      "question": "What is controller pose?",
+      "answer": "Controller pose refers to the tracked position and rotation of the controller in 3D space.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/documentation/unity/unity-ovrinput/"
+    },
+    {
+      "id": "QUEST_008",
+      "knowledge_type": "META_QUEST",
+      "topic": "Left and Right Controllers",
+      "question": "Which face buttons are on the left and right controller?",
+      "answer": "The standard face-button layout places X and Y on the left controller and A and B on the right controller.",
+      "source_type": "OFFICIAL_META",
+      "source_url": "https://developers.meta.com/horizon/documentation/unity/unity-tutorial-basic-controller-input/"
+    },
+    {
+      "id": "VOICE_001",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "NEXT_STEP",
+      "question": "What should I do next?",
+      "answer": "Use the current StepManager/StepList state to answer the next-step question.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "VOICE_002",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "REPEAT",
+      "question": "Can you repeat that?",
+      "answer": "Repeat the current step instruction.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "VOICE_003",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "WHY_WRONG",
+      "question": "Why was that wrong?",
+      "answer": "Use deterministic current-step and last-mistake state to explain why the configured interaction did not validate.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "VOICE_004",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "HELP",
+      "question": "Can you help me?",
+      "answer": "Provide help grounded in the current step and available knowledge.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "VOICE_005",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "VR_CONTEXT",
+      "question": "Which object should I pick up?",
+      "answer": "Use the current StepList state and expected object for the current step.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "VOICE_006",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "CLINICAL_QA",
+      "question": "Why do we clean the site?",
+      "answer": "Retrieve verified clinical evidence about skin preparation and answer from that evidence.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "VOICE_007",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "OPEN_QUESTION",
+      "question": "Can you explain this procedure?",
+      "answer": "Retrieve relevant verified evidence and provide a concise grounded explanation.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    },
+    {
+      "id": "VOICE_008",
+      "knowledge_type": "VOICE_ROUTING",
+      "intent": "UNSUPPORTED",
+      "question": "What medication does the patient take?",
+      "answer": "State that the patient's medication information is not provided in the current simulation/knowledge context.",
+      "source_type": "PROJECT_ARCHITECTURE"
+    }
+  ]
+}

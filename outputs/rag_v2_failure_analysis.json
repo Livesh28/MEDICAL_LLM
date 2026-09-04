@@ -1,0 +1,10 @@
+{
+  "total_evaluated": 25,
+  "breakdown": {
+    "retrieval_failure": 0,
+    "ranking_failure": 0,
+    "generation_failure": 5,
+    "unsupported_refusal": 1,
+    "success": 19
+  }
+}

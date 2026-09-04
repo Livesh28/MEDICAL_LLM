@@ -1,0 +1,377 @@
+{
+  "timestamp": "2026-09-03 13:49:35",
+  "ingestion_summary": {
+    "source_file": "data/rag_sources/venipuncture_rag_knowledge_base_v1.json",
+    "initial_db_chunks": 1985,
+    "new_records_ingested": 0,
+    "final_db_chunks": 1985,
+    "project_ground_truth_records": 82,
+    "domain_breakdown": {
+      "CLINICAL": 7,
+      "VR_GROUND_TRUTH": 64,
+      "VR_TECHNICAL": 10,
+      "META_QUEST": 8,
+      "VOICE_ROUTING": 8
+    }
+  },
+  "verifications": {
+    "no_undefined_chunk_ids": true,
+    "old_and_new_content_coexist": true,
+    "domain_relevance_verified": true,
+    "model_retraining_performed": false,
+    "unity_vr_workflow_modified": false
+  },
+  "retrieval_test_results": [
+    {
+      "question": "What is venipuncture?",
+      "expected_domains": [
+        "CLINICAL"
+      ],
+      "retrieved_domains": [
+        "CLINICAL",
+        "EXISTING_CORPUS"
+      ],
+      "domain_match": true,
+      "top_5_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "CLIN_001",
+          "score": 5.5739,
+          "knowledge_type": "CLINICAL",
+          "topic": "Venipuncture Fundamentals",
+          "source_type": "EXTERNAL_CLINICAL_SOURCE",
+          "snippet": "[CLINICAL] Topic: Venipuncture Fundamentals. Question: What is venipuncture? Answer: Venipuncture is the collection of b..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_0_chunk_1",
+          "score": 4.4092,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "t 2:** Medical VR \u2013 Venipuncture Training Simulation (Project & Technical Documentation)\n- **Part 3:** Trauma First Aid ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_0_chunk_1",
+          "score": 4.4092,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "t 2:** Medical VR \u2013 Venipuncture Training Simulation (Project & Technical Documentation)\n- **Part 3:** Trauma First Aid ..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_0_chunk_1",
+          "score": 4.4092,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "t 2:** Medical VR \u2013 Venipuncture Training Simulation (Project & Technical Documentation)\n- **Part 3:** Trauma First Aid ..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "doc_0_chunk_0",
+          "score": 4.3806,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "snippet": "# Medical VR Training Knowledge Base \u2014 Full Q&A Set\n## Comprehensive question-answer pairs for RAG ingestion / retrieval..."
+        }
+      ]
+    },
+    {
+      "question": "Why do we clean the site?",
+      "expected_domains": [
+        "CLINICAL",
+        "VR_GROUND_TRUTH",
+        "VOICE_ROUTING"
+      ],
+      "retrieved_domains": [
+        "VOICE_ROUTING",
+        "EXISTING_CORPUS"
+      ],
+      "domain_match": true,
+      "top_5_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "VOICE_006",
+          "score": 9.3336,
+          "knowledge_type": "VOICE_ROUTING",
+          "topic": "General",
+          "source_type": "PROJECT_GROUND_TRUTH",
+          "snippet": "[VOICE_ROUTING] Topic: General. Question: Why do we clean the site? Answer: Retrieve verified clinical evidence about sk..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_0_chunk_6",
+          "score": 8.1833,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "e)\n\n1. Perform hand hygiene.\n2. Don gloves (PPE).\n3. Confirm patient identity and explain the procedure (informed consen..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_0_chunk_6",
+          "score": 8.1833,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "e)\n\n1. Perform hand hygiene.\n2. Don gloves (PPE).\n3. Confirm patient identity and explain the procedure (informed consen..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_0_chunk_6",
+          "score": 8.1833,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "e)\n\n1. Perform hand hygiene.\n2. Don gloves (PPE).\n3. Confirm patient identity and explain the procedure (informed consen..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "vr_5",
+          "score": 7.7372,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "VR Workflow Step",
+          "source_type": "SRC_VR_SIM",
+          "snippet": "VR Workflow Step 5: Clean Area\nExpected Object: Patient Arm | Interaction: Antecubital Fossa Surface (Trigger)\nVR Guidan..."
+        }
+      ]
+    },
+    {
+      "question": "What should I do at step 11?",
+      "expected_domains": [
+        "VR_GROUND_TRUTH"
+      ],
+      "retrieved_domains": [
+        "VR_GROUND_TRUTH",
+        "EXISTING_CORPUS"
+      ],
+      "domain_match": true,
+      "top_5_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "VR_STEP_11",
+          "score": 12.674,
+          "knowledge_type": "VR_GROUND_TRUTH",
+          "topic": "Insert Tube",
+          "source_type": "PROJECT_GROUND_TRUTH",
+          "snippet": "[VR_GROUND_TRUTH] Topic: Insert Tube. Question: What should I do at step 11? Answer: The trainee moves the tube to the T..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "VR_STEP_11_Q1",
+          "score": 12.674,
+          "knowledge_type": "VR_GROUND_TRUTH",
+          "topic": "Insert Tube",
+          "source_type": "PROJECT_GROUND_TRUTH",
+          "snippet": "[VR_GROUND_TRUTH] Topic: Insert Tube. Question: What is step 11? Answer: The trainee moves the tube to the Tube Slot. Sn..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "VR_STEP_11_Q2",
+          "score": 12.6015,
+          "knowledge_type": "VR_GROUND_TRUTH",
+          "topic": "Insert Tube",
+          "source_type": "PROJECT_GROUND_TRUTH",
+          "snippet": "[VR_GROUND_TRUTH] Topic: Insert Tube. Question: How do I complete step 11? Answer: The trainee moves the tube to the Tub..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "VR_STEP_11_Q3",
+          "score": 12.6015,
+          "knowledge_type": "VR_GROUND_TRUTH",
+          "topic": "Insert Tube",
+          "source_type": "PROJECT_GROUND_TRUTH",
+          "snippet": "[VR_GROUND_TRUTH] Topic: Insert Tube. Question: What happens after step 11? Answer: The trainee moves the tube to the Tu..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "clin_CLIN_000011",
+          "score": 8.7315,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "Order of Draw",
+          "source_type": "SRC_CLSI_01",
+          "snippet": "Topic: Order of Draw (Step 11)\nQuestion: What is the standard CLSI order of draw for blood collection tubes?\nClinical An..."
+        }
+      ]
+    },
+    {
+      "question": "How does the SnapZone work?",
+      "expected_domains": [
+        "VR_TECHNICAL"
+      ],
+      "retrieved_domains": [
+        "VR_TECHNICAL",
+        "EXISTING_CORPUS"
+      ],
+      "domain_match": true,
+      "top_5_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "doc_0_chunk_18",
+          "score": 9.5731,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "snippet": "rect vein location. The VeinTrigger detects the cannula interaction; if the correct object reaches the correct trigger, ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_0_chunk_18",
+          "score": 9.5731,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Knowledge_Base_QA_Full.md",
+          "snippet": "rect vein location. The VeinTrigger detects the cannula interaction; if the correct object reaches the correct trigger, ..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "VR_TECH_007",
+          "score": 7.3478,
+          "knowledge_type": "VR_TECHNICAL",
+          "topic": "SnapZone",
+          "source_type": "PROJECT_GROUND_TRUTH",
+          "snippet": "[VR_TECHNICAL] Topic: SnapZone. Question: What does a SnapZone do? Answer: A SnapZone provides a target area where a con..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_130_chunk_1",
+          "score": 6.6996,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "N/A",
+          "snippet": "fish must be protected during spraying. Home foggers and flea collars do not always work. If home treatments do not work..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "vr_11",
+          "score": 6.3973,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "VR Workflow Step",
+          "source_type": "SRC_VR_SIM",
+          "snippet": "VR Workflow Step 11: Insert Tube\nExpected Object: Tube Slot / SnapZone | Interaction: Tube Slot / SnapZone (SnapZone)\nVR..."
+        }
+      ]
+    },
+    {
+      "question": "What does the controller trigger do?",
+      "expected_domains": [
+        "META_QUEST",
+        "VR_TECHNICAL"
+      ],
+      "retrieved_domains": [
+        "META_QUEST"
+      ],
+      "domain_match": true,
+      "top_5_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "QUEST_002",
+          "score": 10.1229,
+          "knowledge_type": "META_QUEST",
+          "topic": "Index Trigger",
+          "source_type": "OFFICIAL_META",
+          "snippet": "[META_QUEST] Topic: Index Trigger. Question: What does the controller index trigger do? Answer: The index trigger is an ..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "QUEST_003",
+          "score": 8.9878,
+          "knowledge_type": "META_QUEST",
+          "topic": "Grip",
+          "source_type": "OFFICIAL_META",
+          "snippet": "[META_QUEST] Topic: Grip. Question: What is the controller grip used for? Answer: The grip/hand trigger is commonly used..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "QUEST_007",
+          "score": 8.6984,
+          "knowledge_type": "META_QUEST",
+          "topic": "Controller Pose",
+          "source_type": "OFFICIAL_META",
+          "snippet": "[META_QUEST] Topic: Controller Pose. Question: What is controller pose? Answer: Controller pose refers to the tracked po..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "QUEST_001",
+          "score": 8.1216,
+          "knowledge_type": "META_QUEST",
+          "topic": "Controller Tracking",
+          "source_type": "OFFICIAL_META",
+          "snippet": "[META_QUEST] Topic: Controller Tracking. Question: How does a Meta Quest controller track movement? Answer: Meta Quest T..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "QUEST_008",
+          "score": 7.9475,
+          "knowledge_type": "META_QUEST",
+          "topic": "Left and Right Controllers",
+          "source_type": "OFFICIAL_META",
+          "snippet": "[META_QUEST] Topic: Left and Right Controllers. Question: Which face buttons are on the left and right controller? Answe..."
+        }
+      ]
+    },
+    {
+      "question": "What should I do next?",
+      "expected_domains": [
+        "VOICE_ROUTING",
+        "VR_GROUND_TRUTH"
+      ],
+      "retrieved_domains": [
+        "VOICE_ROUTING",
+        "EXISTING_CORPUS"
+      ],
+      "domain_match": true,
+      "top_5_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "VOICE_001",
+          "score": 5.7886,
+          "knowledge_type": "VOICE_ROUTING",
+          "topic": "General",
+          "source_type": "PROJECT_GROUND_TRUTH",
+          "snippet": "[VOICE_ROUTING] Topic: General. Question: What should I do next? Answer: Use the current StepManager/StepList state to a..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "doc_379_chunk_9",
+          "score": 5.3708,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "N/A",
+          "snippet": "next scheduled dose (skip the dose if <6 hours before the next dose); do not take 2 doses at the same time to make up fo..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "doc_379_chunk_8",
+          "score": 5.1931,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "N/A",
+          "snippet": "n or unacceptable toxicity Missed doses:Do not take a missed dose if it is within 12 hours of the next scheduled dose Cr..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "doc_0_chunk_31",
+          "score": 5.1931,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "ing the configured StepList.\n\n```\nVeni\n\u251c\u2500\u2500 StepList\n\u251c\u2500\u2500 Current Step\n\u251c\u2500\u2500 Next()\n\u2514\u2500\u2500 Annotation\n```\n\nWhen an action is su..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "doc_0_chunk_31",
+          "score": 5.1931,
+          "knowledge_type": "EXISTING_CORPUS",
+          "topic": "N/A",
+          "source_type": "Medical_VR_Training_Knowledge_Base.md",
+          "snippet": "ing the configured StepList.\n\n```\nVeni\n\u251c\u2500\u2500 StepList\n\u251c\u2500\u2500 Current Step\n\u251c\u2500\u2500 Next()\n\u2514\u2500\u2500 Annotation\n```\n\nWhen an action is su..."
+        }
+      ]
+    }
+  ]
+}

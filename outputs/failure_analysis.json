@@ -1,0 +1,177 @@
+{
+  "total_evaluated_questions": 25,
+  "counts": {
+    "A_Retrieval_Failure": 2,
+    "B_Retrieval_Ranking_Failure": 2,
+    "C_Chunking_Failure": 0,
+    "D_Metadata_Failure": 0,
+    "E_LLM_Generation_Failure": 5,
+    "F_Prompt_Failure": 0,
+    "G_Benchmark_Failure": 0,
+    "H_Unsupported_Question": 3,
+    "Success": 13
+  },
+  "percentages": {
+    "A_Retrieval_Failure": 8.0,
+    "B_Retrieval_Ranking_Failure": 8.0,
+    "C_Chunking_Failure": 0.0,
+    "D_Metadata_Failure": 0.0,
+    "E_LLM_Generation_Failure": 20.0,
+    "F_Prompt_Failure": 0.0,
+    "G_Benchmark_Failure": 0.0,
+    "H_Unsupported_Question": 12.0,
+    "Success": 52.0
+  },
+  "question_details": [
+    {
+      "question_id": "eval_v2_001",
+      "category": "A_Retrieval_Failure",
+      "question": "What is the very first step in the 16-step VR venipuncture p...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_002",
+      "category": "Success",
+      "question": "When should clean gloves be donned during blood collection?...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_003",
+      "category": "B_Retrieval_Ranking_Failure",
+      "question": "How many patient identifiers must be verified before perform...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_004",
+      "category": "Success",
+      "question": "Where should the tourniquet be placed relative to the venipu...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_005",
+      "category": "Success",
+      "question": "What is the maximum duration a tourniquet may remain applied...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_006",
+      "category": "Success",
+      "question": "Which vein is the primary choice for venipuncture in the ant...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_007",
+      "category": "Success",
+      "question": "Why is the basilic vein considered the least desirable choic...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_008",
+      "category": "Success",
+      "question": "How should the skin be disinfected using 70% isopropyl alcoh...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_009",
+      "category": "E_LLM_Generation_Failure",
+      "question": "Why must the disinfected skin be allowed to air dry for 30 s...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_010",
+      "category": "Success",
+      "question": "What is the correct angle of entry and bevel orientation whe...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_011",
+      "category": "E_LLM_Generation_Failure",
+      "question": "What is the standard CLSI order of draw for blood collection...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_012",
+      "category": "Success",
+      "question": "Why must Light Blue sodium citrate tubes be drawn before Lav...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_013",
+      "category": "Success",
+      "question": "How many gentle inversions are required for EDTA blood colle...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_014",
+      "category": "Success",
+      "question": "When should the tourniquet be released during blood draw?...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_015",
+      "category": "Success",
+      "question": "When should pressure be applied with cotton/gauze after with...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_016",
+      "category": "E_LLM_Generation_Failure",
+      "question": "Where should used needle cannula assemblies be disposed of?...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_017",
+      "category": "Success",
+      "question": "When and where should blood collection tubes be labeled with...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_018",
+      "category": "B_Retrieval_Ranking_Failure",
+      "question": "What is hemoconcentration and what causes it during blood dr...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_019",
+      "category": "Success",
+      "question": "What causes sample hemolysis during phlebotomy?...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_020",
+      "category": "E_LLM_Generation_Failure",
+      "question": "Why is probing or moving the needle side to side prohibited ...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_021",
+      "category": "E_LLM_Generation_Failure",
+      "question": "In the VR trainer, why does touching the vein after alcohol ...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_022",
+      "category": "A_Retrieval_Failure",
+      "question": "In the VR venipuncture simulator, why was inserting a lavend...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_023",
+      "category": "H_Unsupported_Question",
+      "question": "What is the patient's exact blood pressure right now?...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_024",
+      "category": "H_Unsupported_Question",
+      "question": "What medication did the patient take this morning?...",
+      "retrieved_count": 3
+    },
+    {
+      "question_id": "eval_v2_025",
+      "category": "H_Unsupported_Question",
+      "question": "Should I change the clinical procedure from the configured w...",
+      "retrieved_count": 3
+    }
+  ]
+}

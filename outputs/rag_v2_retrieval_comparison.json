@@ -1,0 +1,34 @@
+{
+  "1_bm25_baseline": {
+    "Recall@1": 80.0,
+    "Recall@3": 84.0,
+    "Recall@5": 84.0,
+    "MRR": 0.82,
+    "Step_Precision": 80.0,
+    "Topic_Precision": 0.0
+  },
+  "2_bm25_normalized": {
+    "Recall@1": 68.0,
+    "Recall@3": 84.0,
+    "Recall@5": 84.0,
+    "MRR": 0.76,
+    "Step_Precision": 68.0,
+    "Topic_Precision": 0.0
+  },
+  "3_bm25_metadata": {
+    "Recall@1": 80.0,
+    "Recall@3": 84.0,
+    "Recall@5": 84.0,
+    "MRR": 0.82,
+    "Step_Precision": 80.0,
+    "Topic_Precision": 0.0
+  },
+  "4_hybrid_rag_v2": {
+    "Recall@1": 72.0,
+    "Recall@3": 84.0,
+    "Recall@5": 84.0,
+    "MRR": 0.78,
+    "Step_Precision": 72.0,
+    "Topic_Precision": 0.0
+  }
+}

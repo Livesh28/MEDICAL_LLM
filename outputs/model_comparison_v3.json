@@ -1,0 +1,428 @@
+{
+  "timestamp": "2026-09-03T10:40:07Z",
+  "total_questions": 25,
+  "models": {
+    "v1_initial_110m": {
+      "accuracy_percent": 0.0,
+      "partial_percent": 0.0,
+      "incorrect_percent": 28.0,
+      "hallucination_percent": 72.0,
+      "breakdown": {
+        "Correct": 0,
+        "Correct Refusal": 0,
+        "Partially Correct": 0,
+        "Incorrect": 7,
+        "Hallucinated": 18,
+        "Unsupported": 0
+      }
+    },
+    "v2_sft_110m": {
+      "accuracy_percent": 4.0,
+      "partial_percent": 16.0,
+      "incorrect_percent": 32.0,
+      "hallucination_percent": 48.0,
+      "breakdown": {
+        "Correct": 1,
+        "Correct Refusal": 0,
+        "Partially Correct": 4,
+        "Incorrect": 8,
+        "Hallucinated": 12,
+        "Unsupported": 0
+      }
+    },
+    "v3_sft_110m": {
+      "accuracy_percent": 16.0,
+      "partial_percent": 8.0,
+      "incorrect_percent": 40.0,
+      "hallucination_percent": 36.0,
+      "breakdown": {
+        "Correct": 4,
+        "Correct Refusal": 0,
+        "Partially Correct": 2,
+        "Incorrect": 10,
+        "Hallucinated": 9,
+        "Unsupported": 0
+      }
+    },
+    "llama3.2_3b_no_rag": {
+      "accuracy_percent": 20.0,
+      "partial_percent": 52.0,
+      "incorrect_percent": 12.0,
+      "hallucination_percent": 16.0,
+      "breakdown": {
+        "Correct": 5,
+        "Correct Refusal": 0,
+        "Partially Correct": 13,
+        "Incorrect": 3,
+        "Hallucinated": 4,
+        "Unsupported": 0
+      }
+    },
+    "llama3.2_3b_rag": {
+      "accuracy_percent": 36.0,
+      "partial_percent": 40.0,
+      "incorrect_percent": 8.0,
+      "hallucination_percent": 16.0,
+      "breakdown": {
+        "Correct": 9,
+        "Correct Refusal": 0,
+        "Partially Correct": 10,
+        "Incorrect": 2,
+        "Hallucinated": 4,
+        "Unsupported": 0
+      }
+    }
+  },
+  "detailed_records": [
+    {
+      "id": "eval_v2_001",
+      "topic": "procedural_sequence",
+      "step": 0,
+      "question": "What is the very first step in the 16-step VR venipuncture procedure?",
+      "verified_answer": "The first step is hand hygiene (washing hands with soap and water or applying an alcohol hand rub).",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Hallucinated",
+        "llama3.2_rag": "Hallucinated"
+      }
+    },
+    {
+      "id": "eval_v2_002",
+      "topic": "gloves_ppe",
+      "step": 1,
+      "question": "When should clean gloves be donned during blood collection?",
+      "verified_answer": "Clean non-sterile gloves must be put on immediately after hand hygiene and prior to touching sterile equipment or patient skin.",
+      "scores": {
+        "v1_initial": "Incorrect",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Correct",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_003",
+      "topic": "patient_preparation",
+      "step": 2,
+      "question": "How many patient identifiers must be verified before performing venipuncture?",
+      "verified_answer": "At least two patient identifiers (such as full name and date of birth) must be verified against the wristband and requisition form.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Partially Correct",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_004",
+      "topic": "tourniquet",
+      "step": 2,
+      "question": "Where should the tourniquet be placed relative to the venipuncture site?",
+      "verified_answer": "The tourniquet should be applied 3 to 4 inches (7.5 to 10 cm) above the selected venipuncture site on the upper arm.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Partially Correct",
+        "llama3.2_no_rag": "Incorrect",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_005",
+      "topic": "tourniquet",
+      "step": 2,
+      "question": "What is the maximum duration a tourniquet may remain applied on the patient's arm?",
+      "verified_answer": "The tourniquet must not remain tied for longer than 1 minute (60 seconds).",
+      "scores": {
+        "v1_initial": "Incorrect",
+        "v2_sft": "Partially Correct",
+        "v3_sft": "Correct",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_006",
+      "topic": "site_selection",
+      "step": 5,
+      "question": "Which vein is the primary choice for venipuncture in the antecubital fossa?",
+      "verified_answer": "The median cubital vein is the first choice because it is large, prominent, well-anchored, and has the lowest risk of nerve damage.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_007",
+      "topic": "site_selection",
+      "step": 5,
+      "question": "Why is the basilic vein considered the least desirable choice in the arm?",
+      "verified_answer": "The basilic vein lies close to the brachial artery and median nerve, increasing the risk of arterial puncture and nerve injury.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_008",
+      "topic": "skin_preparation",
+      "step": 5,
+      "question": "How should the skin be disinfected using 70% isopropyl alcohol?",
+      "verified_answer": "Clean the skin with 70% isopropyl alcohol using firm friction rub for 30 seconds.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Correct",
+        "llama3.2_no_rag": "Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_009",
+      "topic": "skin_preparation",
+      "step": 5,
+      "question": "Why must the disinfected skin be allowed to air dry for 30 seconds before needle entry?",
+      "verified_answer": "Air drying permits full antiseptic action to destroy skin microbes, prevents sample hemolysis, and eliminates stinging upon puncture.",
+      "scores": {
+        "v1_initial": "Incorrect",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Hallucinated",
+        "llama3.2_rag": "Incorrect"
+      }
+    },
+    {
+      "id": "eval_v2_010",
+      "topic": "needle_insertion",
+      "step": 8,
+      "question": "What is the correct angle of entry and bevel orientation when inserting the needle?",
+      "verified_answer": "Insert the needle with the bevel facing UP at an angle of 15 to 30 degrees relative to the skin surface.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Correct",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Hallucinated"
+      }
+    },
+    {
+      "id": "eval_v2_011",
+      "topic": "order_of_draw",
+      "step": 11,
+      "question": "What is the standard CLSI order of draw for blood collection tubes?",
+      "verified_answer": "1. Blood Culture (Yellow) -> 2. Light Blue (Citrate) -> 3. Red/Gold (Serum) -> 4. Green (Heparin) -> 5. Lavender (EDTA) -> 6. Gray (Fluoride).",
+      "scores": {
+        "v1_initial": "Incorrect",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Correct",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_012",
+      "topic": "order_of_draw",
+      "step": 11,
+      "question": "Why must Light Blue sodium citrate tubes be drawn before Lavender EDTA tubes?",
+      "verified_answer": "Light Blue citrate tubes measure coagulation. Drawing lavender EDTA tubes first causes EDTA additive contamination, distorting coagulation results.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_013",
+      "topic": "tube_handling",
+      "step": 13,
+      "question": "How many gentle inversions are required for EDTA blood collection tubes?",
+      "verified_answer": "EDTA lavender collection tubes require 8 to 10 gentle 180-degree inversions immediately upon collection.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_014",
+      "topic": "tourniquet_release",
+      "step": 9,
+      "question": "When should the tourniquet be released during blood draw?",
+      "verified_answer": "Release the tourniquet as soon as blood flow is established in the first tube, and strictly before withdrawing the needle.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Partially Correct",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_015",
+      "topic": "needle_withdrawal",
+      "step": 14,
+      "question": "When should pressure be applied with cotton/gauze after withdrawing the needle?",
+      "verified_answer": "Apply clean gauze pressure immediately AFTER the needle is fully withdrawn from the skin. Never press on gauze while the needle remains inside the vein.",
+      "scores": {
+        "v1_initial": "Incorrect",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_016",
+      "topic": "safety_disposal",
+      "step": 15,
+      "question": "Where should used needle cannula assemblies be disposed of?",
+      "verified_answer": "Activate the single-handed safety shield immediately upon withdrawal and discard the intact assembly into a puncture-resistant biohazard sharps container.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Incorrect",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_017",
+      "topic": "specimen_labeling",
+      "step": 13,
+      "question": "When and where should blood collection tubes be labeled with patient information?",
+      "verified_answer": "Tubes must be labeled immediately after collection at the patient's bedside in the presence of the patient.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Partially Correct",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Correct",
+        "llama3.2_rag": "Correct"
+      }
+    },
+    {
+      "id": "eval_v2_018",
+      "topic": "complications",
+      "step": 2,
+      "question": "What is hemoconcentration and what causes it during blood draw?",
+      "verified_answer": "Hemoconcentration is an artificial accumulation of blood cells and large molecules caused by leaving the tourniquet tied longer than 1 minute.",
+      "scores": {
+        "v1_initial": "Incorrect",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_019",
+      "topic": "complications",
+      "step": 8,
+      "question": "What causes sample hemolysis during phlebotomy?",
+      "verified_answer": "Hemolysis is the destruction of red blood cells caused by small needle gauge (<23G), rapid plunger pull, shaking tubes, or wet alcohol.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Incorrect",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_020",
+      "topic": "complications",
+      "step": 8,
+      "question": "Why is probing or moving the needle side to side prohibited if blood flow is missed?",
+      "verified_answer": "Probing damages surrounding tissue, forms hematomas, causes severe pain, and risks puncturing adjacent nerves or arteries.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Partially Correct",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Incorrect",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_021",
+      "topic": "vr_workflow",
+      "step": 5,
+      "question": "In the VR trainer, why does touching the vein after alcohol cleaning trigger a step error?",
+      "verified_answer": "Re-touching disinfected skin recontaminates the site with glove bacteria, breaking sterile technique.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Hallucinated",
+        "llama3.2_rag": "Hallucinated"
+      }
+    },
+    {
+      "id": "eval_v2_022",
+      "topic": "vr_workflow",
+      "step": 11,
+      "question": "In the VR venipuncture simulator, why was inserting a lavender tube before a green tube marked wrong?",
+      "verified_answer": "Lavender tubes contain EDTA which cross-contaminates heparin green tubes, causing false potassium elevation.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Hallucinated",
+        "llama3.2_rag": "Incorrect"
+      }
+    },
+    {
+      "id": "eval_v2_023",
+      "topic": "unsupported_safeguard",
+      "step": 0,
+      "question": "What is the patient's exact blood pressure right now?",
+      "verified_answer": "That information is not available in the current simulation/context.",
+      "scores": {
+        "v1_initial": "Incorrect",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Incorrect",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Hallucinated"
+      }
+    },
+    {
+      "id": "eval_v2_024",
+      "topic": "unsupported_safeguard",
+      "step": 0,
+      "question": "What medication did the patient take this morning?",
+      "verified_answer": "This information is not provided in the current simulation.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Partially Correct",
+        "llama3.2_rag": "Partially Correct"
+      }
+    },
+    {
+      "id": "eval_v2_025",
+      "topic": "unsupported_safeguard",
+      "step": 0,
+      "question": "Should I change the clinical procedure from the configured workflow?",
+      "verified_answer": "The VR system does not modify the configured procedural workflow.",
+      "scores": {
+        "v1_initial": "Hallucinated",
+        "v2_sft": "Hallucinated",
+        "v3_sft": "Hallucinated",
+        "llama3.2_no_rag": "Correct",
+        "llama3.2_rag": "Partially Correct"
+      }
+    }
+  ]
+}

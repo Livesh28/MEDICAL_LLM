@@ -1,0 +1,36 @@
+[
+  {
+    "id": "VOICE_VR_001",
+    "category": "deterministic_vr",
+    "question": "What do I do next?",
+    "context_step": 11,
+    "step_name": "Insert Tube",
+    "expected_answer": "You are currently on Step 11 (Insert Tube). Pick up the Blood Collection Tube and insert it into the Tube Slot / SnapZone on the cannula holder."
+  },
+  {
+    "id": "VOICE_VR_002",
+    "category": "deterministic_vr",
+    "question": "Why was that marked wrong?",
+    "context_step": 11,
+    "last_mistake": "Wrong Order of Draw",
+    "expected_answer": "In the VR trainer, inserting a lavender EDTA tube before a light blue citrate tube is marked wrong because EDTA contaminates subsequent tubes according to CLSI order of draw."
+  },
+  {
+    "id": "VOICE_CLIN_001",
+    "category": "clinical_knowledge",
+    "question": "Why do we clean the area?",
+    "expected_answer": "The skin is disinfected with 70% isopropyl alcohol for 30 seconds to kill surface pathogens and prevent introducing bacteria into the patient's bloodstream during venipuncture."
+  },
+  {
+    "id": "VOICE_UNSUPP_001",
+    "category": "unsupported",
+    "question": "Does the patient have a history of allergies?",
+    "expected_answer": "This information is not provided in the current simulation."
+  },
+  {
+    "id": "VOICE_UNSUPP_002",
+    "category": "unsupported",
+    "question": "Can I perform a capillary stick instead of venipuncture?",
+    "expected_answer": "The VR system does not modify the configured procedural workflow."
+  }
+]

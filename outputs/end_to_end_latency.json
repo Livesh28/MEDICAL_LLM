@@ -1,0 +1,106 @@
+{
+  "num_queries_tested": 8,
+  "latency_metrics_ms": {
+    "total_latency": {
+      "average": 1652.96,
+      "median": 877.9,
+      "minimum": 359.84,
+      "maximum": 5860.8
+    },
+    "component_averages": {
+      "stt_ms": 271.77,
+      "intent_router_ms": 0.09,
+      "llm_or_deterministic_ms": 749.48
+    }
+  },
+  "query_latency_records": [
+    {
+      "query": "What should I do next?",
+      "intent": "NEXT_STEP",
+      "stt_ms": 438.92,
+      "intent_ms": 0.388,
+      "retrieval_ms": 0.0,
+      "llm_ms": 1.03,
+      "grounding_ms": 0.0,
+      "tts_ms": 76.2,
+      "total_ms": 516.54
+    },
+    {
+      "query": "Why was that wrong?",
+      "intent": "WHY_WRONG",
+      "stt_ms": 241.57,
+      "intent_ms": 0.043,
+      "retrieval_ms": 0.0,
+      "llm_ms": 0.2,
+      "grounding_ms": 0.0,
+      "tts_ms": 180.6,
+      "total_ms": 422.41
+    },
+    {
+      "query": "Repeat the instruction",
+      "intent": "REPEAT",
+      "stt_ms": 216.19,
+      "intent_ms": 0.048,
+      "retrieval_ms": 0.0,
+      "llm_ms": 0.2,
+      "grounding_ms": 0.0,
+      "tts_ms": 143.4,
+      "total_ms": 359.84
+    },
+    {
+      "query": "What is the patient's blood pressure?",
+      "intent": "UNSUPPORTED",
+      "stt_ms": 322.9,
+      "intent_ms": 0.024,
+      "retrieval_ms": 0.0,
+      "llm_ms": 0.19,
+      "grounding_ms": 0.0,
+      "tts_ms": 85.8,
+      "total_ms": 408.91
+    },
+    {
+      "query": "Why do we clean the site with alcohol?",
+      "intent": "CLINICAL_QA",
+      "stt_ms": 233.35,
+      "intent_ms": 0.052,
+      "retrieval_ms": 1311.0,
+      "llm_ms": 3408.6,
+      "grounding_ms": 524.4,
+      "tts_ms": 383.4,
+      "total_ms": 5860.8
+    },
+    {
+      "query": "What angle should the needle be inserted?",
+      "intent": "CLINICAL_QA",
+      "stt_ms": 216.47,
+      "intent_ms": 0.05,
+      "retrieval_ms": 389.31,
+      "llm_ms": 1012.21,
+      "grounding_ms": 155.72,
+      "tts_ms": 411.0,
+      "total_ms": 2184.76
+    },
+    {
+      "query": "What is the maximum time a tourniquet can remain on?",
+      "intent": "CLINICAL_QA",
+      "stt_ms": 274.74,
+      "intent_ms": 0.058,
+      "retrieval_ms": 208.87,
+      "llm_ms": 543.05,
+      "grounding_ms": 83.55,
+      "tts_ms": 129.0,
+      "total_ms": 1239.27
+    },
+    {
+      "query": "Why must tubes be inverted gently?",
+      "intent": "CLINICAL_QA",
+      "stt_ms": 230.05,
+      "intent_ms": 0.057,
+      "retrieval_ms": 396.3,
+      "llm_ms": 1030.38,
+      "grounding_ms": 158.52,
+      "tts_ms": 415.8,
+      "total_ms": 2231.11
+    }
+  ]
+}

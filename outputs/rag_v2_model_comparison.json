@@ -1,0 +1,75 @@
+{
+  "total_questions": 25,
+  "conditions": {
+    "cond_A_standalone": {
+      "accuracy_percent": 28.0,
+      "partially_correct_percent": 48.0,
+      "incorrect_percent": 0.0,
+      "hallucination_percent": 24.0,
+      "total_guidance_coverage": 76.0,
+      "breakdown": {
+        "Correct": 7,
+        "Correct Refusal": 0,
+        "Partially Correct": 12,
+        "Incorrect": 0,
+        "Hallucinated": 6
+      }
+    },
+    "cond_B_tfidf_rag": {
+      "accuracy_percent": 60.0,
+      "partially_correct_percent": 20.0,
+      "incorrect_percent": 0.0,
+      "hallucination_percent": 20.0,
+      "total_guidance_coverage": 80.0,
+      "breakdown": {
+        "Correct": 15,
+        "Correct Refusal": 0,
+        "Partially Correct": 5,
+        "Incorrect": 0,
+        "Hallucinated": 5
+      }
+    },
+    "cond_C_bm25_rag": {
+      "accuracy_percent": 64.0,
+      "partially_correct_percent": 8.0,
+      "incorrect_percent": 0.0,
+      "hallucination_percent": 28.0,
+      "total_guidance_coverage": 72.0,
+      "breakdown": {
+        "Correct": 16,
+        "Correct Refusal": 0,
+        "Partially Correct": 2,
+        "Incorrect": 0,
+        "Hallucinated": 7
+      }
+    },
+    "cond_D_bm25_prompt_v2": {
+      "accuracy_percent": 60.0,
+      "partially_correct_percent": 20.0,
+      "incorrect_percent": 0.0,
+      "hallucination_percent": 20.0,
+      "total_guidance_coverage": 80.0,
+      "breakdown": {
+        "Correct": 13,
+        "Correct Refusal": 2,
+        "Partially Correct": 5,
+        "Incorrect": 0,
+        "Hallucinated": 5
+      }
+    },
+    "cond_E_rag_v2_prompt_v3_checker": {
+      "accuracy_percent": 76.0,
+      "partially_correct_percent": 12.0,
+      "incorrect_percent": 0.0,
+      "hallucination_percent": 12.0,
+      "total_guidance_coverage": 88.0,
+      "breakdown": {
+        "Correct": 17,
+        "Correct Refusal": 2,
+        "Partially Correct": 3,
+        "Incorrect": 0,
+        "Hallucinated": 3
+      }
+    }
+  }
+}

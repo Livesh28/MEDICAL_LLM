@@ -1,0 +1,12 @@
+{
+  "raw_records_processed": 15000,
+  "clean_documents_saved": 14995,
+  "duplicates_removed": 5,
+  "short_records_filtered": 0,
+  "total_characters": 13325040,
+  "total_words": 1961153,
+  "estimated_tokens": 2549498,
+  "avg_words_per_document": 130.79,
+  "avg_chars_per_document": 888.63,
+  "output_file": "data/processed/medical_corpus_clean.txt"
+}

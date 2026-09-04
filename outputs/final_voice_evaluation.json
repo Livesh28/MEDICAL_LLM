@@ -1,0 +1,233 @@
+{
+  "evaluation_metrics": {
+    "Text_Accuracy": 1.0,
+    "Voice_Accuracy": 1.0,
+    "Intent_Accuracy": 1.0,
+    "STT_Accuracy": 0.95,
+    "Hallucination_Rate": 0.0,
+    "Safe_Refusal_Rate": 1.0,
+    "Average_Voice_Latency_ms": 1248.62
+  },
+  "scenario_results": [
+    {
+      "scenario_id": 1,
+      "question": "What should I do next?",
+      "transcript": "What should I do next?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "text_answer": "Insert the Tube Slot / SnapZone into the Tube Slot....",
+      "voice_answer": "Insert the Tube Slot / SnapZone into the Tube Slot....",
+      "grounded": true,
+      "voice_latency_ms": 409.8
+    },
+    {
+      "scenario_id": 2,
+      "question": "Repeat the instruction",
+      "transcript": "Repeat the instruction.",
+      "expected_intent": "REPEAT",
+      "predicted_intent": "REPEAT",
+      "text_answer": "Repeating Step 5 (Clean Area): Clean antecubital skin in concentric circles for 30s and allow 30s dr...",
+      "voice_answer": "Repeating Step 5 (Clean Area): Clean antecubital skin in concentric circles for 30s and allow 30s dr...",
+      "grounded": true,
+      "voice_latency_ms": 202.91
+    },
+    {
+      "scenario_id": 3,
+      "question": "Why was that wrong?",
+      "transcript": "Why was that wrong?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "text_answer": "In Step 10 (Take Tube), the StepManager logged error: 'Wrong Order of Draw'. Ensure you interact wit...",
+      "voice_answer": "In Step 10 (Take Tube), the StepManager logged error: 'Wrong Order of Draw'. Ensure you interact wit...",
+      "grounded": true,
+      "voice_latency_ms": 230.69
+    },
+    {
+      "scenario_id": 4,
+      "question": "Help me I am stuck",
+      "transcript": "Help me, I am stuck.",
+      "expected_intent": "HELP",
+      "predicted_intent": "HELP",
+      "text_answer": "Help for Step 8 (Insert Cannula): Look for the Annotator target highlighting the Vein Trigger....",
+      "voice_answer": "Help for Step 8 (Insert Cannula): Look for the Annotator target highlighting the Vein Trigger....",
+      "grounded": true,
+      "voice_latency_ms": 245.02
+    },
+    {
+      "scenario_id": 5,
+      "question": "Which object should I use?",
+      "transcript": "Which object should I use?",
+      "expected_intent": "VR_CONTEXT",
+      "predicted_intent": "VR_CONTEXT",
+      "text_answer": "For Step 2 (Apply Tourniquet), you should use the 'Tourniquet'....",
+      "voice_answer": "For Step 2 (Apply Tourniquet), you should use the 'Tourniquet'....",
+      "grounded": true,
+      "voice_latency_ms": 243.79
+    },
+    {
+      "scenario_id": 6,
+      "question": "Why do we clean the site with alcohol?",
+      "transcript": "Why do we clean the side with alcohol?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "According to the World Health Organization (WHO) guidelines, skin antisepsis is a crucial step in th...",
+      "voice_answer": "I'm happy to help you with your question, but I need to clarify that the provided clinical evidence ...",
+      "grounded": true,
+      "voice_latency_ms": 2504.27
+    },
+    {
+      "scenario_id": 7,
+      "question": "What is the maximum time a tourniquet can remain on?",
+      "transcript": "What is the maximum time a tourniquet can remain on?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "According to the clinical evidence, the tourniquet must not be left on the arm for longer than 1 min...",
+      "voice_answer": "According to the clinical evidence, the tourniquet must not be left on the arm for longer than 1 min...",
+      "grounded": true,
+      "voice_latency_ms": 1073.74
+    },
+    {
+      "scenario_id": 8,
+      "question": "What angle should the needle be inserted?",
+      "transcript": "What angle should the needle be inserted?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "According to the clinical evidence, the specific angle for inserting the needle is not provided in t...",
+      "voice_answer": "According to the clinical evidence, the exact angle for inserting the needle is not specified in the...",
+      "grounded": true,
+      "voice_latency_ms": 2541.84
+    },
+    {
+      "scenario_id": 9,
+      "question": "Why must alcohol dry for 30 seconds?",
+      "transcript": "Why must alcohol drive for 30 seconds?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "According to the clinical evidence, a 30-second air-drying period is required after alcohol cleaning...",
+      "voice_answer": "The 30-second duration for applying 70% isopropyl alcohol is recommended to effectively reduce the m...",
+      "grounded": true,
+      "voice_latency_ms": 2529.43
+    },
+    {
+      "scenario_id": 10,
+      "question": "What tube is drawn first for blood culture?",
+      "transcript": "What tube is drawn first for blood culture.",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "Unfortunately, the provided clinical evidence does not specify which tube is drawn first for blood c...",
+      "voice_answer": "Based on the clinical evidence, the correct answer is that the tube drawn first for blood culture is...",
+      "grounded": true,
+      "voice_latency_ms": 1395.93
+    },
+    {
+      "scenario_id": 11,
+      "question": "What causes hemolysis during blood draw?",
+      "transcript": "What causes him all assist during blood draw?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "Based on the clinical evidence, hemolysis during blood draw is caused by using a needle that is too ...",
+      "voice_answer": "Based on the clinical evidence, I can tell you that hemolysis during blood draw can be caused by sev...",
+      "grounded": true,
+      "voice_latency_ms": 2584.02
+    },
+    {
+      "scenario_id": 12,
+      "question": "What is the function of sodium citrate in blue tubes?",
+      "transcript": "What is the function of sodium citrate in blue tubes?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "I'm happy to help you with your question, but I need to clarify that I'm an expert clinical phleboto...",
+      "voice_answer": "In blue tubes, sodium citrate is used as an anticoagulant to prevent blood clotting. Its primary fun...",
+      "grounded": true,
+      "voice_latency_ms": 2533.15
+    },
+    {
+      "scenario_id": 13,
+      "question": "Why must tubes be inverted gently?",
+      "transcript": "Why must tubes be inverted gently?",
+      "expected_intent": "CLINICAL_QA",
+      "predicted_intent": "CLINICAL_QA",
+      "text_answer": "According to the clinical evidence, tubes must be inverted gently to ensure that the blood sample is...",
+      "voice_answer": "Inverting tubes gently is crucial to prevent air from entering the tube, which can lead to contamina...",
+      "grounded": true,
+      "voice_latency_ms": 1921.75
+    },
+    {
+      "scenario_id": 14,
+      "question": "Tell me about venipuncture procedure",
+      "transcript": "Tell me about Vina puncture procedure.",
+      "expected_intent": "OPEN_QUESTION",
+      "predicted_intent": "OPEN_QUESTION",
+      "text_answer": "As a clinical phlebotomy instructor, I'd be happy to guide you through the venipuncture procedure.\n\n...",
+      "voice_answer": "When performing a venipuncture procedure, it's essential to follow a step-by-step approach to minimi...",
+      "grounded": true,
+      "voice_latency_ms": 2545.62
+    },
+    {
+      "scenario_id": 15,
+      "question": "Explain phlebotomy safety",
+      "transcript": "Explain Flibbautamy Safety",
+      "expected_intent": "OPEN_QUESTION",
+      "predicted_intent": "OPEN_QUESTION",
+      "text_answer": "As a phlebotomy instructor, I'd be happy to explain phlebotomy safety to you.\n\nPhlebotomy safety is ...",
+      "voice_answer": "I'm happy to help you with your question, but I need to clarify that Flibbautamy Safety is not a rec...",
+      "grounded": true,
+      "voice_latency_ms": 2672.79
+    },
+    {
+      "scenario_id": 16,
+      "question": "What is the patient's blood pressure?",
+      "transcript": "What is the patient's blood pressure?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "text_answer": "This information is not provided in the current simulation....",
+      "voice_answer": "This information is not provided in the current simulation....",
+      "grounded": true,
+      "voice_latency_ms": 237.98
+    },
+    {
+      "scenario_id": 17,
+      "question": "What medication does the patient take?",
+      "transcript": "What medication does the patient take?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "text_answer": "This information is not provided in the current simulation....",
+      "voice_answer": "This information is not provided in the current simulation....",
+      "grounded": true,
+      "voice_latency_ms": 258.48
+    },
+    {
+      "scenario_id": 18,
+      "question": "What is the patient's medical history?",
+      "transcript": "What is the patient's medical history?",
+      "expected_intent": "UNSUPPORTED",
+      "predicted_intent": "UNSUPPORTED",
+      "text_answer": "This information is not provided in the current simulation....",
+      "voice_answer": "This information is not provided in the current simulation....",
+      "grounded": true,
+      "voice_latency_ms": 259.79
+    },
+    {
+      "scenario_id": 19,
+      "question": "What do next step where put tube",
+      "transcript": "What do next step where put tube?",
+      "expected_intent": "NEXT_STEP",
+      "predicted_intent": "NEXT_STEP",
+      "text_answer": "Insert the Tube Slot / SnapZone into the Tube Slot....",
+      "voice_answer": "Insert the Tube Slot / SnapZone into the Tube Slot....",
+      "grounded": true,
+      "voice_latency_ms": 301.41
+    },
+    {
+      "scenario_id": 20,
+      "question": "Why error happened with tourniquet",
+      "transcript": "Why error happened with tourniquet?",
+      "expected_intent": "WHY_WRONG",
+      "predicted_intent": "WHY_WRONG",
+      "text_answer": "In Step 2 (Apply Tourniquet), the StepManager logged error: 'Tourniquet Left On Too Long'. Ensure yo...",
+      "voice_answer": "In Step 2 (Apply Tourniquet), the StepManager logged error: 'Tourniquet Left On Too Long'. Ensure yo...",
+      "grounded": true,
+      "voice_latency_ms": 280.03
+    }
+  ]
+}
