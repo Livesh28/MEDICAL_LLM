@@ -44,16 +44,18 @@ The platform supports a collaborative inference pipeline using:
 ### Local Medical AI Workbench
 
 <p align="center">
-  <img src="assets/workbench-ui-1.png" alt="Local Medical LLM Workbench UI" width="92%">
+  <img src="./assets/workbench-ui-1.png" alt="Local Medical LLM Workbench UI" width="92%">
 </p>
 
 ### Clinical Chat & RAG Interface
 
 <p align="center">
-  <img src="assets/workbench-ui-2.png" alt="Clinical Chat and RAG interface" width="92%">
+  <img src="./assets/workbench-ui-2.png" alt="Clinical Chat and RAG interface" width="92%">
 </p>
 
 > The screenshots show the local clinical/RAG workbench, quick medical prompts, grounded response area, source inspection, voice controls, and the collaborative OpenBioLLM + Llama 3.2 setup.
+>
+> **Repository note:** the images are stored in `assets/` and referenced with relative GitHub paths. Keep the `assets/` folder in the repository when pushing `README.md`.
 
 ---
 
@@ -155,9 +157,15 @@ The pipeline constrains this stage to short, precise clinical findings before sy
 
 **Role:** synthesize retrieved evidence and biomedical findings into a clear response with inline citation markers such as `[1]` and `[2]`.
 
-### 3. MedicalTransformerLM — Local Research Model
+### 3. MedicalTransformerLM — Custom 110.04M-Parameter Local Model
 
-The project also contains a custom local medical Transformer implementation trained and evaluated with PyTorch.
+**Parameter count:** **110.04M parameters** (runtime-reported)  
+**Framework:** PyTorch  
+**Acceleration:** Apple Silicon MPS  
+**Role:** local custom medical-language-model research / offline candidate  
+**Checkpoint family:** `best.pt`, `best_v2.pt`, `best_v3.pt`
+
+The project includes a custom MedicalTransformerLM that is trained and evaluated locally rather than through Ollama. The latest runtime reports the model as **110.04M parameters**, and the server loads the local checkpoint family from the `checkpoints/` directory.
 
 Its training/evaluation stack includes:
 
@@ -173,7 +181,7 @@ Its training/evaluation stack includes:
 - atomic checkpointing
 - local MPS acceleration on Apple Silicon
 
-The repository's active checkpoints are expected under:
+Local checkpoints:
 
 ```text
 checkpoints/best.pt
@@ -181,7 +189,17 @@ checkpoints/best_v2.pt
 checkpoints/best_v3.pt
 ```
 
-**Important:** model checkpoints are intentionally treated as local artifacts and should not be committed to the repository unless a specific distribution strategy is established.
+> **Important:** These checkpoints are local model artifacts. Keep them intact for local inference/research and exclude them from normal Git commits unless a separate large-file distribution strategy is intentionally configured.
+
+### Model Comparison at a Glance
+
+| Model | Size | Runtime | Primary Role |
+|---|---:|---|---|
+| **OpenBioLLM-8B** | 8B | Ollama | Biomedical specialist / extraction |
+| **Llama 3.2 3B** | 3B | Ollama | Synthesis / response structuring |
+| **MedicalTransformerLM** | **110.04M** | Local PyTorch + MPS | Custom research / offline medical LM |
+
+The benchmark should use the same RAG questions and evaluation criteria across all three models before selecting a final production candidate.
 
 ---
 
