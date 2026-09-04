@@ -83,7 +83,7 @@ def test_frontend():
     r = requests.get(f"{BASE_URL}/", timeout=10)
     assert r.status_code == 200
     html = r.text
-    assert "Medical AI Studio" in html
+    assert "Doctor.AI" in html
     assert "panel-chat" in html
     assert "panel-settings" in html
     assert "rag-q" in html

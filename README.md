@@ -57,7 +57,7 @@ User Query (Text / Audio via Whisper)
                   │
                   ▼
    [ FastAPI Async Serving ]
-   ├── Web UI (Medical AI Studio Chat & Settings)
+   ├── Web UI (Doctor.AI Chat & Settings)
    ├── REST API (/ask, /ask_stream, /stt)
    ├── Interactive Terminal CLI (cli.py)
    └── Unity Meta Quest VR Client
@@ -101,7 +101,7 @@ User Query (Text / Audio via Whisper)
 ```
 Medical_LLM/
 ├── api/                     # FastAPI backend, REST routes, STT service, Intent Router
-│   ├── server.py            # Main server & Medical AI Studio Web UI
+│   ├── server.py            # Main server & Doctor.AI Web UI
 │   ├── intent_router.py     # Deterministic VR vs clinical question classifier
 │   └── stt_service.py       # Whisper audio transcription service
 ├── checkpoints/             # Local PyTorch checkpoints (best_v3.pt, best.pt)
@@ -179,7 +179,7 @@ ollama pull llama3.2:3b
 
 ## 7. How to Run
 
-### Option A: Interactive Web UI (Medical AI Studio)
+### Option A: Interactive Web UI (Doctor.AI)
 Launch the FastAPI web studio:
 ```bash
 python3 -m uvicorn api.server:app --host 0.0.0.0 --port 8000
